@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: ''
+description_main: surface_mount_only
+directory: parts/connector_usb_mini_surface_mount_only
+filter: ''
+from_yaml: false
+id: connector_usb_mini_surface_mount_only
+kicad_reference: J
+manufacturer: ''
+md5: 58c4f7c68a7f202e96730af8f3b8e5bd
+md5_10: 58c4f7c68a
+md5_5: 58c4f
+md5_6: 58c4f7
+name: Connector Usb Mini Surface Mount Only
+oomp_key: oomp_connector_usb_mini_surface_mount_only
+part_number: ''
+short_code: umnsmo
+size: usb_mini
+type: ''

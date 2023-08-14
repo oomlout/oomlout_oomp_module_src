@@ -1,0 +1,20 @@
+classification: crystal
+color: 3_pin
+description_extra: ''
+description_main: 12_mega_hertz
+directory: parts/crystal_3213_3_pin_12_mega_hertz
+filter: ''
+from_yaml: false
+id: crystal_3213_3_pin_12_mega_hertz
+kicad_reference: x
+manufacturer: ''
+md5: c04356d71c98c37bb3ecda87b8f5a3f0
+md5_10: c04356d71c
+md5_5: c0435
+md5_6: c04356
+name: Crystal 3213 3 Pin 12 Mega Hertz
+oomp_key: oomp_crystal_3213_3_pin_12_mega_hertz
+part_number: ''
+short_code: mhz12
+size: '3213'
+type: ''

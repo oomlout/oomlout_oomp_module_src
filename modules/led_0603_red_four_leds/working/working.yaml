@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: ''
+description_main: four_leds
+directory: parts/led_0603_red_four_leds
+filter: ''
+from_yaml: false
+id: led_0603_red_four_leds
+kicad_reference: R
+manufacturer: ''
+md5: 2eb75050195fe0546c663b434cc436c9
+md5_10: 2eb7505019
+md5_5: 2eb75
+md5_6: 2eb750
+name: Led 0603 Red Four Leds
+oomp_key: oomp_led_0603_red_four_leds
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''

@@ -1,0 +1,176 @@
+connector_usb_mini_surface_mount_only:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: surface_mount_only
+    directory: parts/connector_usb_mini_surface_mount_only
+    filter: ''
+    from_yaml: false
+    id: connector_usb_mini_surface_mount_only
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: 58c4f7c68a7f202e96730af8f3b8e5bd
+    md5_10: 58c4f7c68a
+    md5_5: 58c4f
+    md5_6: 58c4f7
+    name: Connector Usb Mini Surface Mount Only
+    oomp_key: oomp_connector_usb_mini_surface_mount_only
+    part_number: ''
+    short_code: umnsmo
+    size: usb_mini
+    type: ''
+crystal_3213_3_pin_12_mega_hertz:
+    classification: crystal
+    color: 3_pin
+    description_extra: ''
+    description_main: 12_mega_hertz
+    directory: parts/crystal_3213_3_pin_12_mega_hertz
+    filter: ''
+    from_yaml: false
+    id: crystal_3213_3_pin_12_mega_hertz
+    kicad_reference: x
+    make_files: true
+    manufacturer: ''
+    md5: c04356d71c98c37bb3ecda87b8f5a3f0
+    md5_10: c04356d71c
+    md5_5: c0435
+    md5_6: c04356
+    name: Crystal 3213 3 Pin 12 Mega Hertz
+    oomp_key: oomp_crystal_3213_3_pin_12_mega_hertz
+    part_number: ''
+    short_code: mhz12
+    size: '3213'
+    type: ''
+crystal_3213_3_pin_16_mega_hertz:
+    classification: crystal
+    color: 3_pin
+    description_extra: ''
+    description_main: 16_mega_hertz
+    directory: parts/crystal_3213_3_pin_16_mega_hertz
+    filter: ''
+    from_yaml: false
+    id: crystal_3213_3_pin_16_mega_hertz
+    kicad_reference: x
+    make_files: true
+    manufacturer: ''
+    md5: 69e6231333870fc54f2f490a6ab9274a
+    md5_10: 69e6231333
+    md5_5: 69e62
+    md5_6: 69e623
+    name: Crystal 3213 3 Pin 16 Mega Hertz
+    oomp_key: oomp_crystal_3213_3_pin_16_mega_hertz
+    part_number: ''
+    short_code: mhz16
+    size: '3213'
+    type: ''
+ic_sop_16_usb_to_serial_bridge_ch340c:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: usb_to_serial_bridge
+    directory: parts/ic_sop_16_usb_to_serial_bridge_ch340c
+    filter: ''
+    from_yaml: false
+    id: ic_sop_16_usb_to_serial_bridge_ch340c
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: fc8724c56795d2d4078dc64ab62fd4fb
+    md5_10: fc8724c567
+    md5_5: fc872
+    md5_6: fc8724
+    name: Ic Sop 16 Usb To Serial Bridge Ch340C
+    oomp_key: oomp_ic_sop_16_usb_to_serial_bridge_ch340c
+    part_number: ch340c
+    short_code: sp16ch340c
+    size: sop_16
+    type: ''
+led_0603_red_four_leds:
+    classification: led
+    color: red
+    description_extra: ''
+    description_main: four_leds
+    directory: parts/led_0603_red_four_leds
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_four_leds
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 2eb75050195fe0546c663b434cc436c9
+    md5_10: 2eb7505019
+    md5_5: 2eb75
+    md5_6: 2eb750
+    name: Led 0603 Red Four Leds
+    oomp_key: oomp_led_0603_red_four_leds
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+mcu_atmega328p_tqfp_32_atmega328p_aur:
+    classification: mcu
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: parts/mcu_atmega328p_tqfp_32_atmega328p_aur
+    filter: ''
+    from_yaml: false
+    id: mcu_atmega328p_tqfp_32_atmega328p_aur
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 555a9b09ce4c40ee85af88b70d5c2e7e
+    md5_10: 555a9b09ce
+    md5_5: 555a9
+    md5_6: 555a9b
+    name: Mcu Atmega328P Tqfp 32 Atmega328P Aur
+    oomp_key: oomp_mcu_atmega328p_tqfp_32_atmega328p_aur
+    part_number: atmega328p_aur
+    short_code: tq32
+    size: tqfp_32
+    type: atmega328p
+power_linear_sot_223_1117_3_3_v_output:
+    classification: power
+    color: '1117'
+    description_extra: ''
+    description_main: 3_3_v_output
+    directory: parts/power_linear_sot_223_1117_3_3_v_output
+    filter: ''
+    from_yaml: false
+    id: power_linear_sot_223_1117_3_3_v_output
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 5dc470596dc7460dd7aa1211ff9b482b
+    md5_10: 5dc470596d
+    md5_5: 5dc47
+    md5_6: 5dc470
+    name: Power Linear Sot 223 1117 3 3 V Output
+    oomp_key: oomp_power_linear_sot_223_1117_3_3_v_output
+    part_number: ''
+    short_code: sot223
+    size: sot_223
+    type: linear
+power_linear_sot_223_1117_5_v_output:
+    classification: power
+    color: '1117'
+    description_extra: ''
+    description_main: 5_v_output
+    directory: parts/power_linear_sot_223_1117_5_v_output
+    filter: ''
+    from_yaml: false
+    id: power_linear_sot_223_1117_5_v_output
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 28e9f5307d1da2632f3f5f312127545a
+    md5_10: 28e9f5307d
+    md5_5: 28e9f
+    md5_6: 28e9f5
+    name: Power Linear Sot 223 1117 5 V Output
+    oomp_key: oomp_power_linear_sot_223_1117_5_v_output
+    part_number: ''
+    short_code: sot223
+    size: sot_223
+    type: linear

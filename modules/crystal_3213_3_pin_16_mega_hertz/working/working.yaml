@@ -1,0 +1,20 @@
+classification: crystal
+color: 3_pin
+description_extra: ''
+description_main: 16_mega_hertz
+directory: parts/crystal_3213_3_pin_16_mega_hertz
+filter: ''
+from_yaml: false
+id: crystal_3213_3_pin_16_mega_hertz
+kicad_reference: x
+manufacturer: ''
+md5: 69e6231333870fc54f2f490a6ab9274a
+md5_10: 69e6231333
+md5_5: 69e62
+md5_6: 69e623
+name: Crystal 3213 3 Pin 16 Mega Hertz
+oomp_key: oomp_crystal_3213_3_pin_16_mega_hertz
+part_number: ''
+short_code: mhz16
+size: '3213'
+type: ''
