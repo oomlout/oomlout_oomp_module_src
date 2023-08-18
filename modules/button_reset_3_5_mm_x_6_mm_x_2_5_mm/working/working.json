@@ -1,0 +1,23 @@
+{
+    "classification": "button",
+    "type": "reset",
+    "size": "3_5_mm_x_6_mm_x_2_5_mm",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "B",
+    "id": "button_reset_3_5_mm_x_6_mm_x_2_5_mm",
+    "oomp_key": "oomp_button_reset_3_5_mm_x_6_mm_x_2_5_mm",
+    "directory": "modules/button_reset_3_5_mm_x_6_mm_x_2_5_mm",
+    "name": "Button Reset 3 5 Mm X 6 Mm X 2 5 Mm",
+    "short_code": "3560",
+    "md5": "9288382330c8f4bbe1d4eea29cb01e20",
+    "md5_5": "92883",
+    "md5_6": "928838",
+    "md5_10": "9288382330"
+}

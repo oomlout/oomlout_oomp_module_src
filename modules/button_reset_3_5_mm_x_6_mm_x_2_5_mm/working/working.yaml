@@ -1,0 +1,20 @@
+classification: button
+color: ''
+description_extra: ''
+description_main: ''
+directory: modules/button_reset_3_5_mm_x_6_mm_x_2_5_mm
+filter: ''
+from_yaml: false
+id: button_reset_3_5_mm_x_6_mm_x_2_5_mm
+kicad_reference: B
+manufacturer: ''
+md5: 9288382330c8f4bbe1d4eea29cb01e20
+md5_10: '9288382330'
+md5_5: '92883'
+md5_6: '928838'
+name: Button Reset 3 5 Mm X 6 Mm X 2 5 Mm
+oomp_key: oomp_button_reset_3_5_mm_x_6_mm_x_2_5_mm
+part_number: ''
+short_code: '3560'
+size: 3_5_mm_x_6_mm_x_2_5_mm
+type: reset

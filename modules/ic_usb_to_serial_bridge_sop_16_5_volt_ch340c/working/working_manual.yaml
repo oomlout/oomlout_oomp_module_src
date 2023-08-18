@@ -1,0 +1,12 @@
+projects_that_include_this_module:
+-   index: 1
+    project_id: sparkfunx_sparkfun_esp32_thing_plus_c
+-   index: 2
+    project_id: sparkfun_blackboard
+-   index: 3
+    project_id: sparkfun_micromod_asset_tracker_update_tool
+-   index: 4
+    project_id: sparkfun_pi_servo_hat
+-   index: 5
+    project_id: electroniccats_badge_owasp_latam_mexico_2020
+    note: "schematic doesn't work"

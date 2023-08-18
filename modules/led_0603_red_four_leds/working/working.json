@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "four_leds",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_four_leds",
+    "oomp_key": "oomp_led_0603_red_four_leds",
+    "directory": "modules/led_0603_red_four_leds",
+    "name": "Led 0603 Red Four Leds",
+    "short_code": "6r",
+    "md5": "2eb75050195fe0546c663b434cc436c9",
+    "md5_5": "2eb75",
+    "md5_6": "2eb750",
+    "md5_10": "2eb7505019"
+}

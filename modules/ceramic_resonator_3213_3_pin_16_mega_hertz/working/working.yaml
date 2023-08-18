@@ -1,0 +1,20 @@
+classification: ceramic_resonator
+color: ''
+description_extra: ''
+description_main: 16_mega_hertz
+directory: modules/ceramic_resonator_3213_3_pin_16_mega_hertz
+filter: ''
+from_yaml: false
+id: ceramic_resonator_3213_3_pin_16_mega_hertz
+kicad_reference: x
+manufacturer: ''
+md5: f7f18053ab005e16892f4119c512db32
+md5_10: f7f18053ab
+md5_5: f7f18
+md5_6: f7f180
+name: Ceramic Resonator 3213 3 Pin 16 Mega Hertz
+oomp_key: oomp_ceramic_resonator_3213_3_pin_16_mega_hertz
+part_number: ''
+short_code: mhz16
+size: 3213_3_pin
+type: ''

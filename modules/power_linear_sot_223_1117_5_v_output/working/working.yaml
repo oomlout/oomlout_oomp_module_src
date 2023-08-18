@@ -2,7 +2,7 @@ classification: power
 color: '1117'
 description_extra: ''
 description_main: 5_v_output
-directory: parts/power_linear_sot_223_1117_5_v_output
+directory: modules/power_linear_sot_223_1117_5_v_output
 filter: ''
 from_yaml: false
 id: power_linear_sot_223_1117_5_v_output

@@ -1,0 +1,20 @@
+classification: ic
+color: ''
+description_extra: ''
+description_main: 3_3_volt
+directory: modules/ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+filter: ''
+from_yaml: false
+id: ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+kicad_reference: U
+manufacturer: ''
+md5: d4910878393ae904340ae76dbfc1b7f4
+md5_10: d491087839
+md5_5: d4910
+md5_6: d49108
+name: Ic Usb To Serial Bridge Msop 10 3 3 Volt Ch340X
+oomp_key: oomp_ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+part_number: ch340x
+short_code: ''
+size: msop_10
+type: usb_to_serial_bridge

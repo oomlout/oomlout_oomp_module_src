@@ -1,0 +1,23 @@
+{
+    "classification": "ic",
+    "type": "usb_to_serial_bridge",
+    "size": "sop_16",
+    "color": "",
+    "description_main": "3_3_volt",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "ch340b",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b",
+    "oomp_key": "oomp_ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b",
+    "directory": "modules/ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b",
+    "name": "Ic Usb To Serial Bridge Sop 16 3 3 Volt Ch340B",
+    "short_code": "sp16",
+    "md5": "c3bb6bd7b291eba2ed4a57870af24327",
+    "md5_5": "c3bb6",
+    "md5_6": "c3bb6b",
+    "md5_10": "c3bb6bd7b2"
+}

@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "arduino_compatible",
+    "size": "shennie",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "connector_arduino_compatible_shennie",
+    "oomp_key": "oomp_connector_arduino_compatible_shennie",
+    "directory": "modules/connector_arduino_compatible_shennie",
+    "name": "Connector Arduino Compatible Shennie",
+    "short_code": "",
+    "md5": "fd005ddf2ff50cd93c2bcddf9f148f34",
+    "md5_5": "fd005",
+    "md5_6": "fd005d",
+    "md5_10": "fd005ddf2f"
+}

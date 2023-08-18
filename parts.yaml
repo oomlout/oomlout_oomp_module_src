@@ -1,9 +1,141 @@
+button_reset_3_5_mm_x_6_mm_x_2_5_mm:
+    classification: button
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/button_reset_3_5_mm_x_6_mm_x_2_5_mm
+    filter: ''
+    from_yaml: false
+    id: button_reset_3_5_mm_x_6_mm_x_2_5_mm
+    kicad_reference: B
+    make_files: true
+    manufacturer: ''
+    md5: 9288382330c8f4bbe1d4eea29cb01e20
+    md5_10: '9288382330'
+    md5_5: '92883'
+    md5_6: '928838'
+    name: Button Reset 3 5 Mm X 6 Mm X 2 5 Mm
+    oomp_key: oomp_button_reset_3_5_mm_x_6_mm_x_2_5_mm
+    part_number: ''
+    short_code: '3560'
+    size: 3_5_mm_x_6_mm_x_2_5_mm
+    type: reset
+ceramic_resonator_3213_3_pin_12_mega_hertz:
+    classification: ceramic_resonator
+    color: ''
+    description_extra: ''
+    description_main: 12_mega_hertz
+    directory: modules/ceramic_resonator_3213_3_pin_12_mega_hertz
+    filter: ''
+    from_yaml: false
+    id: ceramic_resonator_3213_3_pin_12_mega_hertz
+    kicad_reference: x
+    make_files: true
+    manufacturer: ''
+    md5: 0ab48cdfb72c496f9d48c6f2dd2a6e4c
+    md5_10: 0ab48cdfb7
+    md5_5: 0ab48
+    md5_6: 0ab48c
+    name: Ceramic Resonator 3213 3 Pin 12 Mega Hertz
+    oomp_key: oomp_ceramic_resonator_3213_3_pin_12_mega_hertz
+    part_number: ''
+    short_code: mhz12
+    size: 3213_3_pin
+    type: ''
+ceramic_resonator_3213_3_pin_16_mega_hertz:
+    classification: ceramic_resonator
+    color: ''
+    description_extra: ''
+    description_main: 16_mega_hertz
+    directory: modules/ceramic_resonator_3213_3_pin_16_mega_hertz
+    filter: ''
+    from_yaml: false
+    id: ceramic_resonator_3213_3_pin_16_mega_hertz
+    kicad_reference: x
+    make_files: true
+    manufacturer: ''
+    md5: f7f18053ab005e16892f4119c512db32
+    md5_10: f7f18053ab
+    md5_5: f7f18
+    md5_6: f7f180
+    name: Ceramic Resonator 3213 3 Pin 16 Mega Hertz
+    oomp_key: oomp_ceramic_resonator_3213_3_pin_16_mega_hertz
+    part_number: ''
+    short_code: mhz16
+    size: 3213_3_pin
+    type: ''
+connector_arduino_compatible_nano:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/connector_arduino_compatible_nano
+    filter: ''
+    from_yaml: false
+    id: connector_arduino_compatible_nano
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: ec3076e1ca6b43a20d370ad329914f42
+    md5_10: ec3076e1ca
+    md5_5: ec307
+    md5_6: ec3076
+    name: Connector Arduino Compatible Nano
+    oomp_key: oomp_connector_arduino_compatible_nano
+    part_number: ''
+    short_code: ''
+    size: nano
+    type: arduino_compatible
+connector_arduino_compatible_shennie:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/connector_arduino_compatible_shennie
+    filter: ''
+    from_yaml: false
+    id: connector_arduino_compatible_shennie
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: fd005ddf2ff50cd93c2bcddf9f148f34
+    md5_10: fd005ddf2f
+    md5_5: fd005
+    md5_6: fd005d
+    name: Connector Arduino Compatible Shennie
+    oomp_key: oomp_connector_arduino_compatible_shennie
+    part_number: ''
+    short_code: ''
+    size: shennie
+    type: arduino_compatible
+connector_icsp_through_hole:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: through_hole
+    directory: modules/connector_icsp_through_hole
+    filter: ''
+    from_yaml: false
+    id: connector_icsp_through_hole
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: 8e167bc54b77139db6e1e221583809de
+    md5_10: 8e167bc54b
+    md5_5: 8e167
+    md5_6: 8e167b
+    name: Connector Icsp Through Hole
+    oomp_key: oomp_connector_icsp_through_hole
+    part_number: ''
+    short_code: ''
+    size: icsp
+    type: ''
 connector_usb_mini_surface_mount_only:
     classification: connector
     color: ''
     description_extra: ''
     description_main: surface_mount_only
-    directory: parts/connector_usb_mini_surface_mount_only
+    directory: modules/connector_usb_mini_surface_mount_only
     filter: ''
     from_yaml: false
     id: connector_usb_mini_surface_mount_only
@@ -20,78 +152,276 @@ connector_usb_mini_surface_mount_only:
     short_code: umnsmo
     size: usb_mini
     type: ''
-crystal_3213_3_pin_12_mega_hertz:
-    classification: crystal
-    color: 3_pin
-    description_extra: ''
-    description_main: 12_mega_hertz
-    directory: parts/crystal_3213_3_pin_12_mega_hertz
-    filter: ''
-    from_yaml: false
-    id: crystal_3213_3_pin_12_mega_hertz
-    kicad_reference: x
-    make_files: true
-    manufacturer: ''
-    md5: c04356d71c98c37bb3ecda87b8f5a3f0
-    md5_10: c04356d71c
-    md5_5: c0435
-    md5_6: c04356
-    name: Crystal 3213 3 Pin 12 Mega Hertz
-    oomp_key: oomp_crystal_3213_3_pin_12_mega_hertz
-    part_number: ''
-    short_code: mhz12
-    size: '3213'
-    type: ''
-crystal_3213_3_pin_16_mega_hertz:
-    classification: crystal
-    color: 3_pin
-    description_extra: ''
-    description_main: 16_mega_hertz
-    directory: parts/crystal_3213_3_pin_16_mega_hertz
-    filter: ''
-    from_yaml: false
-    id: crystal_3213_3_pin_16_mega_hertz
-    kicad_reference: x
-    make_files: true
-    manufacturer: ''
-    md5: 69e6231333870fc54f2f490a6ab9274a
-    md5_10: 69e6231333
-    md5_5: 69e62
-    md5_6: 69e623
-    name: Crystal 3213 3 Pin 16 Mega Hertz
-    oomp_key: oomp_crystal_3213_3_pin_16_mega_hertz
-    part_number: ''
-    short_code: mhz16
-    size: '3213'
-    type: ''
-ic_sop_16_usb_to_serial_bridge_ch340c:
+ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e:
     classification: ic
     color: ''
     description_extra: ''
-    description_main: usb_to_serial_bridge
-    directory: parts/ic_sop_16_usb_to_serial_bridge_ch340c
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e
     filter: ''
     from_yaml: false
-    id: ic_sop_16_usb_to_serial_bridge_ch340c
+    id: ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e
     kicad_reference: U
     make_files: true
     manufacturer: ''
-    md5: fc8724c56795d2d4078dc64ab62fd4fb
-    md5_10: fc8724c567
-    md5_5: fc872
-    md5_6: fc8724
-    name: Ic Sop 16 Usb To Serial Bridge Ch340C
-    oomp_key: oomp_ic_sop_16_usb_to_serial_bridge_ch340c
+    md5: 9d8042d0e980e3d9ed044316c53d1d78
+    md5_10: 9d8042d0e9
+    md5_5: 9d804
+    md5_6: 9d8042
+    name: Ic Usb To Serial Bridge Msop 10 3 3 Volt Ch340E
+    oomp_key: oomp_ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e
+    part_number: ch340e
+    short_code: ''
+    size: msop_10
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: d4910878393ae904340ae76dbfc1b7f4
+    md5_10: d491087839
+    md5_5: d4910
+    md5_6: d49108
+    name: Ic Usb To Serial Bridge Msop 10 3 3 Volt Ch340X
+    oomp_key: oomp_ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340x
+    part_number: ch340x
+    short_code: ''
+    size: msop_10
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_msop_10_5_volt_ch340e:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_msop_10_5_volt_ch340e
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_msop_10_5_volt_ch340e
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: c3d3f09575f1bc846f638d9f43c48ad6
+    md5_10: c3d3f09575
+    md5_5: c3d3f
+    md5_6: c3d3f0
+    name: Ic Usb To Serial Bridge Msop 10 5 Volt Ch340E
+    oomp_key: oomp_ic_usb_to_serial_bridge_msop_10_5_volt_ch340e
+    part_number: ch340e
+    short_code: ''
+    size: msop_10
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_msop_10_5_volt_ch340x:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_msop_10_5_volt_ch340x
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_msop_10_5_volt_ch340x
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 7c082b0fb358a85b59ae033dc599c4e8
+    md5_10: 7c082b0fb3
+    md5_5: 7c082
+    md5_6: 7c082b
+    name: Ic Usb To Serial Bridge Msop 10 5 Volt Ch340X
+    oomp_key: oomp_ic_usb_to_serial_bridge_msop_10_5_volt_ch340x
+    part_number: ch340x
+    short_code: ''
+    size: msop_10
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: c3bb6bd7b291eba2ed4a57870af24327
+    md5_10: c3bb6bd7b2
+    md5_5: c3bb6
+    md5_6: c3bb6b
+    name: Ic Usb To Serial Bridge Sop 16 3 3 Volt Ch340B
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340b
+    part_number: ch340b
+    short_code: sp16
+    size: sop_16
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340c:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340c
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340c
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 9afc61ab7d9f6a0dbfa55e7c44def214
+    md5_10: 9afc61ab7d
+    md5_5: 9afc6
+    md5_6: 9afc61
+    name: Ic Usb To Serial Bridge Sop 16 3 3 Volt Ch340C
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340c
     part_number: ch340c
     short_code: sp16ch340c
     size: sop_16
-    type: ''
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340g:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340g
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340g
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 5afe5f08340467f3d3bb7a4f99205fa1
+    md5_10: 5afe5f0834
+    md5_5: 5afe5
+    md5_6: 5afe5f
+    name: Ic Usb To Serial Bridge Sop 16 3 3 Volt Ch340G
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_3_3_volt_ch340g
+    part_number: ch340g
+    short_code: sp16
+    size: sop_16
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_5_volt_ch340b:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_5_volt_ch340b
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_5_volt_ch340b
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: b608dd78cfd6bc10373fefb5735ab266
+    md5_10: b608dd78cf
+    md5_5: b608d
+    md5_6: b608dd
+    name: Ic Usb To Serial Bridge Sop 16 5 Volt Ch340B
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_5_volt_ch340b
+    part_number: ch340b
+    short_code: sp16
+    size: sop_16
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_5_volt_ch340c:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_5_volt_ch340c
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_5_volt_ch340c
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: bd50b45b323edc2db4b51aaf5d3a6c58
+    md5_10: bd50b45b32
+    md5_5: bd50b
+    md5_6: bd50b4
+    name: Ic Usb To Serial Bridge Sop 16 5 Volt Ch340C
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_5_volt_ch340c
+    part_number: ch340c
+    short_code: sp16ch340c
+    size: sop_16
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_sop_16_5_volt_ch340g:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_sop_16_5_volt_ch340g
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_sop_16_5_volt_ch340g
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 86ef093bb91811b2c7b26f9e36b7bff9
+    md5_10: 86ef093bb9
+    md5_5: 86ef0
+    md5_6: 86ef09
+    name: Ic Usb To Serial Bridge Sop 16 5 Volt Ch340G
+    oomp_key: oomp_ic_usb_to_serial_bridge_sop_16_5_volt_ch340g
+    part_number: ch340g
+    short_code: sp16
+    size: sop_16
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 3_3_volt
+    directory: modules/ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: ba145fa84c8a75b3c6850d6463786182
+    md5_10: ba145fa84c
+    md5_5: ba145
+    md5_6: ba145f
+    name: Ic Usb To Serial Bridge Ssop 20 3 3 Volt Ch340T
+    oomp_key: oomp_ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t
+    part_number: ch340t
+    short_code: ''
+    size: ssop_20
+    type: usb_to_serial_bridge
+ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: 5_volt
+    directory: modules/ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+    filter: ''
+    from_yaml: false
+    id: ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 7e84b45a154e0ee53ac7e422c8b77e38
+    md5_10: 7e84b45a15
+    md5_5: 7e84b
+    md5_6: 7e84b4
+    name: Ic Usb To Serial Bridge Ssop 20 5 Volt Ch340T
+    oomp_key: oomp_ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+    part_number: ch340t
+    short_code: ''
+    size: ssop_20
+    type: usb_to_serial_bridge
 led_0603_red_four_leds:
     classification: led
     color: red
     description_extra: ''
     description_main: four_leds
-    directory: parts/led_0603_red_four_leds
+    directory: modules/led_0603_red_four_leds
     filter: ''
     from_yaml: false
     id: led_0603_red_four_leds
@@ -113,7 +443,7 @@ mcu_atmega328p_tqfp_32_atmega328p_aur:
     color: ''
     description_extra: ''
     description_main: ''
-    directory: parts/mcu_atmega328p_tqfp_32_atmega328p_aur
+    directory: modules/mcu_atmega328p_tqfp_32_atmega328p_aur
     filter: ''
     from_yaml: false
     id: mcu_atmega328p_tqfp_32_atmega328p_aur
@@ -135,7 +465,7 @@ power_linear_sot_223_1117_3_3_v_output:
     color: '1117'
     description_extra: ''
     description_main: 3_3_v_output
-    directory: parts/power_linear_sot_223_1117_3_3_v_output
+    directory: modules/power_linear_sot_223_1117_3_3_v_output
     filter: ''
     from_yaml: false
     id: power_linear_sot_223_1117_3_3_v_output
@@ -157,7 +487,7 @@ power_linear_sot_223_1117_5_v_output:
     color: '1117'
     description_extra: ''
     description_main: 5_v_output
-    directory: parts/power_linear_sot_223_1117_5_v_output
+    directory: modules/power_linear_sot_223_1117_5_v_output
     filter: ''
     from_yaml: false
     id: power_linear_sot_223_1117_5_v_output

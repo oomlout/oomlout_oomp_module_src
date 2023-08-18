@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: ''
+description_main: through_hole
+directory: modules/connector_icsp_through_hole
+filter: ''
+from_yaml: false
+id: connector_icsp_through_hole
+kicad_reference: J
+manufacturer: ''
+md5: 8e167bc54b77139db6e1e221583809de
+md5_10: 8e167bc54b
+md5_5: 8e167
+md5_6: 8e167b
+name: Connector Icsp Through Hole
+oomp_key: oomp_connector_icsp_through_hole
+part_number: ''
+short_code: ''
+size: icsp
+type: ''

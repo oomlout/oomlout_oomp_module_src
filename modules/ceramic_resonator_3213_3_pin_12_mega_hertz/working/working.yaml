@@ -1,0 +1,20 @@
+classification: ceramic_resonator
+color: ''
+description_extra: ''
+description_main: 12_mega_hertz
+directory: modules/ceramic_resonator_3213_3_pin_12_mega_hertz
+filter: ''
+from_yaml: false
+id: ceramic_resonator_3213_3_pin_12_mega_hertz
+kicad_reference: x
+manufacturer: ''
+md5: 0ab48cdfb72c496f9d48c6f2dd2a6e4c
+md5_10: 0ab48cdfb7
+md5_5: 0ab48
+md5_6: 0ab48c
+name: Ceramic Resonator 3213 3 Pin 12 Mega Hertz
+oomp_key: oomp_ceramic_resonator_3213_3_pin_12_mega_hertz
+part_number: ''
+short_code: mhz12
+size: 3213_3_pin
+type: ''

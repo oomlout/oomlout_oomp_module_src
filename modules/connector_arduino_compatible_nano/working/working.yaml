@@ -2,7 +2,7 @@ classification: connector
 color: ''
 description_extra: ''
 description_main: ''
-directory: parts/connector_arduino_compatible_nano
+directory: modules/connector_arduino_compatible_nano
 filter: ''
 from_yaml: false
 id: connector_arduino_compatible_nano

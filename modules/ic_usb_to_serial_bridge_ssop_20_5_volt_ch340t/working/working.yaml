@@ -1,0 +1,20 @@
+classification: ic
+color: ''
+description_extra: ''
+description_main: 5_volt
+directory: modules/ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+filter: ''
+from_yaml: false
+id: ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+kicad_reference: U
+manufacturer: ''
+md5: 7e84b45a154e0ee53ac7e422c8b77e38
+md5_10: 7e84b45a15
+md5_5: 7e84b
+md5_6: 7e84b4
+name: Ic Usb To Serial Bridge Ssop 20 5 Volt Ch340T
+oomp_key: oomp_ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t
+part_number: ch340t
+short_code: ''
+size: ssop_20
+type: usb_to_serial_bridge

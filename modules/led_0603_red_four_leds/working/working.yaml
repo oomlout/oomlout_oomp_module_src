@@ -2,7 +2,7 @@ classification: led
 color: red
 description_extra: ''
 description_main: four_leds
-directory: parts/led_0603_red_four_leds
+directory: modules/led_0603_red_four_leds
 filter: ''
 from_yaml: false
 id: led_0603_red_four_leds

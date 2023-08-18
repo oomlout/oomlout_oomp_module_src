@@ -1,0 +1,23 @@
+{
+    "classification": "ic",
+    "type": "usb_to_serial_bridge",
+    "size": "msop_10",
+    "color": "",
+    "description_main": "3_3_volt",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "ch340e",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e",
+    "oomp_key": "oomp_ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e",
+    "directory": "modules/ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e",
+    "name": "Ic Usb To Serial Bridge Msop 10 3 3 Volt Ch340E",
+    "short_code": "",
+    "md5": "9d8042d0e980e3d9ed044316c53d1d78",
+    "md5_5": "9d804",
+    "md5_6": "9d8042",
+    "md5_10": "9d8042d0e9"
+}

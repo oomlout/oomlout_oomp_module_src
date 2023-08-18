@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "arduino_compatible",
+    "size": "nano",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "connector_arduino_compatible_nano",
+    "oomp_key": "oomp_connector_arduino_compatible_nano",
+    "directory": "modules/connector_arduino_compatible_nano",
+    "name": "Connector Arduino Compatible Nano",
+    "short_code": "",
+    "md5": "ec3076e1ca6b43a20d370ad329914f42",
+    "md5_5": "ec307",
+    "md5_6": "ec3076",
+    "md5_10": "ec3076e1ca"
+}

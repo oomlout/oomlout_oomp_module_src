@@ -2,7 +2,7 @@ classification: connector
 color: ''
 description_extra: ''
 description_main: surface_mount_only
-directory: parts/connector_usb_mini_surface_mount_only
+directory: modules/connector_usb_mini_surface_mount_only
 filter: ''
 from_yaml: false
 id: connector_usb_mini_surface_mount_only

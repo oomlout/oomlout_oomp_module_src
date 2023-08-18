@@ -4,6 +4,7 @@ import oomlout_oomp_module_src as oomp
 
 part_types = []
 
+part_types.append("button")
 part_types.append("connector")
 part_types.append("crystal")
 part_types.append("ic")

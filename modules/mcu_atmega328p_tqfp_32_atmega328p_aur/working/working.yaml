@@ -2,7 +2,7 @@ classification: mcu
 color: ''
 description_extra: ''
 description_main: ''
-directory: parts/mcu_atmega328p_tqfp_32_atmega328p_aur
+directory: modules/mcu_atmega328p_tqfp_32_atmega328p_aur
 filter: ''
 from_yaml: false
 id: mcu_atmega328p_tqfp_32_atmega328p_aur

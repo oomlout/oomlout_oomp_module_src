@@ -8,21 +8,33 @@ def load_parts(**kwargs):
     parts = []
 
     
+    ###### ch340
+    models = []
+    models.append(["c", "sop_16"])    
+    models.append(["g", "sop_16"])
+    models.append(["b", "sop_16"])
+    models.append(["t", "ssop_20"])
+    models.append(["e", "msop_10"])
+    models.append(["x", "msop_10"])
+    #models.append(["k", "sop_16"])
 
-    #define a part 
-    part_details = {}
-    part_details["classification"] = "ic"
-    part_details["type"] = ""
-    part_details["size"] = ["sop_16"]
-    part_details["color"] = [""]
-    part_details["description_main"] = ["usb_to_serial_bridge"]
-    part_details["description_extra"] = ""
-    part_details["manufacturer"] = ""
-    part_details["part_number"] = "ch340c"
-    part_details["kicad_reference"] = "U"
+                  
+    for model in models:
+        #define a part 
+        mod = model[0]
+        size = model[1]
+        part_details = {}
+        part_details["classification"] = "ic"
+        part_details["type"] = "usb_to_serial_bridge"
+        part_details["size"] = f"{size}"
+        part_details["color"] = ""
+        part_details["description_main"] = ["5_volt","3_3_volt"]
+        part_details["description_extra"] = ""
+        part_details["manufacturer"] = ""
+        part_details["part_number"] = f"ch340{mod}"
+        part_details["kicad_reference"] = "U"
+        parts.append(part_details)
 
-    #add the part to the list of parts
-    parts.append(part_details)
 
     
     oomp.add_parts(parts, **kwargs)

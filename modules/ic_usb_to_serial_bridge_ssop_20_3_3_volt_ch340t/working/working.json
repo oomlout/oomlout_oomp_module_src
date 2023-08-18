@@ -1,0 +1,23 @@
+{
+    "classification": "ic",
+    "type": "usb_to_serial_bridge",
+    "size": "ssop_20",
+    "color": "",
+    "description_main": "3_3_volt",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "ch340t",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t",
+    "oomp_key": "oomp_ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t",
+    "directory": "modules/ic_usb_to_serial_bridge_ssop_20_3_3_volt_ch340t",
+    "name": "Ic Usb To Serial Bridge Ssop 20 3 3 Volt Ch340T",
+    "short_code": "",
+    "md5": "ba145fa84c8a75b3c6850d6463786182",
+    "md5_5": "ba145",
+    "md5_6": "ba145f",
+    "md5_10": "ba145fa84c"
+}

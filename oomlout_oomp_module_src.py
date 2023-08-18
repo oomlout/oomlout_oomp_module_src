@@ -50,6 +50,7 @@ def add_parts(parts,**kwargs):
                     my_dict_lists[key] = value
 
         # Prepare a list to hold the combinations
+
         combinations = []
 
         # The itertools.product function takes any number of arguments, 
@@ -60,7 +61,8 @@ def add_parts(parts,**kwargs):
         for combo in itertools.product(*my_dict_lists.values()):
             # Add each combination to our list of combinations
             combinations.append(combo)
-
+        if "ch340" in part["part_number"]:
+            pass
         # Print all combinations
         for combo in combinations:
             add_part(classification=combo[0], type=combo[1], size=combo[2], color=combo[3], description_main=combo[4], description_extra=combo[5], manufacturer=combo[6], part_number=combo[7], not_main_elements=not_main_elements, **kwargs)
@@ -92,7 +94,7 @@ def add_part(**kwargs):
         kwargs["oomp_key"] = f'oomp_{id}'
         
         #add the directory
-        kwargs["directory"] = f'parts/{id}'
+        kwargs["directory"] = f'modules/{id}'
 
         #add name, the name is the id with proper capitalization and _ replaced with ' '
         kwargs["name"] = id.replace("_", " ").title()
@@ -134,12 +136,12 @@ def add_part(**kwargs):
             
             ## make a directory in /parts for the part the name is its id
             import os
-            if not os.path.exists("parts/" + id + "/working"):
-                os.makedirs("parts/" + id + "/working")
+            if not os.path.exists("modules/" + id + "/working"):
+                os.makedirs("modules/" + id + "/working")
             
             ## write the part working in json to the directory name the file working.json
             import json
-            with open("parts/" + id + "/working/working.json", "w") as outfile:
+            with open("modules/" + id + "/working/working.json", "w") as outfile:
                 json.dump(kwargs, outfile, indent=4)
             ## write the part working in yaml to the directory name the file working.json
             
@@ -149,7 +151,7 @@ def add_part(**kwargs):
                 import os.path
                 if os.path.isfile("src/" + id + "_" + file_type):
                     import shutil
-                    shutil.copy("src/" + id + "_" + file_type, "parts/" + id + "/" + file_type)
+                    shutil.copy("src/" + id + "_" + file_type, "modules/" + id + "/" + file_type)
 
         
 

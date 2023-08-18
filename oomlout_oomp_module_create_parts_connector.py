@@ -7,9 +7,34 @@ def load_parts(**kwargs):
     
     parts = []
 
-    
 
-    #define a part 
+    #### icsp
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = "icsp"
+    part_details["color"] = [""]
+    part_details["description_main"] = "through_hole"
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "J"
+    parts.append(part_details)
+
+    #### usb mini
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = "usb_mini"
+    part_details["color"] = [""]
+    part_details["description_main"] = "surface_mount_only"
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "J"
+    parts.append(part_details)
+
+    #arduino shennie
     part_details = {}
     part_details["classification"] = "connector"
     part_details["type"] = "arduino_compatible"
@@ -21,17 +46,6 @@ def load_parts(**kwargs):
     part_details["part_number"] = ""
     part_details["kicad_reference"] = "R"
 
-#define a part 
-    part_details = {}
-    part_details["classification"] = "connector"
-    part_details["type"] = ""
-    part_details["size"] = "usb_mini"
-    part_details["color"] = [""]
-    part_details["description_main"] = "surface_mount_only"
-    part_details["description_extra"] = ""
-    part_details["manufacturer"] = ""
-    part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
 
 
     #add the part to the list of parts
