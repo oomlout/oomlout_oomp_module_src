@@ -15,7 +15,7 @@ def load_parts(**kwargs):
     part_details["type"] = "linear"
     part_details["size"] = ["sot_223"]
     part_details["color"] = ["1117"]    
-    part_details["description_main"] = ["3_3_v_output","5_v_output"]
+    part_details["description_main"] = ["3_3_volt_output","5_volt_output"]
     part_details["description_extra"] = [""]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""

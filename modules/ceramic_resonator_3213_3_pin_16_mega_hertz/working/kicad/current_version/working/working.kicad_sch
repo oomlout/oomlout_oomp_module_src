@@ -310,6 +310,33 @@
     )
   )
 
+  (symbol (lib_id "oomlout_oomp_part_symbols:xcr3213mhz16_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz") (at 140.97 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5182effd-8342-49ff-89a7-23d428a79770)
+    (property "Reference" "x1" (at 140.97 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "xcr3213mhz16" (at 140.97 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "xcr3213mhz16_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz" (at 140.97 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz/datasheet.pdf" (at 140.97 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44699eba-fcdf-4da7-8331-9388b5096a4c))
+    (pin "2" (uuid fcd500ec-e7f6-4e0a-86f7-5a27549ddaa1))
+    (pin "3" (uuid 7637017f-64e5-4500-abf1-c2ced48c30be))
+    (instances
+      (project "working"
+        (path "/3a6aff3f-64f2-4c1e-bb10-1dc442a40a0c"
+          (reference "x1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "oomlout_oomp_part_symbols:c6pf22_electronic_capacitor_0603_22_pico_farad") (at 151.13 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66f92a5-73e8-400b-9570-c36e1277db5a)
@@ -371,33 +398,6 @@
       (project "working"
         (path "/b2804c28-0f7b-4aef-9942-b5794639a3dd"
           (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "oomlout_oomp_part_symbols:xcr3213mhz16_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz") (at 140.97 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ebba7fa4-7803-4c22-8db6-6fd9617abefd)
-    (property "Reference" "x1" (at 140.97 68.58 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "xcr3213mhz16" (at 140.97 71.12 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "xcr3213mhz16_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz" (at 140.97 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_16_mega_hertz/datasheet.pdf" (at 140.97 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5532c1dc-35b0-4c57-80b4-78719cb66f50))
-    (pin "2" (uuid c770db5d-f88d-4363-ab08-df070e303c6f))
-    (pin "3" (uuid 769aa3f8-dcf3-4257-b41c-4809d1db26a2))
-    (instances
-      (project "working"
-        (path "/3a6aff3f-64f2-4c1e-bb10-1dc442a40a0c"
-          (reference "x1") (unit 1)
         )
       )
     )

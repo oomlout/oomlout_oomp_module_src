@@ -28,7 +28,7 @@ def load_parts(**kwargs):
     part_details["size"] = "usb_mini"
     part_details["color"] = [""]
     part_details["description_main"] = "surface_mount_only"
-    part_details["description_extra"] = ""
+    part_details["description_extra"] = ["","back_power_protected"]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
     part_details["kicad_reference"] = "J"
