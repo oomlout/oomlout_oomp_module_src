@@ -1,19 +1,19 @@
 classification: power
 color: '1117'
 description_extra: ''
-description_main: 3_3_v_output
-directory: modules/power_linear_sot_223_1117_3_3_v_output
+description_main: 3_3_volt_output
+directory: modules/power_linear_sot_223_1117_3_3_volt_output
 filter: ''
 from_yaml: false
-id: power_linear_sot_223_1117_3_3_v_output
+id: power_linear_sot_223_1117_3_3_volt_output
 kicad_reference: R
 manufacturer: ''
-md5: 5dc470596dc7460dd7aa1211ff9b482b
-md5_10: 5dc470596d
-md5_5: 5dc47
-md5_6: 5dc470
-name: Power Linear Sot 223 1117 3 3 V Output
-oomp_key: oomp_power_linear_sot_223_1117_3_3_v_output
+md5: 00fc9e2c2dd70db62d22156696292899
+md5_10: 00fc9e2c2d
+md5_5: 00fc9
+md5_6: 00fc9e
+name: Power Linear Sot 223 1117 3 3 Volt Output
+oomp_key: oomp_power_linear_sot_223_1117_3_3_volt_output
 part_number: ''
 short_code: sot223
 size: sot_223

@@ -1,0 +1,23 @@
+{
+    "classification": "power",
+    "type": "linear",
+    "size": "sot_223",
+    "color": "1117",
+    "description_main": "5_volt_output",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "power_linear_sot_223_1117_5_volt_output",
+    "oomp_key": "oomp_power_linear_sot_223_1117_5_volt_output",
+    "directory": "modules/power_linear_sot_223_1117_5_volt_output",
+    "name": "Power Linear Sot 223 1117 5 Volt Output",
+    "short_code": "sot223",
+    "md5": "3b0efb695d10336495f4e8ea5951a7d1",
+    "md5_5": "3b0ef",
+    "md5_6": "3b0efb",
+    "md5_10": "3b0efb695d"
+}

@@ -1,0 +1,20 @@
+classification: power
+color: '1117'
+description_extra: ''
+description_main: 5_volt_output
+directory: modules/power_linear_sot_223_1117_5_volt_output
+filter: ''
+from_yaml: false
+id: power_linear_sot_223_1117_5_volt_output
+kicad_reference: R
+manufacturer: ''
+md5: 3b0efb695d10336495f4e8ea5951a7d1
+md5_10: 3b0efb695d
+md5_5: 3b0ef
+md5_6: 3b0efb
+name: Power Linear Sot 223 1117 5 Volt Output
+oomp_key: oomp_power_linear_sot_223_1117_5_volt_output
+part_number: ''
+short_code: sot223
+size: sot_223
+type: linear

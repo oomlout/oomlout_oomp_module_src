@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: back_power_protected
+description_main: surface_mount_only
+directory: modules/connector_usb_mini_surface_mount_only_back_power_protected
+filter: ''
+from_yaml: false
+id: connector_usb_mini_surface_mount_only_back_power_protected
+kicad_reference: J
+manufacturer: ''
+md5: 3bae45d6a123d36e275e3b3c53c74aae
+md5_10: 3bae45d6a1
+md5_5: 3bae4
+md5_6: 3bae45
+name: Connector Usb Mini Surface Mount Only Back Power Protected
+oomp_key: oomp_connector_usb_mini_surface_mount_only_back_power_protected
+part_number: ''
+short_code: umnsmo
+size: usb_mini
+type: ''
