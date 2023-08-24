@@ -892,8 +892,8 @@
     (property "Datasheet" "https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_nettie_2_nets_smd/datasheet.pdf" (at 125.73 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16c9dad8-f7a6-4b0e-bf22-824293e92ca9))
-    (pin "2" (uuid a0820400-5f3f-4f48-9107-a39e295d03ae))
+    (pin "1" (uuid 041298dc-169b-4151-a9e2-6c8985c7a1cc))
+    (pin "2" (uuid 9c1a60af-778e-46fd-bb47-5d60908ee93d))
     (instances
       (project "working"
         (path "/5407c114-4107-4d84-8382-1717fb9d687c"
@@ -1115,8 +1115,8 @@
     (property "Datasheet" "https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_nettie_2_nets_smd/datasheet.pdf" (at 125.73 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3637b69f-7fb4-4fcc-8d73-4d7b7f5243a5))
-    (pin "2" (uuid eb1852aa-5c60-47cc-bf16-f3d081df9bff))
+    (pin "1" (uuid 6c11c92d-5467-4f13-8021-89e2ae3f5b14))
+    (pin "2" (uuid 269ab833-202f-4ae6-ae2a-58f166c69d18))
     (instances
       (project "working"
         (path "/5407c114-4107-4d84-8382-1717fb9d687c"

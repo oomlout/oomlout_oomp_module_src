@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "four_leds",
+    "description_extra": "common_supply",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_four_leds_common_supply",
+    "oomp_key": "oomp_led_0603_red_four_leds_common_supply",
+    "directory": "modules/led_0603_red_four_leds_common_supply",
+    "name": "Led 0603 Red Four Leds Common Supply",
+    "short_code": "6r",
+    "md5": "3aa2edec40d310f9800ea3fce9a4def0",
+    "md5_5": "3aa2e",
+    "md5_6": "3aa2ed",
+    "md5_10": "3aa2edec40"
+}

@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "two_leds",
+    "description_extra": "common_ground",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_two_leds_common_ground",
+    "oomp_key": "oomp_led_0603_red_two_leds_common_ground",
+    "directory": "modules/led_0603_red_two_leds_common_ground",
+    "name": "Led 0603 Red Two Leds Common Ground",
+    "short_code": "6r",
+    "md5": "a618db9204047af5678bffde50476a5a",
+    "md5_5": "a618d",
+    "md5_6": "a618db",
+    "md5_10": "a618db9204"
+}

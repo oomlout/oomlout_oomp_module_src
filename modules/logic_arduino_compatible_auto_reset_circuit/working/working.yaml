@@ -1,0 +1,20 @@
+classification: logic
+color: ''
+description_extra: ''
+description_main: auto_reset_circuit
+directory: modules/logic_arduino_compatible_auto_reset_circuit
+filter: ''
+from_yaml: false
+id: logic_arduino_compatible_auto_reset_circuit
+kicad_reference: ''
+manufacturer: ''
+md5: ad6ca4179a4ddf5909a3d3f158afd33a
+md5_10: ad6ca4179a
+md5_5: ad6ca
+md5_6: ad6ca4
+name: Logic Arduino Compatible Auto Reset Circuit
+oomp_key: oomp_logic_arduino_compatible_auto_reset_circuit
+part_number: ''
+short_code: ''
+size: ''
+type: arduino_compatible

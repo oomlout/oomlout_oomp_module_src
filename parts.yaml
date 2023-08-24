@@ -438,28 +438,116 @@ ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t:
     short_code: ''
     size: ssop_20
     type: usb_to_serial_bridge
-led_0603_red_four_leds:
+led_0603_red_four_leds_common_ground:
     classification: led
     color: red
-    description_extra: ''
+    description_extra: common_ground
     description_main: four_leds
-    directory: modules/led_0603_red_four_leds
+    directory: modules/led_0603_red_four_leds_common_ground
     filter: ''
     from_yaml: false
-    id: led_0603_red_four_leds
+    id: led_0603_red_four_leds_common_ground
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: 2eb75050195fe0546c663b434cc436c9
-    md5_10: 2eb7505019
-    md5_5: 2eb75
-    md5_6: 2eb750
-    name: Led 0603 Red Four Leds
-    oomp_key: oomp_led_0603_red_four_leds
+    md5: 7532cc43dace21588befc42fd5175ad5
+    md5_10: 7532cc43da
+    md5_5: 7532c
+    md5_6: 7532cc
+    name: Led 0603 Red Four Leds Common Ground
+    oomp_key: oomp_led_0603_red_four_leds_common_ground
     part_number: ''
     short_code: 6r
     size: '0603'
     type: ''
+led_0603_red_four_leds_common_supply:
+    classification: led
+    color: red
+    description_extra: common_supply
+    description_main: four_leds
+    directory: modules/led_0603_red_four_leds_common_supply
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_four_leds_common_supply
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 3aa2edec40d310f9800ea3fce9a4def0
+    md5_10: 3aa2edec40
+    md5_5: 3aa2e
+    md5_6: 3aa2ed
+    name: Led 0603 Red Four Leds Common Supply
+    oomp_key: oomp_led_0603_red_four_leds_common_supply
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_two_leds_common_ground:
+    classification: led
+    color: red
+    description_extra: common_ground
+    description_main: two_leds
+    directory: modules/led_0603_red_two_leds_common_ground
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_two_leds_common_ground
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: a618db9204047af5678bffde50476a5a
+    md5_10: a618db9204
+    md5_5: a618d
+    md5_6: a618db
+    name: Led 0603 Red Two Leds Common Ground
+    oomp_key: oomp_led_0603_red_two_leds_common_ground
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_two_leds_common_supply:
+    classification: led
+    color: red
+    description_extra: common_supply
+    description_main: two_leds
+    directory: modules/led_0603_red_two_leds_common_supply
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_two_leds_common_supply
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: f5ea84824a6d7dcdc6de7904aaaddff3
+    md5_10: f5ea84824a
+    md5_5: f5ea8
+    md5_6: f5ea84
+    name: Led 0603 Red Two Leds Common Supply
+    oomp_key: oomp_led_0603_red_two_leds_common_supply
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+logic_arduino_compatible_auto_reset_circuit:
+    classification: logic
+    color: ''
+    description_extra: ''
+    description_main: auto_reset_circuit
+    directory: modules/logic_arduino_compatible_auto_reset_circuit
+    filter: ''
+    from_yaml: false
+    id: logic_arduino_compatible_auto_reset_circuit
+    kicad_reference: ''
+    make_files: true
+    manufacturer: ''
+    md5: ad6ca4179a4ddf5909a3d3f158afd33a
+    md5_10: ad6ca4179a
+    md5_5: ad6ca
+    md5_6: ad6ca4
+    name: Logic Arduino Compatible Auto Reset Circuit
+    oomp_key: oomp_logic_arduino_compatible_auto_reset_circuit
+    part_number: ''
+    short_code: ''
+    size: ''
+    type: arduino_compatible
 mcu_atmega328p_tqfp_32_atmega328p_aur:
     classification: mcu
     color: ''

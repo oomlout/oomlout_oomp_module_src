@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: common_ground
+description_main: four_leds
+directory: modules/led_0603_red_four_leds_common_ground
+filter: ''
+from_yaml: false
+id: led_0603_red_four_leds_common_ground
+kicad_reference: R
+manufacturer: ''
+md5: 7532cc43dace21588befc42fd5175ad5
+md5_10: 7532cc43da
+md5_5: 7532c
+md5_6: 7532cc
+name: Led 0603 Red Four Leds Common Ground
+oomp_key: oomp_led_0603_red_four_leds_common_ground
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''
