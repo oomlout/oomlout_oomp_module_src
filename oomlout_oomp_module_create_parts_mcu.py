@@ -18,7 +18,7 @@ def load_parts(**kwargs):
     part_details["description_main"] = [""]
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
-    part_details["part_number"] = "atmega328p_aur"
+    part_details["part_number"] = "atmega328p_au"
     part_details["kicad_reference"] = "R"
 
     #add the part to the list of parts

@@ -1,0 +1,23 @@
+{
+    "classification": "logic",
+    "type": "i2c",
+    "size": "",
+    "color": "",
+    "description_main": "pull_up_resistors",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "",
+    "id": "logic_i2c_pull_up_resistors",
+    "oomp_key": "oomp_logic_i2c_pull_up_resistors",
+    "directory": "modules/logic_i2c_pull_up_resistors",
+    "name": "Logic I2C Pull Up Resistors",
+    "short_code": "",
+    "md5": "d4321af065cef6e1bf6e7ea534685fcf",
+    "md5_5": "d4321",
+    "md5_6": "d4321a",
+    "md5_10": "d4321af065"
+}

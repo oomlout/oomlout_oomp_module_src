@@ -1,0 +1,21 @@
+projects_that_include_this_module:
+-   index: 1
+    project_id: adafruit_adafruit_metro_328_pcb
+-   index: 2
+    project_id: asukiaaa_i2ccontrolpanel
+-   index: 3
+    project_id: candykingdom_hvac
+-   index: 4
+    project_id: coddingtonbear_dolly
+-   index: 5
+    project_id: cormoran_tpip3sizemotorboard
+    note: "schematic error"
+-   index: 6
+    project_id: sparkfun_badgerstick
+-   index: 7
+    project_id: sparkfun_blackboard
+-   index: 8
+    project_id: sparkfun_openscale
+
+
+    

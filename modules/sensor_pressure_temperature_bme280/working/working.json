@@ -1,0 +1,23 @@
+{
+    "classification": "sensor",
+    "type": "",
+    "size": "",
+    "color": "",
+    "description_main": "pressure_temperature",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "bme280",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "sensor_pressure_temperature_bme280",
+    "oomp_key": "oomp_sensor_pressure_temperature_bme280",
+    "directory": "modules/sensor_pressure_temperature_bme280",
+    "name": "Sensor Pressure Temperature Bme280",
+    "short_code": "",
+    "md5": "c586e6cedcc7620bfaba5e35fab08ba2",
+    "md5_5": "c586e",
+    "md5_6": "c586e6",
+    "md5_10": "c586e6cedc"
+}

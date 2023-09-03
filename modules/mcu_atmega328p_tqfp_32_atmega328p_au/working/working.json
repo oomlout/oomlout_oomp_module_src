@@ -1,0 +1,23 @@
+{
+    "classification": "mcu",
+    "type": "atmega328p",
+    "size": "tqfp_32",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "atmega328p_au",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "mcu_atmega328p_tqfp_32_atmega328p_au",
+    "oomp_key": "oomp_mcu_atmega328p_tqfp_32_atmega328p_au",
+    "directory": "modules/mcu_atmega328p_tqfp_32_atmega328p_au",
+    "name": "Mcu Atmega328P Tqfp 32 Atmega328P Au",
+    "short_code": "tq32",
+    "md5": "fcd45d46e76c40c00d1b8bea00c8ad74",
+    "md5_5": "fcd45",
+    "md5_6": "fcd45d",
+    "md5_10": "fcd45d46e7"
+}

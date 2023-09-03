@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: helicopter
+description_main: basic
+directory: modules/connector_ibbc_soic_14_wide_basic_helicopter
+filter: ''
+from_yaml: false
+id: connector_ibbc_soic_14_wide_basic_helicopter
+kicad_reference: J
+manufacturer: ''
+md5: d8c8f5cdf01924a6183205dc2add6774
+md5_10: d8c8f5cdf0
+md5_5: d8c8f
+md5_6: d8c8f5
+name: Connector Ibbc Soic 14 Wide Basic Helicopter
+oomp_key: oomp_connector_ibbc_soic_14_wide_basic_helicopter
+part_number: ''
+short_code: ''
+size: soic_14_wide
+type: ibbc

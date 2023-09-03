@@ -4,14 +4,17 @@ import oomlout_oomp_module_src as oomp
 
 part_types = []
 
+part_types.append("breakout_board")
 part_types.append("button")
 part_types.append("connector")
 part_types.append("crystal")
 part_types.append("ic")
 part_types.append("led")
 part_types.append("logic")
+part_types.append("mechanical")
 part_types.append("mcu")
 part_types.append("power")
+part_types.append("sensor")
 
 
 for type in part_types:

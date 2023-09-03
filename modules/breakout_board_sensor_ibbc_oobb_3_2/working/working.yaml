@@ -1,0 +1,20 @@
+classification: breakout_board
+color: ''
+description_extra: ''
+description_main: oobb_3_2
+directory: modules/breakout_board_sensor_ibbc_oobb_3_2
+filter: ''
+from_yaml: false
+id: breakout_board_sensor_ibbc_oobb_3_2
+kicad_reference: BB
+manufacturer: ''
+md5: 491dd27e1ad6e2fd3321bdf69923966f
+md5_10: 491dd27e1a
+md5_5: 491dd
+md5_6: 491dd2
+name: Breakout Board Sensor Ibbc Oobb 3 2
+oomp_key: oomp_breakout_board_sensor_ibbc_oobb_3_2
+part_number: ''
+short_code: ''
+size: ibbc
+type: sensor

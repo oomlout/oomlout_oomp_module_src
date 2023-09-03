@@ -1,0 +1,20 @@
+classification: mechanical
+color: ''
+description_extra: ''
+description_main: oobb_3_2
+directory: modules/mechanical_board_shape_ibbc_oobb_3_2
+filter: ''
+from_yaml: false
+id: mechanical_board_shape_ibbc_oobb_3_2
+kicad_reference: U
+manufacturer: ''
+md5: ef3152ab26207c312499bf2ff3695310
+md5_10: ef3152ab26
+md5_5: ef315
+md5_6: ef3152
+name: Mechanical Board Shape Ibbc Oobb 3 2
+oomp_key: oomp_mechanical_board_shape_ibbc_oobb_3_2
+part_number: ''
+short_code: ''
+size: ibbc
+type: board_shape

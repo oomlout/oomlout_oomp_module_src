@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: landing
+description_main: basic
+directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_landing
+filter: ''
+from_yaml: false
+id: connector_ibbc_2d54_12_pin_two_rows_basic_landing
+kicad_reference: J
+manufacturer: ''
+md5: f369f9a608d47a9498d163f6032afe8b
+md5_10: f369f9a608
+md5_5: f369f
+md5_6: f369f9
+name: Connector Ibbc 2D54 12 Pin Two Rows Basic Landing
+oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_landing
+part_number: ''
+short_code: ''
+size: 2d54_12_pin_two_rows
+type: ibbc

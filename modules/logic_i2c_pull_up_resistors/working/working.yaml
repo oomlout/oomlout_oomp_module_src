@@ -1,0 +1,20 @@
+classification: logic
+color: ''
+description_extra: ''
+description_main: pull_up_resistors
+directory: modules/logic_i2c_pull_up_resistors
+filter: ''
+from_yaml: false
+id: logic_i2c_pull_up_resistors
+kicad_reference: ''
+manufacturer: ''
+md5: d4321af065cef6e1bf6e7ea534685fcf
+md5_10: d4321af065
+md5_5: d4321
+md5_6: d4321a
+name: Logic I2C Pull Up Resistors
+oomp_key: oomp_logic_i2c_pull_up_resistors
+part_number: ''
+short_code: ''
+size: ''
+type: i2c

@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: ''
+description_main: ''
+directory: modules/connector_qwiic
+filter: ''
+from_yaml: false
+id: connector_qwiic
+kicad_reference: J
+manufacturer: ''
+md5: b00965dd3d6a95b3569cb9751251d8e2
+md5_10: b00965dd3d
+md5_5: b0096
+md5_6: b00965
+name: Connector Qwiic
+oomp_key: oomp_connector_qwiic
+part_number: ''
+short_code: ''
+size: ''
+type: qwiic

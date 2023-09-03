@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: landing
+description_main: basic
+directory: modules/connector_ibbc_soic_14_wide_basic_landing
+filter: ''
+from_yaml: false
+id: connector_ibbc_soic_14_wide_basic_landing
+kicad_reference: J
+manufacturer: ''
+md5: 7dd5378456b417eaa0f73a2c842ebd5b
+md5_10: 7dd5378456
+md5_5: 7dd53
+md5_6: 7dd537
+name: Connector Ibbc Soic 14 Wide Basic Landing
+oomp_key: oomp_connector_ibbc_soic_14_wide_basic_landing
+part_number: ''
+short_code: ''
+size: soic_14_wide
+type: ibbc

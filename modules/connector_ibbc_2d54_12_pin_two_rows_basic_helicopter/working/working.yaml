@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: helicopter
+description_main: basic
+directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+filter: ''
+from_yaml: false
+id: connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+kicad_reference: J
+manufacturer: ''
+md5: 133792fc6ed23c6719e80a309e9c977b
+md5_10: 133792fc6e
+md5_5: '13379'
+md5_6: '133792'
+name: Connector Ibbc 2D54 12 Pin Two Rows Basic Helicopter
+oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+part_number: ''
+short_code: ''
+size: 2d54_12_pin_two_rows
+type: ibbc

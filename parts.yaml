@@ -1,3 +1,25 @@
+breakout_board_sensor_ibbc_oobb_3_2:
+    classification: breakout_board
+    color: ''
+    description_extra: ''
+    description_main: oobb_3_2
+    directory: modules/breakout_board_sensor_ibbc_oobb_3_2
+    filter: ''
+    from_yaml: false
+    id: breakout_board_sensor_ibbc_oobb_3_2
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: 491dd27e1ad6e2fd3321bdf69923966f
+    md5_10: 491dd27e1a
+    md5_5: 491dd
+    md5_6: 491dd2
+    name: Breakout Board Sensor Ibbc Oobb 3 2
+    oomp_key: oomp_breakout_board_sensor_ibbc_oobb_3_2
+    part_number: ''
+    short_code: ''
+    size: ibbc
+    type: sensor
 button_reset_3_5_mm_x_6_mm_x_2_5_mm:
     classification: button
     color: ''
@@ -108,6 +130,94 @@ connector_arduino_compatible_shennie:
     short_code: ''
     size: shennie
     type: arduino_compatible
+connector_ibbc_2d54_12_pin_two_rows_basic_helicopter:
+    classification: connector
+    color: ''
+    description_extra: helicopter
+    description_main: basic
+    directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+    filter: ''
+    from_yaml: false
+    id: connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: 133792fc6ed23c6719e80a309e9c977b
+    md5_10: 133792fc6e
+    md5_5: '13379'
+    md5_6: '133792'
+    name: Connector Ibbc 2D54 12 Pin Two Rows Basic Helicopter
+    oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+    part_number: ''
+    short_code: ''
+    size: 2d54_12_pin_two_rows
+    type: ibbc
+connector_ibbc_2d54_12_pin_two_rows_basic_landing:
+    classification: connector
+    color: ''
+    description_extra: landing
+    description_main: basic
+    directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_landing
+    filter: ''
+    from_yaml: false
+    id: connector_ibbc_2d54_12_pin_two_rows_basic_landing
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: f369f9a608d47a9498d163f6032afe8b
+    md5_10: f369f9a608
+    md5_5: f369f
+    md5_6: f369f9
+    name: Connector Ibbc 2D54 12 Pin Two Rows Basic Landing
+    oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_landing
+    part_number: ''
+    short_code: ''
+    size: 2d54_12_pin_two_rows
+    type: ibbc
+connector_ibbc_soic_14_wide_basic_helicopter:
+    classification: connector
+    color: ''
+    description_extra: helicopter
+    description_main: basic
+    directory: modules/connector_ibbc_soic_14_wide_basic_helicopter
+    filter: ''
+    from_yaml: false
+    id: connector_ibbc_soic_14_wide_basic_helicopter
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: d8c8f5cdf01924a6183205dc2add6774
+    md5_10: d8c8f5cdf0
+    md5_5: d8c8f
+    md5_6: d8c8f5
+    name: Connector Ibbc Soic 14 Wide Basic Helicopter
+    oomp_key: oomp_connector_ibbc_soic_14_wide_basic_helicopter
+    part_number: ''
+    short_code: ''
+    size: soic_14_wide
+    type: ibbc
+connector_ibbc_soic_14_wide_basic_landing:
+    classification: connector
+    color: ''
+    description_extra: landing
+    description_main: basic
+    directory: modules/connector_ibbc_soic_14_wide_basic_landing
+    filter: ''
+    from_yaml: false
+    id: connector_ibbc_soic_14_wide_basic_landing
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: 7dd5378456b417eaa0f73a2c842ebd5b
+    md5_10: 7dd5378456
+    md5_5: 7dd53
+    md5_6: 7dd537
+    name: Connector Ibbc Soic 14 Wide Basic Landing
+    oomp_key: oomp_connector_ibbc_soic_14_wide_basic_landing
+    part_number: ''
+    short_code: ''
+    size: soic_14_wide
+    type: ibbc
 connector_icsp_through_hole:
     classification: connector
     color: ''
@@ -130,6 +240,28 @@ connector_icsp_through_hole:
     short_code: ''
     size: icsp
     type: ''
+connector_qwiic:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/connector_qwiic
+    filter: ''
+    from_yaml: false
+    id: connector_qwiic
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: b00965dd3d6a95b3569cb9751251d8e2
+    md5_10: b00965dd3d
+    md5_5: b0096
+    md5_6: b00965
+    name: Connector Qwiic
+    oomp_key: oomp_connector_qwiic
+    part_number: ''
+    short_code: ''
+    size: ''
+    type: qwiic
 connector_usb_mini_surface_mount_only:
     classification: connector
     color: ''
@@ -548,28 +680,72 @@ logic_arduino_compatible_auto_reset_circuit:
     short_code: ''
     size: ''
     type: arduino_compatible
-mcu_atmega328p_tqfp_32_atmega328p_aur:
+logic_i2c_pull_up_resistors:
+    classification: logic
+    color: ''
+    description_extra: ''
+    description_main: pull_up_resistors
+    directory: modules/logic_i2c_pull_up_resistors
+    filter: ''
+    from_yaml: false
+    id: logic_i2c_pull_up_resistors
+    kicad_reference: ''
+    make_files: true
+    manufacturer: ''
+    md5: d4321af065cef6e1bf6e7ea534685fcf
+    md5_10: d4321af065
+    md5_5: d4321
+    md5_6: d4321a
+    name: Logic I2C Pull Up Resistors
+    oomp_key: oomp_logic_i2c_pull_up_resistors
+    part_number: ''
+    short_code: ''
+    size: ''
+    type: i2c
+mcu_atmega328p_tqfp_32_atmega328p_au:
     classification: mcu
     color: ''
     description_extra: ''
     description_main: ''
-    directory: modules/mcu_atmega328p_tqfp_32_atmega328p_aur
+    directory: modules/mcu_atmega328p_tqfp_32_atmega328p_au
     filter: ''
     from_yaml: false
-    id: mcu_atmega328p_tqfp_32_atmega328p_aur
+    id: mcu_atmega328p_tqfp_32_atmega328p_au
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: 555a9b09ce4c40ee85af88b70d5c2e7e
-    md5_10: 555a9b09ce
-    md5_5: 555a9
-    md5_6: 555a9b
-    name: Mcu Atmega328P Tqfp 32 Atmega328P Aur
-    oomp_key: oomp_mcu_atmega328p_tqfp_32_atmega328p_aur
-    part_number: atmega328p_aur
+    md5: fcd45d46e76c40c00d1b8bea00c8ad74
+    md5_10: fcd45d46e7
+    md5_5: fcd45
+    md5_6: fcd45d
+    name: Mcu Atmega328P Tqfp 32 Atmega328P Au
+    oomp_key: oomp_mcu_atmega328p_tqfp_32_atmega328p_au
+    part_number: atmega328p_au
     short_code: tq32
     size: tqfp_32
     type: atmega328p
+mechanical_board_shape_ibbc_oobb_3_2:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: oobb_3_2
+    directory: modules/mechanical_board_shape_ibbc_oobb_3_2
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_ibbc_oobb_3_2
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: ef3152ab26207c312499bf2ff3695310
+    md5_10: ef3152ab26
+    md5_5: ef315
+    md5_6: ef3152
+    name: Mechanical Board Shape Ibbc Oobb 3 2
+    oomp_key: oomp_mechanical_board_shape_ibbc_oobb_3_2
+    part_number: ''
+    short_code: ''
+    size: ibbc
+    type: board_shape
 power_linear_sot_223_1117_3_3_volt_output:
     classification: power
     color: '1117'
@@ -614,3 +790,25 @@ power_linear_sot_223_1117_5_volt_output:
     short_code: sot223
     size: sot_223
     type: linear
+sensor_pressure_temperature_bme280:
+    classification: sensor
+    color: ''
+    description_extra: ''
+    description_main: pressure_temperature
+    directory: modules/sensor_pressure_temperature_bme280
+    filter: ''
+    from_yaml: false
+    id: sensor_pressure_temperature_bme280
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: c586e6cedcc7620bfaba5e35fab08ba2
+    md5_10: c586e6cedc
+    md5_5: c586e
+    md5_6: c586e6
+    name: Sensor Pressure Temperature Bme280
+    oomp_key: oomp_sensor_pressure_temperature_bme280
+    part_number: bme280
+    short_code: ''
+    size: ''
+    type: ''

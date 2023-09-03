@@ -1,0 +1,20 @@
+classification: sensor
+color: ''
+description_extra: ''
+description_main: pressure_temperature
+directory: modules/sensor_pressure_temperature_bme280
+filter: ''
+from_yaml: false
+id: sensor_pressure_temperature_bme280
+kicad_reference: U
+manufacturer: ''
+md5: c586e6cedcc7620bfaba5e35fab08ba2
+md5_10: c586e6cedc
+md5_5: c586e
+md5_6: c586e6
+name: Sensor Pressure Temperature Bme280
+oomp_key: oomp_sensor_pressure_temperature_bme280
+part_number: bme280
+short_code: ''
+size: ''
+type: ''
