@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\button_reset_3_5_mm_x_6_mm_x_2_5_mm\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 19:38:16</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>b3560s</value>
+      <footprint>b3560s_electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="b3560s_electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42ce8f0b-bc5f-49dc-9c33-c1cab6298c09</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="b3560s_electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount">
+      <description>Push button switch, generic, two pins</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount/datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">b3560s_electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount</field>
+        <field name="Footprint">b3560s_electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_button_3_5_mm_x_6_mm_x_2_5_mm_surface_mount/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/reset">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
