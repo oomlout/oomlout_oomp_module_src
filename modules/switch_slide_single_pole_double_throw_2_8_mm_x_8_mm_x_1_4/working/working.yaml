@@ -1,0 +1,20 @@
+classification: switch_slide
+color: ''
+description_extra: ''
+description_main: ''
+directory: modules/switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+filter: ''
+from_yaml: false
+id: switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+kicad_reference: B
+manufacturer: ''
+md5: 73f1809df316587757da69230706da2e
+md5_10: 73f1809df3
+md5_5: 73f18
+md5_6: 73f180
+name: Switch Slide Single Pole Double Throw 2 8 Mm X 8 Mm X 1 4
+oomp_key: oomp_switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+part_number: ''
+short_code: ''
+size: 2_8_mm_x_8_mm_x_1_4
+type: single_pole_double_throw

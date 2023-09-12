@@ -1,0 +1,20 @@
+classification: logic
+color: ''
+description_extra: ''
+description_main: ''
+directory: modules/logic_glue
+filter: ''
+from_yaml: false
+id: logic_glue
+kicad_reference: ''
+manufacturer: ''
+md5: 3ba7c4afc88179dc4b8b12154e22bd8d
+md5_10: 3ba7c4afc8
+md5_5: 3ba7c
+md5_6: 3ba7c4
+name: Logic Glue
+oomp_key: oomp_logic_glue
+part_number: ''
+short_code: ''
+size: ''
+type: glue

@@ -35,6 +35,19 @@ def load_parts(**kwargs):
     part_details["kicad_reference"] = ""    
     parts.append(part_details)
 
+    #glue block 
+    part_details = {}
+    part_details["classification"] = "logic"
+    part_details["type"] = "glue"
+    part_details["size"] = [""]
+    part_details["color"] = [""]
+    part_details["description_main"] = ""
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = ""
+    parts.append(part_details)
+
     
     oomp.add_parts(parts, **kwargs)
     

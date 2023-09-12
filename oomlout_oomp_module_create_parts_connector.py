@@ -59,7 +59,34 @@ def load_parts(**kwargs):
     part_details["kicad_reference"] = "J"
     parts.append(part_details)
 
-    #### usb mini
+    # usb
+    #       usb a
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = "usb_a"
+    part_details["color"] = [""]
+    part_details["description_main"] = "through_hole"
+    part_details["description_extra"] = [""]
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "J"
+    parts.append(part_details)
+    
+    #       usb micro
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = "usb_micro"
+    part_details["color"] = [""]
+    part_details["description_main"] = "surface_mount"
+    part_details["description_extra"] = [""]
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "J"
+    parts.append(part_details)
+    
+    # usb mini
     part_details = {}
     part_details["classification"] = "connector"
     part_details["type"] = ""

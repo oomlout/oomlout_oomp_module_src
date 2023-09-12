@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "usb_micro",
+    "color": "",
+    "description_main": "surface_mount",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "J",
+    "id": "connector_usb_micro_surface_mount",
+    "oomp_key": "oomp_connector_usb_micro_surface_mount",
+    "directory": "modules/connector_usb_micro_surface_mount",
+    "name": "Connector Usb Micro Surface Mount",
+    "short_code": "umc",
+    "md5": "defd2d9369a7ff84d518bd6bb6078bbc",
+    "md5_5": "defd2",
+    "md5_6": "defd2d",
+    "md5_10": "defd2d9369"
+}

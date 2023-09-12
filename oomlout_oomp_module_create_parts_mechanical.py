@@ -21,6 +21,19 @@ def load_parts(**kwargs):
     part_details["part_number"] = ""
     part_details["kicad_reference"] = "U"
 
+
+    #define a part 
+    part_details = {}
+    part_details["classification"] = "mechanical"
+    part_details["type"] = "board_shape"
+    part_details["size"] = ["oobb"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["plate_03_03"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "U"
+
     #add the part to the list of parts
     parts.append(part_details)
 

@@ -1,0 +1,20 @@
+classification: ic
+color: ''
+description_extra: ''
+description_main: two_to_one
+directory: modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+filter: ''
+from_yaml: false
+id: ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+kicad_reference: U
+manufacturer: ''
+md5: 84a4781461c8a0835c5e03ea6ea12a37
+md5_10: 84a4781461
+md5_5: 84a47
+md5_6: 84a478
+name: Ic Usb Multiplexer Msop 10 Two To One Rs2227Xn
+oomp_key: oomp_ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+part_number: rs2227xn
+short_code: ''
+size: msop_10
+type: usb_multiplexer

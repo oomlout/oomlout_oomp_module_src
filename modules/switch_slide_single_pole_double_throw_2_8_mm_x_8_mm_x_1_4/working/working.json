@@ -1,0 +1,23 @@
+{
+    "classification": "switch_slide",
+    "type": "single_pole_double_throw",
+    "size": "2_8_mm_x_8_mm_x_1_4",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "B",
+    "id": "switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4",
+    "oomp_key": "oomp_switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4",
+    "directory": "modules/switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4",
+    "name": "Switch Slide Single Pole Double Throw 2 8 Mm X 8 Mm X 1 4",
+    "short_code": "",
+    "md5": "73f1809df316587757da69230706da2e",
+    "md5_5": "73f18",
+    "md5_6": "73f180",
+    "md5_10": "73f1809df3"
+}

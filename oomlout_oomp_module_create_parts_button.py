@@ -10,6 +10,7 @@ def load_parts(**kwargs):
     
 
     #define a part 
+    #      button
     part_details = {}
     part_details["classification"] = "button"
     part_details["type"] = "reset"
@@ -20,12 +21,22 @@ def load_parts(**kwargs):
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
     part_details["kicad_reference"] = "B"
-
-
-
-    #add the part to the list of parts
     parts.append(part_details)
 
+    #      switch
     
+    #            single_pole_double_throw"
+    part_details = {}
+    part_details["classification"] = "switch_slide"
+    part_details["type"] = "single_pole_double_throw"
+    part_details["size"] = ["2d54_header", "2_8_mm_x_8_mm_x_1_4"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ""
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "B"
+    parts.append(part_details)
+
     oomp.add_parts(parts, **kwargs)
     

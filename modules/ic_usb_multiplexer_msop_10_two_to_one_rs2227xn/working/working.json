@@ -1,0 +1,23 @@
+{
+    "classification": "ic",
+    "type": "usb_multiplexer",
+    "size": "msop_10",
+    "color": "",
+    "description_main": "two_to_one",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "rs2227xn",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
+    "oomp_key": "oomp_ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
+    "directory": "modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
+    "name": "Ic Usb Multiplexer Msop 10 Two To One Rs2227Xn",
+    "short_code": "",
+    "md5": "84a4781461c8a0835c5e03ea6ea12a37",
+    "md5_5": "84a47",
+    "md5_6": "84a478",
+    "md5_10": "84a4781461"
+}

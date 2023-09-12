@@ -262,6 +262,50 @@ connector_qwiic:
     short_code: ''
     size: ''
     type: qwiic
+connector_usb_a_through_hole:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: through_hole
+    directory: modules/connector_usb_a_through_hole
+    filter: ''
+    from_yaml: false
+    id: connector_usb_a_through_hole
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: 80045e039325aed06ae858ba9bb98dda
+    md5_10: 80045e0393
+    md5_5: '80045'
+    md5_6: 80045e
+    name: Connector Usb A Through Hole
+    oomp_key: oomp_connector_usb_a_through_hole
+    part_number: ''
+    short_code: ''
+    size: usb_a
+    type: ''
+connector_usb_micro_surface_mount:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: surface_mount
+    directory: modules/connector_usb_micro_surface_mount
+    filter: ''
+    from_yaml: false
+    id: connector_usb_micro_surface_mount
+    kicad_reference: J
+    make_files: true
+    manufacturer: ''
+    md5: defd2d9369a7ff84d518bd6bb6078bbc
+    md5_10: defd2d9369
+    md5_5: defd2
+    md5_6: defd2d
+    name: Connector Usb Micro Surface Mount
+    oomp_key: oomp_connector_usb_micro_surface_mount
+    part_number: ''
+    short_code: umc
+    size: usb_micro
+    type: ''
 connector_usb_mini_surface_mount_only:
     classification: connector
     color: ''
@@ -306,6 +350,28 @@ connector_usb_mini_surface_mount_only_back_power_protected:
     short_code: umnsmo
     size: usb_mini
     type: ''
+ic_usb_multiplexer_msop_10_two_to_one_rs2227xn:
+    classification: ic
+    color: ''
+    description_extra: ''
+    description_main: two_to_one
+    directory: modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+    filter: ''
+    from_yaml: false
+    id: ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 84a4781461c8a0835c5e03ea6ea12a37
+    md5_10: 84a4781461
+    md5_5: 84a47
+    md5_6: 84a478
+    name: Ic Usb Multiplexer Msop 10 Two To One Rs2227Xn
+    oomp_key: oomp_ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
+    part_number: rs2227xn
+    short_code: ''
+    size: msop_10
+    type: usb_multiplexer
 ic_usb_to_serial_bridge_msop_10_3_3_volt_ch340e:
     classification: ic
     color: ''
@@ -680,6 +746,28 @@ logic_arduino_compatible_auto_reset_circuit:
     short_code: ''
     size: ''
     type: arduino_compatible
+logic_glue:
+    classification: logic
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/logic_glue
+    filter: ''
+    from_yaml: false
+    id: logic_glue
+    kicad_reference: ''
+    make_files: true
+    manufacturer: ''
+    md5: 3ba7c4afc88179dc4b8b12154e22bd8d
+    md5_10: 3ba7c4afc8
+    md5_5: 3ba7c
+    md5_6: 3ba7c4
+    name: Logic Glue
+    oomp_key: oomp_logic_glue
+    part_number: ''
+    short_code: ''
+    size: ''
+    type: glue
 logic_i2c_pull_up_resistors:
     classification: logic
     color: ''
@@ -724,27 +812,27 @@ mcu_atmega328p_tqfp_32_atmega328p_au:
     short_code: tq32
     size: tqfp_32
     type: atmega328p
-mechanical_board_shape_ibbc_oobb_3_2:
+mechanical_board_shape_oobb_plate_03_03:
     classification: mechanical
     color: ''
     description_extra: ''
-    description_main: oobb_3_2
-    directory: modules/mechanical_board_shape_ibbc_oobb_3_2
+    description_main: plate_03_03
+    directory: modules/mechanical_board_shape_oobb_plate_03_03
     filter: ''
     from_yaml: false
-    id: mechanical_board_shape_ibbc_oobb_3_2
+    id: mechanical_board_shape_oobb_plate_03_03
     kicad_reference: U
     make_files: true
     manufacturer: ''
-    md5: ef3152ab26207c312499bf2ff3695310
-    md5_10: ef3152ab26
-    md5_5: ef315
-    md5_6: ef3152
-    name: Mechanical Board Shape Ibbc Oobb 3 2
-    oomp_key: oomp_mechanical_board_shape_ibbc_oobb_3_2
+    md5: 6e5e8f63a4140d19e1b15f273a69c60a
+    md5_10: 6e5e8f63a4
+    md5_5: 6e5e8
+    md5_6: 6e5e8f
+    name: Mechanical Board Shape Oobb Plate 03 03
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_03_03
     part_number: ''
     short_code: ''
-    size: ibbc
+    size: oobb
     type: board_shape
 power_linear_sot_223_1117_3_3_volt_output:
     classification: power
@@ -812,3 +900,47 @@ sensor_pressure_temperature_bme280:
     short_code: ''
     size: ''
     type: ''
+switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4:
+    classification: switch_slide
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+    filter: ''
+    from_yaml: false
+    id: switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+    kicad_reference: B
+    make_files: true
+    manufacturer: ''
+    md5: 73f1809df316587757da69230706da2e
+    md5_10: 73f1809df3
+    md5_5: 73f18
+    md5_6: 73f180
+    name: Switch Slide Single Pole Double Throw 2 8 Mm X 8 Mm X 1 4
+    oomp_key: oomp_switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4
+    part_number: ''
+    short_code: ''
+    size: 2_8_mm_x_8_mm_x_1_4
+    type: single_pole_double_throw
+switch_slide_single_pole_double_throw_2d54_header:
+    classification: switch_slide
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/switch_slide_single_pole_double_throw_2d54_header
+    filter: ''
+    from_yaml: false
+    id: switch_slide_single_pole_double_throw_2d54_header
+    kicad_reference: B
+    make_files: true
+    manufacturer: ''
+    md5: 921437f0361e3351b54d6f1bd599ce05
+    md5_10: 921437f036
+    md5_5: '92143'
+    md5_6: '921437'
+    name: Switch Slide Single Pole Double Throw 2D54 Header
+    oomp_key: oomp_switch_slide_single_pole_double_throw_2d54_header
+    part_number: ''
+    short_code: ''
+    size: 2d54_header
+    type: single_pole_double_throw

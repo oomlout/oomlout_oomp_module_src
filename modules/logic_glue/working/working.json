@@ -1,0 +1,23 @@
+{
+    "classification": "logic",
+    "type": "glue",
+    "size": "",
+    "color": "",
+    "description_main": "",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "",
+    "id": "logic_glue",
+    "oomp_key": "oomp_logic_glue",
+    "directory": "modules/logic_glue",
+    "name": "Logic Glue",
+    "short_code": "",
+    "md5": "3ba7c4afc88179dc4b8b12154e22bd8d",
+    "md5_5": "3ba7c",
+    "md5_6": "3ba7c4",
+    "md5_10": "3ba7c4afc8"
+}

@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "usb_a",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "J",
+    "id": "connector_usb_a_through_hole",
+    "oomp_key": "oomp_connector_usb_a_through_hole",
+    "directory": "modules/connector_usb_a_through_hole",
+    "name": "Connector Usb A Through Hole",
+    "short_code": "",
+    "md5": "80045e039325aed06ae858ba9bb98dda",
+    "md5_5": "80045",
+    "md5_6": "80045e",
+    "md5_10": "80045e0393"
+}
