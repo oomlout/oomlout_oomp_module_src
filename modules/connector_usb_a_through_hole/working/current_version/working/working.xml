@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_module_src\modules\connector_usb_a_through_hole\working\current_version\working\working.kicad_sch</source>
-    <date>07/09/2023 07:40:36</date>
+    <date>12/09/2023 20:54:53</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,29 +25,29 @@
   </design>
   <components>
     <comp ref="J1">
-      <value>scth_electronic_socket_usb_a_through_hole</value>
-      <footprint>oomlout_oomp_part_footprints:scth_electronic_socket_usb_a_through_hole</footprint>
+      <value>scuath</value>
+      <footprint>oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole</footprint>
       <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</datasheet>
-      <libsource lib="oomlout_oomp_part_symbols" part="scth_electronic_socket_usb_a_through_hole" description="USB Type A connector"/>
+      <libsource lib="oomlout_oomp_part_symbols" part="scuath_electronic_socket_usb_a_through_hole" description="[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="working.kicad_sch"/>
-      <property name="ki_description" value="USB Type A connector"/>
+      <property name="ki_description" value="[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;"/>
       <property name="ki_keywords" value="connector USB"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7ee58099-120a-42c5-ae37-36616dd6a96f</tstamps>
+      <tstamps>63c79db3-8a15-42e6-b38c-351f3abded32</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="oomlout_oomp_part_symbols" part="scth_electronic_socket_usb_a_through_hole">
-      <description>USB Type A connector</description>
+    <libpart lib="oomlout_oomp_part_symbols" part="scuath_electronic_socket_usb_a_through_hole">
+      <description>[electronic_socket_usb_a_through_hole](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_a_through_hole/working)&lt;br&gt;&lt;br&gt;</description>
       <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</docs>
       <footprints>
         <fp>USB*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">scth_electronic_socket_usb_a_through_hole</field>
-        <field name="Footprint">oomlout_oomp_part_footprints:scth_electronic_socket_usb_a_through_hole</field>
+        <field name="Value">scuath_electronic_socket_usb_a_through_hole</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole</field>
         <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</field>
       </fields>
       <pins>
@@ -59,11 +59,7 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries>
-    <library logical="oomlout_oomp_part_symbols">
-      <uri>C:/GH/oomlout_oomp_part_kicad_symbols/oomlout_oomp_part_symbols.kicad_sym</uri>
-    </library>
-  </libraries>
+  <libraries/>
   <nets>
     <net code="1" name="+5V">
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
@@ -71,7 +67,7 @@
     <net code="2" name="/usb_negative">
       <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="3" name="/usb_plus">
+    <net code="3" name="/usb_positive">
       <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
     </net>
     <net code="4" name="GND">

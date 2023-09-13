@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\mcu_atmega328p_tqfp_32_atmega328p_au\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 22:17:49</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>c6nf100</value>
+      <footprint>oomlout_oomp_part_kicad_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="c6nf100_electronic_capacitor_0603_100_nano_farad" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ce3719e-6680-474a-b735-1abf7782afb9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>itq32at328</value>
+      <footprint>oomlout_oomp_part_kicad_footprints:itq32at328_electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="itq32at328_electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9711781c-1736-4fb3-bf27-2b60d2e8157b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="c6nf100_electronic_capacitor_0603_100_nano_farad">
+      <description>Unpolarized capacitor</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Footprint">oomlout_oomp_part_kicad_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="itq32at328_electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur/datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">itq32at328_electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur</field>
+        <field name="Footprint">oomlout_oomp_part_kicad_footprints:itq32at328_electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tqfp_32_mcu_atmega328_microchip_atmega328p_aur/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="2" name="/adc0">
+      <node ref="U1" pin="23" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/adc1">
+      <node ref="U1" pin="24" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/adc2">
+      <node ref="U1" pin="25" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/adc3">
+      <node ref="U1" pin="26" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/adc4">
+      <node ref="U1" pin="27" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/adc5">
+      <node ref="U1" pin="28" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/adc6">
+      <node ref="U1" pin="19" pinfunction="ADC6" pintype="input"/>
+    </net>
+    <net code="9" name="/adc7">
+      <node ref="U1" pin="22" pinfunction="ADC7" pintype="input"/>
+    </net>
+    <net code="10" name="/aref">
+      <node ref="U1" pin="20" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="11" name="/miso">
+      <node ref="U1" pin="16" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/mosi">
+      <node ref="U1" pin="15" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/pb0">
+      <node ref="U1" pin="12" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/pb1">
+      <node ref="U1" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/pb2">
+      <node ref="U1" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/pb5">
+      <node ref="U1" pin="17" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/pb6">
+      <node ref="U1" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/pb7">
+      <node ref="U1" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/pc6">
+      <node ref="U1" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/pd0">
+      <node ref="U1" pin="30" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/pd1">
+      <node ref="U1" pin="31" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/pd2">
+      <node ref="U1" pin="32" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/pd3">
+      <node ref="U1" pin="1" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/pd4">
+      <node ref="U1" pin="2" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/pd5">
+      <node ref="U1" pin="9" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/pd6">
+      <node ref="U1" pin="10" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/pd7">
+      <node ref="U1" pin="11" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+  </nets>
+</export>

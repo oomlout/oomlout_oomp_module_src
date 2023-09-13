@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_usb_mini_surface_mount_only\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 21:09:57</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>scumnsmo</value>
+      <footprint>oomlout_oomp_part_footprints:scumnsmo_electronic_socket_usb_mini_surface_mount_only</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_mini_surface_mount_only/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="scumnsmo_electronic_socket_usb_mini_surface_mount_only" description="[electronic_socket_usb_mini_surface_mount_only](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_mini_surface_mount_only/working)&lt;br&gt;[LCSC - C2345&lt;br&gt;](https://lcsc.com/product-detail/C2345.html)[LCSC - C91144&lt;br&gt;](https://lcsc.com/product-detail/C91144.html)&lt;br&gt;[Korean Hroparts Elec - U-M-M5SS-W-2]()"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_socket_usb_mini_surface_mount_only](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_mini_surface_mount_only/working)&lt;br&gt;[LCSC - C2345&lt;br&gt;](https://lcsc.com/product-detail/C2345.html)[LCSC - C91144&lt;br&gt;](https://lcsc.com/product-detail/C91144.html)&lt;br&gt;[Korean Hroparts Elec - U-M-M5SS-W-2]()"/>
+      <property name="ki_keywords" value="connector USB mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f32afe2d-9e23-44ff-821c-363b46c78e8e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="scumnsmo_electronic_socket_usb_mini_surface_mount_only">
+      <description>[electronic_socket_usb_mini_surface_mount_only](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_mini_surface_mount_only/working)&lt;br&gt;[LCSC - C2345&lt;br&gt;](https://lcsc.com/product-detail/C2345.html)[LCSC - C91144&lt;br&gt;](https://lcsc.com/product-detail/C91144.html)&lt;br&gt;[Korean Hroparts Elec - U-M-M5SS-W-2]()</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_mini_surface_mount_only/datasheet.pdf</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">scumnsmo_electronic_socket_usb_mini_surface_mount_only</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:scumnsmo_electronic_socket_usb_mini_surface_mount_only</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_mini_surface_mount_only/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="2" name="/usb_id">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="3" name="/usb_negative">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/usb_positive">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+  </nets>
+</export>

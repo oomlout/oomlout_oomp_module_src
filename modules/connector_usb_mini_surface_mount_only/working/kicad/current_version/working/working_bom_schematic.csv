@@ -1,0 +1,7 @@
+"Source:","C:\GH\oomlout_oomp_module_src\modules\connector_usb_mini_surface_mount_only\working\kicad\current_version\working\working.kicad_sch"
+"Date:","12/09/2023 21:09:57"
+"Tool:","Eeschema 7.0.6"
+"Generator:","C:/Program Files/KiCad/7.0/bin/scripting/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","1"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
+"J1","1","scumnsmo","scumnsmo_electronic_socket_usb_mini_surface_mount_only","oomlout_oomp_part_footprints:scumnsmo_electronic_socket_usb_mini_surface_mount_only","[electronic_socket_usb_mini_surface_mount_only](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_socket_usb_mini_surface_mount_only/working)<br>[LCSC - C2345<br>](https://lcsc.com/product-detail/C2345.html)[LCSC - C91144<br>](https://lcsc.com/product-detail/C91144.html)<br>[Korean Hroparts Elec - U-M-M5SS-W-2]()","",""

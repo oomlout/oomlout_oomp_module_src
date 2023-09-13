@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\ceramic_resonator_3213_3_pin_12_mega_hertz\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 19:54:35</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="x1">
+      <value>xcr3213mhz12</value>
+      <footprint>oomlout_oomp_part_footprints:xcr3213mhz12_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="xcr3213mhz12_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz" description="[electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/working)&lt;br&gt;[LCSC - C341520&lt;br&gt;](https://lcsc.com/product-detail/C341520.html)&lt;br&gt;[Murata - CSTNE12M0G550000R0](https://www.murata.com/en-eu/products/productdetail?cate=cgsubResonators&amp;partno=CSTNE12M0G550000R0)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/working)&lt;br&gt;[LCSC - C341520&lt;br&gt;](https://lcsc.com/product-detail/C341520.html)&lt;br&gt;[Murata - CSTNE12M0G550000R0](https://www.murata.com/en-eu/products/productdetail?cate=cgsubResonators&amp;partno=CSTNE12M0G550000R0)"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b605c46-1fc9-4eab-87e3-103569a6a887</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="xcr3213mhz12_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz">
+      <description>[electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/working)&lt;br&gt;[LCSC - C341520&lt;br&gt;](https://lcsc.com/product-detail/C341520.html)&lt;br&gt;[Murata - CSTNE12M0G550000R0](https://www.murata.com/en-eu/products/productdetail?cate=cgsubResonators&amp;partno=CSTNE12M0G550000R0)</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/datasheet.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">x</field>
+        <field name="Value">xcr3213mhz12_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:xcr3213mhz12_electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ceramic_resonator_3213_3_pin_ground_pin_2_12_mega_hertz/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/xtal1">
+      <node ref="x1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/xtal2">
+      <node ref="x1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="x1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

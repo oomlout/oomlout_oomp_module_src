@@ -1,0 +1,7 @@
+### Footprint positions - created on Tue Sep 12 22:41:50 2023 ###
+### Printed by KiCad version 7.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                    Package                                     PosX       PosY       Rot  Side
+J1        hi14p_electronic_header_2d54_mm_4_pin  hi14p_electronic_header_2d54_mm_4_pin    -3.8100   -14.7500    0.0000  top
+## End

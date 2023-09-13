@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_ibbc_soic_14_wide_basic_helicopter\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 20:24:43</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>insoic14wi2cheli</value>
+      <footprint>oomlout_oomp_part_footprints:insoic14wi2cheli_electronic_interposer_soic_14_wide_i2c_helicopter</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_interposer_soic_14_wide_i2c_helicopter/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="insoic14wi2cheli_electronic_interposer_soic_14_wide_i2c_helicopter" description="Generic connector, single row, 01x14, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x14, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11a04ca5-2010-4edf-a9be-0b5bbc3bb190</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="insoic14wi2cheli_electronic_interposer_soic_14_wide_i2c_helicopter">
+      <description>Generic connector, single row, 01x14, script generated</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_interposer_soic_14_wide_i2c_helicopter/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">insoic14wi2cheli_electronic_interposer_soic_14_wide_i2c_helicopter</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:insoic14wi2cheli_electronic_interposer_soic_14_wide_i2c_helicopter</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_interposer_soic_14_wide_i2c_helicopter/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___pin_14" type="passive"/>
+        <pin num="2" name="___pin_13" type="passive"/>
+        <pin num="3" name="___pin_12" type="passive"/>
+        <pin num="4" name="___pin_11" type="passive"/>
+        <pin num="5" name="___pin_10" type="passive"/>
+        <pin num="6" name="___pin_9" type="passive"/>
+        <pin num="7" name="___pin_8" type="passive"/>
+        <pin num="8" name="___pin_7" type="passive"/>
+        <pin num="9" name="___address" type="passive"/>
+        <pin num="10" name="___cs" type="passive"/>
+        <pin num="11" name="___scl_3v3" type="passive"/>
+        <pin num="12" name="___sda_3v3" type="passive"/>
+        <pin num="13" name="___3v3" type="passive"/>
+        <pin num="14" name="___gnd" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="U1" pin="13" pinfunction="___3v3" pintype="passive"/>
+    </net>
+    <net code="2" name="/address">
+      <node ref="U1" pin="9" pinfunction="___address" pintype="passive"/>
+    </net>
+    <net code="3" name="/cs">
+      <node ref="U1" pin="10" pinfunction="___cs" pintype="passive"/>
+    </net>
+    <net code="4" name="/scl_3v3">
+      <node ref="U1" pin="11" pinfunction="___scl_3v3" pintype="passive"/>
+    </net>
+    <net code="5" name="/sda_3v3">
+      <node ref="U1" pin="12" pinfunction="___sda_3v3" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="U1" pin="14" pinfunction="___gnd" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(U1-___pin_7-Pad8)">
+      <node ref="U1" pin="8" pinfunction="___pin_7" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(U1-___pin_8-Pad7)">
+      <node ref="U1" pin="7" pinfunction="___pin_8" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(U1-___pin_9-Pad6)">
+      <node ref="U1" pin="6" pinfunction="___pin_9" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(U1-___pin_10-Pad5)">
+      <node ref="U1" pin="5" pinfunction="___pin_10" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(U1-___pin_11-Pad4)">
+      <node ref="U1" pin="4" pinfunction="___pin_11" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(U1-___pin_12-Pad3)">
+      <node ref="U1" pin="3" pinfunction="___pin_12" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(U1-___pin_13-Pad2)">
+      <node ref="U1" pin="2" pinfunction="___pin_13" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(U1-___pin_14-Pad1)">
+      <node ref="U1" pin="1" pinfunction="___pin_14" pintype="passive"/>
+    </net>
+  </nets>
+</export>

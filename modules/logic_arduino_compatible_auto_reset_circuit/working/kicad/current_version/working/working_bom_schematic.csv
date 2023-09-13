@@ -1,0 +1,8 @@
+"Source:","C:\GH\oomlout_oomp_module_src\modules\logic_arduino_compatible_auto_reset_circuit\working\kicad\current_version\working\working.kicad_sch"
+"Date:","12/09/2023 21:55:12"
+"Tool:","Eeschema 7.0.6"
+"Generator:","C:/Program Files/KiCad/7.0/bin/scripting/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","2"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
+"C1","1","c6nf100","c6nf100_electronic_capacitor_0603_100_nano_farad_1","oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad","Unpolarized capacitor","",""
+"R1","1","r6o102","r6o102_electronic_resistor_0603_1000_ohm","oomlout_oomp_part_footprints:r6o102_electronic_resistor_0603_1000_ohm","Resistor","",""

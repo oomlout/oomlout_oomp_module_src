@@ -1,0 +1,7 @@
+"Source:","C:\GH\oomlout_oomp_module_src\modules\connector_ibbc_soic_14_wide_basic_landing\working\kicad\current_version\working\working.kicad_sch"
+"Date:","12/09/2023 20:32:15"
+"Tool:","Eeschema 7.0.6"
+"Generator:","C:/Program Files/KiCad/7.0/bin/scripting/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","1"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
+"U1","1","insoic14wi2cland","insoic14wi2cland_electronic_interposer_soic_14_wide_i2c_landing","oomlout_oomp_part_footprints:insoic14wi2cland_electronic_interposer_soic_14_wide_i2c_landing","Generic connector, single row, 01x14, script generated","",""

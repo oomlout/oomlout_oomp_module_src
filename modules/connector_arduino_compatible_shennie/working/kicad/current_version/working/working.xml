@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_arduino_compatible_shennie\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 20:09:39</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>bbat328</value>
+      <footprint>oomlout_oomp_part_footprints:bbat328_electronic_breakout_board_mcu_atmega328_shennie</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_mcu_atmega328_shennie/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbat328_electronic_breakout_board_mcu_atmega328_shennie" description="Arduino Nano v2.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano v2.x"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>053f48d1-680f-4f4e-ba40-f41235fc32d2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbat328_electronic_breakout_board_mcu_atmega328_shennie">
+      <description>Arduino Nano v2.x</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_mcu_atmega328_shennie/datasheet.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">bbat328_electronic_breakout_board_mcu_atmega328_shennie</field>
+        <field name="Footprint">bbat328_electronic_breakout_board_mcu_atmega328_shennie</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_mcu_atmega328_shennie/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="nt2_electronic_nettie_2_nets_smd">
+      <description>Net tie, 2 pins</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_nettie_2_nets_smd/datasheet.pdf</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Value">nt2_electronic_nettie_2_nets_smd</field>
+        <field name="Footprint">nt2_electronic_nettie_2_nets_smd</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_nettie_2_nets_smd/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="U1" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U1" pin="27" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="3" name="/adc6">
+      <node ref="U1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/adc7">
+      <node ref="U1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/aref">
+      <node ref="U1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="6" name="/pb0">
+      <node ref="U1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/pb1">
+      <node ref="U1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/pb2">
+      <node ref="U1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/pb3">
+      <node ref="U1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/pb4">
+      <node ref="U1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/pb5">
+      <node ref="U1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/pc0">
+      <node ref="U1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/pc1">
+      <node ref="U1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/pc2">
+      <node ref="U1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/pc3">
+      <node ref="U1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/pc4">
+      <node ref="U1" pin="23" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/pc5">
+      <node ref="U1" pin="24" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/pd0">
+      <node ref="U1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/pd1">
+      <node ref="U1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/pd2">
+      <node ref="U1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/pd3">
+      <node ref="U1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/pd4">
+      <node ref="U1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/pd5">
+      <node ref="U1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/pd6">
+      <node ref="U1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/pd7">
+      <node ref="U1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/reset">
+      <node ref="U1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="29" name="/vin">
+      <node ref="U1" pin="30" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

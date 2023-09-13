@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_icsp_through_hole\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 20:39:47</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>hi12x3p</value>
+      <footprint>hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6f4620d-8986-4e2e-ab6e-a90680240cb3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</field>
+        <field name="Footprint">hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/miso">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/mosi">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="/reset">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/sck">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

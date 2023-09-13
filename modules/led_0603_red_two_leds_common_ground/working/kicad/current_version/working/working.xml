@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\led_0603_red_two_leds_common_ground\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 21:40:08</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="L1">
+      <value>l6r</value>
+      <footprint>l6r_electronic_led_0603_red</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_led_0603_red/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="l6r_electronic_led_0603_red" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cd209a-5343-4cab-8ad3-de2f664249e1</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>l6r</value>
+      <footprint>l6r_electronic_led_0603_red</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_led_0603_red/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="l6r_electronic_led_0603_red" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>065d86d8-d714-4ea9-8d23-b3056c9e4e73</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>r6o102</value>
+      <footprint>r6o102_electronic_resistor_0603_1000_ohm</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="r6o102_electronic_resistor_0603_1000_ohm" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50fd36d2-2a10-42b0-ad83-5f5fb97301c2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>r6o102</value>
+      <footprint>r6o102_electronic_resistor_0603_1000_ohm</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="r6o102_electronic_resistor_0603_1000_ohm" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2eb8bc5-ae66-4b48-84fb-735f91aa3792</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="l6r_electronic_led_0603_red">
+      <description>Light emitting diode</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_led_0603_red/datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">l6r_electronic_led_0603_red</field>
+        <field name="Footprint">l6r_electronic_led_0603_red</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_led_0603_red/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="r6o102_electronic_resistor_0603_1000_ohm">
+      <description>Resistor</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">r6o102_electronic_resistor_0603_1000_ohm</field>
+        <field name="Footprint">r6o102_electronic_resistor_0603_1000_ohm</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/led_1">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/led_2">
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="L1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(L1-A)">
+      <node ref="L1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(L2-A)">
+      <node ref="L2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

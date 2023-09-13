@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\mechanical_board_shape_ibbc_oobb_3_2\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 22:25:21</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>mhm3</value>
+      <footprint>oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5379cbb4-fa7b-4288-afc3-399229e834e5</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>mhm3</value>
+      <footprint>oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28aa5763-cb49-43d9-8bd3-a47dc3f6f41a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>mhm3</value>
+      <footprint>oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e65daf44-9120-4fa4-904f-880591932762</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>mhm3</value>
+      <footprint>oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4143f2ac-861c-4173-b5dd-b7c833320bd2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="mhm3_electronic_mounting_hole_m3">
+      <description>Mounting Hole without connection</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">mhm3_electronic_mounting_hole_m3</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_mounting_hole_m3/datasheet.pdf</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets/>
+</export>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\logic_arduino_compatible_auto_reset_circuit\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 21:55:12</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>c6nf100</value>
+      <footprint>oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</datasheet>
+      <libsource lib="" part="c6nf100_electronic_capacitor_0603_100_nano_farad_1" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbdffdb7-34f5-4e95-a564-08b773e49b8e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>r6o102</value>
+      <footprint>oomlout_oomp_part_footprints:r6o102_electronic_resistor_0603_1000_ohm</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="r6o102_electronic_resistor_0603_1000_ohm" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c8b52d-b7bb-4aae-a78f-5c6c6cc20835</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="c6nf100_electronic_capacitor_0603_100_nano_farad_1">
+      <description>Unpolarized capacitor</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="r6o102_electronic_resistor_0603_1000_ohm">
+      <description>Resistor</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">r6o102_electronic_resistor_0603_1000_ohm</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:r6o102_electronic_resistor_0603_1000_ohm</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_1000_ohm/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/dtr">
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/reset">
+      <node ref="C1" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

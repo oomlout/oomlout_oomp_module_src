@@ -1,0 +1,40 @@
+# {{ p.name }}  
+{{ p.id }}  
+{{ p.description }} 
+## summary 
+* classification: {{ p.classification }}
+* type: {{ p.type }}
+* size: {{ p.size }}
+* color: {{ p.color }}
+* description_main: {{ p.description_main }}
+* description_extra: {{ p.description_extra }}
+* id: {{ p.id }}
+* md5_6: {{ p.md5_6 }}
+* full details link: https://github.com/oomlout/oomlout_oomp_module_src/tree/main/modules/{{p.id}}/working
+
+{% if "kicad/current_version/working/working_schematic.png" in p.files %}## schematic  
+![](kicad/current_version/working/working_schematic_600.png)  
+[schematic (pdf)](kicad/current_version/working/working_schematic.pdf)  
+{% endif %}
+{% if "kicad/current_version/working/working_3d.png" in p.files %}## pcb  
+![](kicad/current_version/working/working_3d_600.png) 
+![](kicad/current_version/working/working_3d_front_600.png)  
+![](kicad/current_version/working/working_3d_back_600.png)  
+![](kicad/current_version/working/working_600.png)  
+[board (pdf)](kicad/current_version/working/working.pdf)  
+{% endif %}
+{% if "bom" in p %}## working_bom
+{{ p.bom_markdown }}
+{% endif %}
+{% if "bom_schematic" in p %}## bom_schematic
+{{ p.bom_schematic_markdown }}
+{% endif %}
+{% if "mounting_holes" in p %}## mounting_holes
+{{ p.mounting_holes_markdown }}
+{% endif %}
+{% if "position_top" in p %}## positions
+### top
+{{ p.position_top_markdown }}
+### bottom
+{{ p.position_bottom_markdown }}
+{% endif %}

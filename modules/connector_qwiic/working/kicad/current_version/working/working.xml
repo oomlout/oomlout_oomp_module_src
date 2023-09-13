@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_qwiic\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 20:47:19</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>h4psmra</value>
+      <footprint>oomlout_oomp_part_footprints:h4psmra_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="h4psmra_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a414f49-ac7d-4cfa-816f-15fb1e8a8e0e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="h4psmra_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">h4psmra_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:h4psmra_electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_1_mm_jst_sh_4_pin_surface_mount_right_angle/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/scl_3v3">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="/sda_3v3">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
