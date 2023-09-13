@@ -9,14 +9,16 @@ def go_through_directories():
            
             
             #
-            # check for a brd file
+            # checkb for a brd file
             
+
+ 
             filename = os.path.join(root, file)
             filter = [""]
             #if any of filter is in filename
             if any(x in filename for x in filter):
                 if file.endswith(".kicad_pcb"):
-                    oom_kicad.generate_outputs(filename=filename, overwrite=False)
+                    oom_kicad.generate_outputs(filename=filename, overwrite=True)
 
 
 if __name__ == '__main__':
