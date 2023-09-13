@@ -302,7 +302,7 @@
   (symbol (lib_id "oomlout_oomp_part_symbols:scuath_electronic_socket_usb_a_through_hole") (at 140.97 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63c79db3-8a15-42e6-b38c-351f3abded32)
-    (property "Reference" "J1" (at 140.97 85.09 0)
+    (property "Reference" "CON1" (at 140.97 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "scuath" (at 140.97 87.63 0)
@@ -322,7 +322,7 @@
     (instances
       (project "working"
         (path "/c9993764-076f-44f6-bf4c-6b69ce17c9e4"
-          (reference "J1") (unit 1)
+          (reference "CON1") (unit 1)
         )
       )
     )

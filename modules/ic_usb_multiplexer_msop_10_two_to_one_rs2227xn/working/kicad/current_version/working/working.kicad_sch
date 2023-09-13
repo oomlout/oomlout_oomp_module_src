@@ -708,7 +708,7 @@
   (symbol (lib_id "oomlout_oomp_part_symbols:imsp10mpump21rs2227_electronic_ic_msop_10_multiplexer_usb_multiplexer_two_to_one_jiangsu_runic_tech_rs2227xn") (at 123.19 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c19bd5d3-ca07-426c-9eff-6411a4880ad5)
-    (property "Reference" "U1" (at 123.825 64.77 0)
+    (property "Reference" "IC1" (at 123.825 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "imsp10mpump21rs2227" (at 123.825 67.31 0)
@@ -733,7 +733,7 @@
     (instances
       (project "working"
         (path "/c9993764-076f-44f6-bf4c-6b69ce17c9e4"
-          (reference "U1") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
