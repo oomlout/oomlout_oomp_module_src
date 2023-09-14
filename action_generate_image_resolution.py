@@ -5,7 +5,7 @@ import oom_base
 def main():
     #go through all files in symbols/    
     directory = "modules"
-    overwrite = False
+    overwrite = True
     oom_base.image_resolutions_dir(directory=directory, overwrite=overwrite)
 
 
