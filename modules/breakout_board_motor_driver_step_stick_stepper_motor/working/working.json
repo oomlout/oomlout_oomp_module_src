@@ -1,0 +1,23 @@
+{
+    "classification": "breakout_board",
+    "type": "motor_driver",
+    "size": "step_stick",
+    "color": "",
+    "description_main": "stepper_motor",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "BB",
+    "id": "breakout_board_motor_driver_step_stick_stepper_motor",
+    "oomp_key": "oomp_breakout_board_motor_driver_step_stick_stepper_motor",
+    "directory": "modules/breakout_board_motor_driver_step_stick_stepper_motor",
+    "name": "Breakout Board Motor Driver Step Stick Stepper Motor",
+    "short_code": "",
+    "md5": "2e540ebe7ef065a27a3d1ec80972601f",
+    "md5_5": "2e540",
+    "md5_6": "2e540e",
+    "md5_10": "2e540ebe7e"
+}

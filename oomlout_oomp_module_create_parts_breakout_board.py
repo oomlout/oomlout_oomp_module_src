@@ -10,6 +10,7 @@ def load_parts(**kwargs):
     
 
     #define a part 
+    # ibbc
     part_details = {}
     part_details["classification"] = "breakout_board"
     part_details["type"] = "sensor"
@@ -20,9 +21,25 @@ def load_parts(**kwargs):
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
     part_details["kicad_reference"] = "BB"
-
-    #add the part to the list of parts
     parts.append(part_details)
+
+    # motor_driver
+    #      stepper_motor
+    part_details = {}
+    part_details["classification"] = "breakout_board"
+    part_details["type"] = "motor_driver"
+    part_details["size"] = ["step_stick"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["stepper_motor"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "BB"
+    parts.append(part_details)
+    
+
+
+
 
     
     oomp.add_parts(parts, **kwargs)

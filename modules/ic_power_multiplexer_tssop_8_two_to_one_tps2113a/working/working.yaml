@@ -1,0 +1,20 @@
+classification: ic
+color: ''
+description_extra: ''
+description_main: two_to_one
+directory: modules/ic_power_multiplexer_tssop_8_two_to_one_tps2113a
+filter: ''
+from_yaml: false
+id: ic_power_multiplexer_tssop_8_two_to_one_tps2113a
+kicad_reference: IC
+manufacturer: ''
+md5: 46a16b29dd91610c0e9e7167b142edc0
+md5_10: 46a16b29dd
+md5_5: 46a16
+md5_6: 46a16b
+name: Ic Power Multiplexer Tssop 8 Two To One Tps2113A
+oomp_key: oomp_ic_power_multiplexer_tssop_8_two_to_one_tps2113a
+part_number: tps2113a
+short_code: ''
+size: tssop_8
+type: power_multiplexer

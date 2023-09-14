@@ -46,9 +46,21 @@ def load_parts(**kwargs):
     part_details["description_main"] = "two_to_one"
     part_details["manufacturer"] = ""
     part_details["part_number"] = "rs2227xn"
-    part_details["kicad_reference"] = "U"
+    part_details["kicad_reference"] = "IC"
     parts.append(part_details)
 
     
+    #      tps2113 power 2 to one multiplexer
+    part_details = {}
+    part_details["classification"] = "ic"
+    part_details["type"] = "power_multiplexer"
+    part_details["size"] = f"tssop_8"
+    part_details["color"] = ""
+    part_details["description_main"] = "two_to_one"
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = "tps2113a"
+    part_details["kicad_reference"] = "IC"
+    parts.append(part_details)
+
     oomp.add_parts(parts, **kwargs)
     

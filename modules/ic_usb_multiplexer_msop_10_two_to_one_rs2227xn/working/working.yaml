@@ -6,7 +6,7 @@ directory: modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
 filter: ''
 from_yaml: false
 id: ic_usb_multiplexer_msop_10_two_to_one_rs2227xn
-kicad_reference: U
+kicad_reference: IC
 manufacturer: ''
 md5: 84a4781461c8a0835c5e03ea6ea12a37
 md5_10: 84a4781461

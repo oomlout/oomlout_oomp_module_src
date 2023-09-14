@@ -10,7 +10,7 @@
     "from_yaml": false,
     "make_files": true,
     "filter": "",
-    "kicad_reference": "U",
+    "kicad_reference": "IC",
     "id": "ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
     "oomp_key": "oomp_ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
     "directory": "modules/ic_usb_multiplexer_msop_10_two_to_one_rs2227xn",
