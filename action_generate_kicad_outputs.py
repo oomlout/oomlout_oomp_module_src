@@ -5,6 +5,13 @@ def go_through_directories():
     # go through all directories in projects
     for root, dirs, files in os.walk("modules"):
         #go through all files
+
+
+ 
+  
+   
+    
+     
         for file in files:
             #check for a brd file
             
