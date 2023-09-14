@@ -1,0 +1,8 @@
+"Source:","C:\GH\oomlout_oomp_module_src\modules\mechanical_board_shape_oobb_plate_03_03\working\kicad\current_version\working\working.kicad_sch"
+"Date:","14/09/2023 12:32:40"
+"Tool:","Eeschema 7.0.6"
+"Generator:","C:/Program Files/KiCad/7.0/bin/scripting/plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","9"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
+"H1, H3, H5, H6, H9","5","mhm6","mhm6_electronic_mounting_hole_m6","oomlout_oomp_part_footprints:mhm6_electronic_mounting_hole_m6","[electronic_mounting_hole_m6](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m6/working)<br><br>","",""
+"H2, H4, H7, H8","4","mhm3","mhm3_electronic_mounting_hole_m3","oomlout_oomp_part_footprints:mhm3_electronic_mounting_hole_m3","[electronic_mounting_hole_m3](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_mounting_hole_m3/working)<br><br>","",""

@@ -1,0 +1,7 @@
+### Footprint positions - created on Thu Sep 14 09:57:16 2023 ###
+### Printed by KiCad version 7.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                                      Package                                                       PosX       PosY       Rot  Side
+U1        bbat328_electronic_breakout_board_mcu_atmega328_shennie  bbat328_electronic_breakout_board_mcu_atmega328_shennie    61.4680   -36.5760    0.0000  top
+## End

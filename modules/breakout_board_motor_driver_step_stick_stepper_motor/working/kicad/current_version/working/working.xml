@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\breakout_board_motor_driver_step_stick_stepper_motor\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>14/09/2023 09:13:19</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>bbmdsm</value>
+      <footprint>oomlout_oomp_part_footprints:bbmdsm_electronic_breakout_board_step_stick_motor_driver_stepper_motor</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbmdsm_electronic_breakout_board_step_stick_motor_driver_stepper_motor" description="[electronic_breakout_board_step_stick_motor_driver_stepper_motor](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_breakout_board_step_stick_motor_driver_stepper_motor](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c261d9e-0fdc-47b6-973f-b555a70efc9d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>hi12x3p</value>
+      <footprint>oomlout_oomp_part_footprints:hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin" description="[electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64c3c9b1-9f56-4a7e-9b6c-2c053778f079</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbmdsm_electronic_breakout_board_step_stick_motor_driver_stepper_motor">
+      <description>[electronic_breakout_board_step_stick_motor_driver_stepper_motor](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">bbmdsm_electronic_breakout_board_step_stick_motor_driver_stepper_motor</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:bbmdsm_electronic_breakout_board_step_stick_motor_driver_stepper_motor</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_step_stick_motor_driver_stepper_motor/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___en" type="passive"/>
+        <pin num="2" name="___ms1" type="passive"/>
+        <pin num="3" name="___ms2" type="passive"/>
+        <pin num="4" name="___ms3" type="passive"/>
+        <pin num="5" name="___rst" type="passive"/>
+        <pin num="6" name="___slp" type="passive"/>
+        <pin num="7" name="___step" type="passive"/>
+        <pin num="8" name="___dir" type="passive"/>
+        <pin num="9" name="___gnd" type="passive"/>
+        <pin num="10" name="___vdd" type="passive"/>
+        <pin num="11" name="___1b" type="passive"/>
+        <pin num="12" name="___1a" type="passive"/>
+        <pin num="13" name="___2a" type="passive"/>
+        <pin num="14" name="___2b" type="passive"/>
+        <pin num="15" name="___gnd" type="passive"/>
+        <pin num="16" name="___vmot" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin">
+      <description>[electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:hi12x3p_electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_dual_row_2x3_dual_row_6_pin/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="IC1" pin="10" pinfunction="___vdd" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="2" name="/coil_1_a_zz">
+      <node ref="IC1" pin="12" pinfunction="___1a" pintype="passive"/>
+    </net>
+    <net code="3" name="/coil_1_b_zz">
+      <node ref="IC1" pin="11" pinfunction="___1b" pintype="passive"/>
+    </net>
+    <net code="4" name="/coil_2_a_zz">
+      <node ref="IC1" pin="13" pinfunction="___2a" pintype="passive"/>
+    </net>
+    <net code="5" name="/coil_2_b_zz">
+      <node ref="IC1" pin="14" pinfunction="___2b" pintype="passive"/>
+    </net>
+    <net code="6" name="/dir_zz">
+      <node ref="IC1" pin="8" pinfunction="___dir" pintype="passive"/>
+    </net>
+    <net code="7" name="/enable_zz">
+      <node ref="IC1" pin="1" pinfunction="___en" pintype="passive"/>
+    </net>
+    <net code="8" name="/reset_zz">
+      <node ref="IC1" pin="5" pinfunction="___rst" pintype="passive"/>
+    </net>
+    <net code="9" name="/sleep_zz">
+      <node ref="IC1" pin="6" pinfunction="___slp" pintype="passive"/>
+    </net>
+    <net code="10" name="/step_size_1_zz">
+      <node ref="IC1" pin="2" pinfunction="___ms1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/step_size_2_zz">
+      <node ref="IC1" pin="3" pinfunction="___ms2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/step_size_3_zz">
+      <node ref="IC1" pin="4" pinfunction="___ms3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="13" name="/step_zz">
+      <node ref="IC1" pin="7" pinfunction="___step" pintype="passive"/>
+    </net>
+    <net code="14" name="/v_motor">
+      <node ref="IC1" pin="16" pinfunction="___vmot" pintype="passive"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="IC1" pin="15" pinfunction="___gnd" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="___gnd" pintype="passive"/>
+    </net>
+  </nets>
+</export>

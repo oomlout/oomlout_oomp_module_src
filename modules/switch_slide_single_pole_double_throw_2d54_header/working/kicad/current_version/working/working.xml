@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_module_src\modules\switch_slide_single_pole_double_throw_2d54_header\working\kicad\current_version\working\working.kicad_sch</source>
-    <date>12/09/2023 23:02:32</date>
+    <date>14/09/2023 13:08:06</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J1">
+    <comp ref="SW1">
       <value>swsi1h</value>
       <footprint>oomlout_oomp_part_footprints:swsi1h_electronic_switch_slide_2d54_header_single_pole_double_throw</footprint>
       <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/datasheet.pdf</datasheet>
@@ -34,7 +34,7 @@
       <property name="ki_description" value="[electronic_switch_slide_2d54_header_single_pole_double_throw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_switch_slide_2d54_header_single_pole_double_throw/working)&lt;br&gt;&lt;br&gt;"/>
       <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>32bcd42e-0123-4ceb-99f8-7ce28faaa991</tstamps>
+      <tstamps>a661b613-4273-4de1-af95-97ad4510feb0</tstamps>
     </comp>
   </components>
   <libparts>
@@ -56,14 +56,14 @@
   </libparts>
   <libraries/>
   <nets>
-    <net code="1" name="/in">
-      <node ref="J1" pin="2" pinfunction="B" pintype="passive"/>
+    <net code="1" name="/slide_switch_in">
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="2" name="/out_1">
-      <node ref="J1" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="2" name="/slide_switch_out_1">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="3" name="/out_2">
-      <node ref="J1" pin="3" pinfunction="C" pintype="passive"/>
+    <net code="3" name="/slide_switch_out_2">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
   </nets>
 </export>

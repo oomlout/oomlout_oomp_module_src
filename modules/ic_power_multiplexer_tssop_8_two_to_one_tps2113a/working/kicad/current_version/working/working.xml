@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\ic_power_multiplexer_tssop_8_two_to_one_tps2113a\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>14/09/2023 11:12:50</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>c6nf100</value>
+      <footprint>oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="c6nf100_electronic_capacitor_0603_100_nano_farad" description="[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)&lt;br&gt;[LCSC - C14663&lt;br&gt;](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926&lt;br&gt;](https://lcsc.com/product-detail/C30926.html)&lt;br&gt;[Samsung - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)&lt;br&gt;[LCSC - C14663&lt;br&gt;](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926&lt;br&gt;](https://lcsc.com/product-detail/C30926.html)&lt;br&gt;[Samsung - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>215c6ea3-ea5e-485c-9274-c54acf317573</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>itssp8mpptps2113</value>
+      <footprint>oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw" description="[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9205370a-e551-440f-9524-bf38743fa543</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>r6o271</value>
+      <footprint>oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="r6o271_electronic_resistor_0603_270_ohm" description="[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91591af6-0268-471c-bb60-c8b4ed5309a7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="c6nf100_electronic_capacitor_0603_100_nano_farad">
+      <description>[electronic_capacitor_0603_100_nano_farad](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_capacitor_0603_100_nano_farad/working)&lt;br&gt;[LCSC - C14663&lt;br&gt;](https://lcsc.com/product-detail/C14663.html)[LCSC - C30926&lt;br&gt;](https://lcsc.com/product-detail/C30926.html)&lt;br&gt;[Samsung - CL10B104KB8NNNC](https://product.samsungsem.com/mlcc/CL10B104KB8NNN.do)[Yageo - CC0603KRX7R9BB104](https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R9BB104)</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:c6nf100_electronic_capacitor_0603_100_nano_farad</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_capacitor_0603_100_nano_farad/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw">
+      <description>[electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/working)&lt;br&gt;[LCSC - C130052&lt;br&gt;](https://lcsc.com/product-detail/C130052.html)&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:itssp8mpptps2113_electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_ic_tssop_8_multiplexer_power_multiplexer_texas_instruments_tps2113apw/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___stat" type="passive"/>
+        <pin num="2" name="___en" type="passive"/>
+        <pin num="3" name="___vsns" type="passive"/>
+        <pin num="4" name="___ilim" type="passive"/>
+        <pin num="5" name="___gnd" type="passive"/>
+        <pin num="6" name="___in2" type="passive"/>
+        <pin num="7" name="___out" type="passive"/>
+        <pin num="8" name="___in1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="r6o271_electronic_resistor_0603_270_ohm">
+      <description>[electronic_resistor_0603_270_ohm](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_resistor_0603_270_ohm/working)&lt;br&gt;&lt;br&gt;[Uniroyal - 0603WAJ0271T5E- not in jlc basic parts]()[Uniroyal - 0603WAF2700T5E- jlc basic part]()[Yageo - RC0603JR-07270RL- available everywhere](https://www.yageo.com/en/Chart/Download/pdf/RC0603JR-07270RL)</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">r6o271_electronic_resistor_0603_270_ohm</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:r6o271_electronic_resistor_0603_270_ohm</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_resistor_0603_270_ohm/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="___out" pintype="passive"/>
+    </net>
+    <net code="2" name="/5v_in_1_zz">
+      <node ref="IC1" pin="3" pinfunction="___vsns" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="___in1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5v_in_2_zz">
+      <node ref="IC1" pin="6" pinfunction="___in2" pintype="passive"/>
+    </net>
+    <net code="4" name="/status_zz">
+      <node ref="IC1" pin="1" pinfunction="___stat" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="___en" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="___gnd" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC1-___ilim)">
+      <node ref="IC1" pin="4" pinfunction="___ilim" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

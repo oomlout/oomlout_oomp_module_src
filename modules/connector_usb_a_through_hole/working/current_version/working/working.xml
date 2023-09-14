@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GH\oomlout_oomp_module_src\modules\connector_usb_a_through_hole\working\current_version\working\working.kicad_sch</source>
-    <date>12/09/2023 20:54:53</date>
+    <date>14/09/2023 10:40:58</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J1">
+    <comp ref="CON1">
       <value>scuath</value>
       <footprint>oomlout_oomp_part_footprints:scuath_electronic_socket_usb_a_through_hole</footprint>
       <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_socket_usb_a_through_hole/datasheet.pdf</datasheet>
@@ -62,17 +62,17 @@
   <libraries/>
   <nets>
     <net code="1" name="+5V">
-      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="CON1" pin="1" pinfunction="VBUS" pintype="power_in"/>
     </net>
     <net code="2" name="/usb_negative">
-      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="CON1" pin="2" pinfunction="D-" pintype="bidirectional"/>
     </net>
     <net code="3" name="/usb_positive">
-      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="CON1" pin="3" pinfunction="D+" pintype="bidirectional"/>
     </net>
     <net code="4" name="GND">
-      <node ref="J1" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="CON1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="CON1" pin="5" pinfunction="Shield" pintype="passive"/>
     </net>
   </nets>
 </export>
