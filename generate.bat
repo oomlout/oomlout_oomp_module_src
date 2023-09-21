@@ -1,0 +1,1 @@
+call generate_all.bat
