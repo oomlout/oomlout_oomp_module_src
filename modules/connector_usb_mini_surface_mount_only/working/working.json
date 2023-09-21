@@ -10,7 +10,7 @@
     "from_yaml": false,
     "make_files": true,
     "filter": "",
-    "kicad_reference": "J",
+    "kicad_reference": "CON",
     "id": "connector_usb_mini_surface_mount_only",
     "oomp_key": "oomp_connector_usb_mini_surface_mount_only",
     "directory": "modules/connector_usb_mini_surface_mount_only",

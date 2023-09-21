@@ -6,7 +6,7 @@ directory: modules/connector_arduino_compatible_shennie
 filter: ''
 from_yaml: false
 id: connector_arduino_compatible_shennie
-kicad_reference: R
+kicad_reference: CON
 manufacturer: ''
 md5: fd005ddf2ff50cd93c2bcddf9f148f34
 md5_10: fd005ddf2f

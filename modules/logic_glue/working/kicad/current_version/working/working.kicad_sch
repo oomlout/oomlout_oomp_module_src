@@ -41,7 +41,7 @@
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 4a044b92-0531-4119-997c-9a47dd82888c)
   )
-  (text "logic-glue" (at 78.105 90.805 0)
+  (text "logic_glue" (at 78.105 90.805 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 654a4f4a-dabc-4614-9280-d290709aff73)
   )

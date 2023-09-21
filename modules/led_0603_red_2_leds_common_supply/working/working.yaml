@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: common_supply
+description_main: 2_leds
+directory: modules/led_0603_red_2_leds_common_supply
+filter: ''
+from_yaml: false
+id: led_0603_red_2_leds_common_supply
+kicad_reference: R
+manufacturer: ''
+md5: 717171282ac4ce846c69f4c9444bfc7d
+md5_10: 717171282a
+md5_5: '71717'
+md5_6: '717171'
+name: Led 0603 Red 2 Leds Common Supply
+oomp_key: oomp_led_0603_red_2_leds_common_supply
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''

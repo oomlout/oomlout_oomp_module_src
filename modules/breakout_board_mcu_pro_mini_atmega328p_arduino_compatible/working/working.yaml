@@ -1,0 +1,20 @@
+classification: breakout_board
+color: ''
+description_extra: arduino_compatible
+description_main: atmega328p
+directory: modules/breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+filter: ''
+from_yaml: false
+id: breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+kicad_reference: BB
+manufacturer: ''
+md5: da7b541a513e70c5838672969dc0b5f2
+md5_10: da7b541a51
+md5_5: da7b5
+md5_6: da7b54
+name: Breakout Board Mcu Pro Mini Atmega328P Arduino Compatible
+oomp_key: oomp_breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+part_number: ''
+short_code: ''
+size: pro_mini
+type: mcu

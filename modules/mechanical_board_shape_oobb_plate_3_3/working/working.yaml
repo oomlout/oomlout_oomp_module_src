@@ -1,0 +1,20 @@
+classification: mechanical
+color: ''
+description_extra: ''
+description_main: plate_3_3
+directory: modules/mechanical_board_shape_oobb_plate_3_3
+filter: ''
+from_yaml: false
+id: mechanical_board_shape_oobb_plate_3_3
+kicad_reference: U
+manufacturer: ''
+md5: 10ff7c62dec484c4b829cbdefa060c10
+md5_10: 10ff7c62de
+md5_5: 10ff7
+md5_6: 10ff7c
+name: Mechanical Board Shape Oobb Plate 3 3
+oomp_key: oomp_mechanical_board_shape_oobb_plate_3_3
+part_number: ''
+short_code: ''
+size: oobb
+type: board_shape

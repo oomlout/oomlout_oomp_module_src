@@ -1,0 +1,20 @@
+classification: mechanical
+color: ''
+description_extra: ''
+description_main: plate_8_5
+directory: modules/mechanical_board_shape_oobb_plate_8_5
+filter: ''
+from_yaml: false
+id: mechanical_board_shape_oobb_plate_8_5
+kicad_reference: U
+manufacturer: ''
+md5: 48b5ca10078d31fad93de8b8ab40a86e
+md5_10: 48b5ca1007
+md5_5: 48b5c
+md5_6: 48b5ca
+name: Mechanical Board Shape Oobb Plate 8 5
+oomp_key: oomp_mechanical_board_shape_oobb_plate_8_5
+part_number: ''
+short_code: ''
+size: oobb
+type: board_shape

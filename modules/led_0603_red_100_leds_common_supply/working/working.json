@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "100_leds",
+    "description_extra": "common_supply",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_100_leds_common_supply",
+    "oomp_key": "oomp_led_0603_red_100_leds_common_supply",
+    "directory": "modules/led_0603_red_100_leds_common_supply",
+    "name": "Led 0603 Red 100 Leds Common Supply",
+    "short_code": "6r",
+    "md5": "a1d266deae11d027f602b7b3adf35bd8",
+    "md5_5": "a1d26",
+    "md5_6": "a1d266",
+    "md5_10": "a1d266deae"
+}

@@ -6,7 +6,7 @@ directory: modules/connector_ibbc_soic_14_wide_basic_landing
 filter: ''
 from_yaml: false
 id: connector_ibbc_soic_14_wide_basic_landing
-kicad_reference: J
+kicad_reference: CON
 manufacturer: ''
 md5: 7dd5378456b417eaa0f73a2c842ebd5b
 md5_10: 7dd5378456

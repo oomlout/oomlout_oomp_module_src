@@ -6,6 +6,21 @@ def load_parts(**kwargs):
     print(f"  loading parts {__name__}")
     
     parts = []
+
+
+    # 2_54
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = ["2_54_mm"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["2_pin"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "CON"
+    parts.append(part_details)
+
     #arduino shennie
     part_details = {}
     part_details["classification"] = "connector"
@@ -16,20 +31,20 @@ def load_parts(**kwargs):
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "R"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
 
     #### ibbc
     part_details = {}
     part_details["classification"] = "connector"
     part_details["type"] = "ibbc"
-    part_details["size"] = ["soic_14_wide","2d54_12_pin_two_rows"]
+    part_details["size"] = ["soic_14_wide","2_54_12_pin_two_rows"]
     part_details["color"] = [""]
     part_details["description_main"] = "basic"
     part_details["description_extra"] = ["helicopter","landing"]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
 
     #### icsp
@@ -42,7 +57,7 @@ def load_parts(**kwargs):
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
 
     #### qwiic
@@ -56,7 +71,7 @@ def load_parts(**kwargs):
     part_details["description_extra"] = ""
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
 
     # usb
@@ -70,7 +85,7 @@ def load_parts(**kwargs):
     part_details["description_extra"] = [""]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
     
     #       usb micro
@@ -83,7 +98,7 @@ def load_parts(**kwargs):
     part_details["description_extra"] = [""]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
     
     # usb mini
@@ -96,7 +111,20 @@ def load_parts(**kwargs):
     part_details["description_extra"] = ["","back_power_protected"]
     part_details["manufacturer"] = ""
     part_details["part_number"] = ""
-    part_details["kicad_reference"] = "J"
+    part_details["kicad_reference"] = "CON"
+    parts.append(part_details)
+    
+    # usb 2_54 header
+    part_details = {}
+    part_details["classification"] = "connector"
+    part_details["type"] = ""
+    part_details["size"] = "usb_2_54"
+    part_details["color"] = [""]
+    part_details["description_main"] = "through_hole"
+    part_details["description_extra"] = [""]
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "CON"
     parts.append(part_details)
 
 

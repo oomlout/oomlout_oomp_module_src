@@ -1,0 +1,23 @@
+{
+    "classification": "breakout_board",
+    "type": "mcu",
+    "size": "devkitc",
+    "color": "",
+    "description_main": "esp32",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "BB",
+    "id": "breakout_board_mcu_devkitc_esp32",
+    "oomp_key": "oomp_breakout_board_mcu_devkitc_esp32",
+    "directory": "modules/breakout_board_mcu_devkitc_esp32",
+    "name": "Breakout Board Mcu Devkitc Esp32",
+    "short_code": "",
+    "md5": "f9ad44f555d4d9ff9c8237bc695264ae",
+    "md5_5": "f9ad4",
+    "md5_6": "f9ad44",
+    "md5_10": "f9ad44f555"
+}

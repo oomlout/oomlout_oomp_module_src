@@ -23,6 +23,52 @@ def load_parts(**kwargs):
     part_details["kicad_reference"] = "BB"
     parts.append(part_details)
 
+    # mcu
+    #      arduino 
+    #            nano
+    part_details = {}
+    part_details["classification"] = "breakout_board"
+    part_details["type"] = "mcu"
+    part_details["size"] = ["nano","pro_mini"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["atmega328p"]
+    part_details["description_extra"] = "arduino_compatible"
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "BB"
+    parts.append(part_details)
+
+    #     esp32
+    #            devkitc
+    part_details = {}
+    part_details["classification"] = "breakout_board"
+    part_details["type"] = "mcu"
+    part_details["size"] = ["devkitc"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["esp32"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "BB"
+    parts.append(part_details)
+
+    #     raspberry pi
+    #            pico
+    part_details = {}
+    part_details["classification"] = "breakout_board"
+    part_details["type"] = "mcu"
+    part_details["size"] = ["pico"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["raspberry_pi_2040"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "BB"
+    parts.append(part_details)
+
+    
+
+    
     # motor_driver
     #      stepper_motor
     part_details = {}

@@ -10,7 +10,7 @@
     "from_yaml": false,
     "make_files": true,
     "filter": "",
-    "kicad_reference": "R",
+    "kicad_reference": "CON",
     "id": "connector_arduino_compatible_nano",
     "oomp_key": "oomp_connector_arduino_compatible_nano",
     "directory": "modules/connector_arduino_compatible_nano",

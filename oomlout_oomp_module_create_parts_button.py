@@ -29,7 +29,7 @@ def load_parts(**kwargs):
     part_details = {}
     part_details["classification"] = "switch_slide"
     part_details["type"] = "single_pole_double_throw"
-    part_details["size"] = ["2d54_header", "2_8_mm_x_8_mm_x_1_4"]
+    part_details["size"] = ["2_54_header", "2_8_mm_x_8_mm_x_1_4"]
     part_details["color"] = [""]
     part_details["description_main"] = ""
     part_details["description_extra"] = ""

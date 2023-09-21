@@ -6,7 +6,7 @@ directory: modules/connector_usb_a_through_hole
 filter: ''
 from_yaml: false
 id: connector_usb_a_through_hole
-kicad_reference: J
+kicad_reference: CON
 manufacturer: ''
 md5: 80045e039325aed06ae858ba9bb98dda
 md5_10: 80045e0393

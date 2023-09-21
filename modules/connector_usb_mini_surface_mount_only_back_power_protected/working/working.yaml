@@ -6,7 +6,7 @@ directory: modules/connector_usb_mini_surface_mount_only_back_power_protected
 filter: ''
 from_yaml: false
 id: connector_usb_mini_surface_mount_only_back_power_protected
-kicad_reference: J
+kicad_reference: CON
 manufacturer: ''
 md5: 3bae45d6a123d36e275e3b3c53c74aae
 md5_10: 3bae45d6a1

@@ -10,7 +10,7 @@
     "from_yaml": false,
     "make_files": true,
     "filter": "",
-    "kicad_reference": "J",
+    "kicad_reference": "CON",
     "id": "connector_qwiic",
     "oomp_key": "oomp_connector_qwiic",
     "directory": "modules/connector_qwiic",

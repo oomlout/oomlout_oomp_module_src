@@ -1,0 +1,20 @@
+classification: switch_slide
+color: ''
+description_extra: ''
+description_main: ''
+directory: modules/switch_slide_single_pole_double_throw_2_54_header
+filter: ''
+from_yaml: false
+id: switch_slide_single_pole_double_throw_2_54_header
+kicad_reference: B
+manufacturer: ''
+md5: f401ed58bc1f54d33315f01edeae4f4a
+md5_10: f401ed58bc
+md5_5: f401e
+md5_6: f401ed
+name: Switch Slide Single Pole Double Throw 2 54 Header
+oomp_key: oomp_switch_slide_single_pole_double_throw_2_54_header
+part_number: ''
+short_code: ''
+size: 2_54_header
+type: single_pole_double_throw

@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "2_leds",
+    "description_extra": "common_supply_and_common_ground_no_resistors",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_2_leds_common_supply_and_common_ground_no_resistors",
+    "oomp_key": "oomp_led_0603_red_2_leds_common_supply_and_common_ground_no_resistors",
+    "directory": "modules/led_0603_red_2_leds_common_supply_and_common_ground_no_resistors",
+    "name": "Led 0603 Red 2 Leds Common Supply And Common Ground No Resistors",
+    "short_code": "6r",
+    "md5": "178ecfb8cb349a0183a3aed7abeb7a4b",
+    "md5_5": "178ec",
+    "md5_6": "178ecf",
+    "md5_10": "178ecfb8cb"
+}

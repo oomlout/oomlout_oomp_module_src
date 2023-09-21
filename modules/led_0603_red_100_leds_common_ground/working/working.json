@@ -1,0 +1,23 @@
+{
+    "classification": "led",
+    "type": "",
+    "size": "0603",
+    "color": "red",
+    "description_main": "100_leds",
+    "description_extra": "common_ground",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "R",
+    "id": "led_0603_red_100_leds_common_ground",
+    "oomp_key": "oomp_led_0603_red_100_leds_common_ground",
+    "directory": "modules/led_0603_red_100_leds_common_ground",
+    "name": "Led 0603 Red 100 Leds Common Ground",
+    "short_code": "6r",
+    "md5": "e3b52b547ef25a51d344ff8241249e06",
+    "md5_5": "e3b52",
+    "md5_6": "e3b52b",
+    "md5_10": "e3b52b547e"
+}

@@ -6,7 +6,7 @@ directory: modules/connector_arduino_compatible_nano
 filter: ''
 from_yaml: false
 id: connector_arduino_compatible_nano
-kicad_reference: R
+kicad_reference: CON
 manufacturer: ''
 md5: ec3076e1ca6b43a20d370ad329914f42
 md5_10: ec3076e1ca

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\connector_ibbc_2d54_12_pin_two_rows_basic_helicopter\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>12/09/2023 20:17:11</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>hi16p</value>
+      <footprint>oomlout_oomp_part_footprints:hi16p_electronic_header_2d54_mm_6_pin</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_6_pin/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="hi16p_electronic_header_2d54_mm_6_pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f33f178-7aea-4127-8d2d-bd6199a96e02</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>hi16p</value>
+      <footprint>oomlout_oomp_part_footprints:hi16p_electronic_header_2d54_mm_6_pin</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_6_pin/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="hi16p_electronic_header_2d54_mm_6_pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d44f5488-df0e-442f-aa0d-fe83c5d9e802</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="hi16p_electronic_header_2d54_mm_6_pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_6_pin/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">hi16p_electronic_header_2d54_mm_6_pin</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:hi16p_electronic_header_2d54_mm_6_pin</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_header_2d54_mm_6_pin/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/address">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="3" name="/cs">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/scl_3v3">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="5" name="/sda_3v3">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(J2-Pin_1-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(J2-Pin_2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J2-Pin_3-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J2-Pin_4-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J2-Pin_5-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J2-Pin_6-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+  </nets>
+</export>

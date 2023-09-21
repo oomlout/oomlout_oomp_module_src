@@ -1,3 +1,91 @@
+breakout_board_mcu_devkitc_esp32:
+    classification: breakout_board
+    color: ''
+    description_extra: ''
+    description_main: esp32
+    directory: modules/breakout_board_mcu_devkitc_esp32
+    filter: ''
+    from_yaml: false
+    id: breakout_board_mcu_devkitc_esp32
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: f9ad44f555d4d9ff9c8237bc695264ae
+    md5_10: f9ad44f555
+    md5_5: f9ad4
+    md5_6: f9ad44
+    name: Breakout Board Mcu Devkitc Esp32
+    oomp_key: oomp_breakout_board_mcu_devkitc_esp32
+    part_number: ''
+    short_code: ''
+    size: devkitc
+    type: mcu
+breakout_board_mcu_nano_atmega328p_arduino_compatible:
+    classification: breakout_board
+    color: ''
+    description_extra: arduino_compatible
+    description_main: atmega328p
+    directory: modules/breakout_board_mcu_nano_atmega328p_arduino_compatible
+    filter: ''
+    from_yaml: false
+    id: breakout_board_mcu_nano_atmega328p_arduino_compatible
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: edb0bbb627b018df8f9596138a405370
+    md5_10: edb0bbb627
+    md5_5: edb0b
+    md5_6: edb0bb
+    name: Breakout Board Mcu Nano Atmega328P Arduino Compatible
+    oomp_key: oomp_breakout_board_mcu_nano_atmega328p_arduino_compatible
+    part_number: ''
+    short_code: ''
+    size: nano
+    type: mcu
+breakout_board_mcu_pico_raspberry_pi_2040:
+    classification: breakout_board
+    color: ''
+    description_extra: ''
+    description_main: raspberry_pi_2040
+    directory: modules/breakout_board_mcu_pico_raspberry_pi_2040
+    filter: ''
+    from_yaml: false
+    id: breakout_board_mcu_pico_raspberry_pi_2040
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: 904c9e5fe6b029eed7788e5ea919012c
+    md5_10: 904c9e5fe6
+    md5_5: 904c9
+    md5_6: 904c9e
+    name: Breakout Board Mcu Pico Raspberry Pi 2040
+    oomp_key: oomp_breakout_board_mcu_pico_raspberry_pi_2040
+    part_number: ''
+    short_code: ''
+    size: pico
+    type: mcu
+breakout_board_mcu_pro_mini_atmega328p_arduino_compatible:
+    classification: breakout_board
+    color: ''
+    description_extra: arduino_compatible
+    description_main: atmega328p
+    directory: modules/breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+    filter: ''
+    from_yaml: false
+    id: breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: da7b541a513e70c5838672969dc0b5f2
+    md5_10: da7b541a51
+    md5_5: da7b5
+    md5_6: da7b54
+    name: Breakout Board Mcu Pro Mini Atmega328P Arduino Compatible
+    oomp_key: oomp_breakout_board_mcu_pro_mini_atmega328p_arduino_compatible
+    part_number: ''
+    short_code: ''
+    size: pro_mini
+    type: mcu
 breakout_board_motor_driver_step_stick_stepper_motor:
     classification: breakout_board
     color: ''
@@ -108,6 +196,28 @@ ceramic_resonator_3213_3_pin_16_mega_hertz:
     short_code: mhz16
     size: 3213_3_pin
     type: ''
+connector_2_54_mm_2_pin:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: 2_pin
+    directory: modules/connector_2_54_mm_2_pin
+    filter: ''
+    from_yaml: false
+    id: connector_2_54_mm_2_pin
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: cf261d2a22d88746430d00c16d58f26b
+    md5_10: cf261d2a22
+    md5_5: cf261
+    md5_6: cf261d
+    name: Connector 2 54 Mm 2 Pin
+    oomp_key: oomp_connector_2_54_mm_2_pin
+    part_number: ''
+    short_code: 2p
+    size: 2_54_mm
+    type: ''
 connector_arduino_compatible_nano:
     classification: connector
     color: ''
@@ -117,7 +227,7 @@ connector_arduino_compatible_nano:
     filter: ''
     from_yaml: false
     id: connector_arduino_compatible_nano
-    kicad_reference: R
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: ec3076e1ca6b43a20d370ad329914f42
@@ -139,7 +249,7 @@ connector_arduino_compatible_shennie:
     filter: ''
     from_yaml: false
     id: connector_arduino_compatible_shennie
-    kicad_reference: R
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: fd005ddf2ff50cd93c2bcddf9f148f34
@@ -152,49 +262,49 @@ connector_arduino_compatible_shennie:
     short_code: ''
     size: shennie
     type: arduino_compatible
-connector_ibbc_2d54_12_pin_two_rows_basic_helicopter:
+connector_ibbc_2_54_12_pin_two_rows_basic_helicopter:
     classification: connector
     color: ''
     description_extra: helicopter
     description_main: basic
-    directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+    directory: modules/connector_ibbc_2_54_12_pin_two_rows_basic_helicopter
     filter: ''
     from_yaml: false
-    id: connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
-    kicad_reference: J
+    id: connector_ibbc_2_54_12_pin_two_rows_basic_helicopter
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
-    md5: 133792fc6ed23c6719e80a309e9c977b
-    md5_10: 133792fc6e
-    md5_5: '13379'
-    md5_6: '133792'
-    name: Connector Ibbc 2D54 12 Pin Two Rows Basic Helicopter
-    oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_helicopter
+    md5: e8c570f266b88872b231506b8c047b03
+    md5_10: e8c570f266
+    md5_5: e8c57
+    md5_6: e8c570
+    name: Connector Ibbc 2 54 12 Pin Two Rows Basic Helicopter
+    oomp_key: oomp_connector_ibbc_2_54_12_pin_two_rows_basic_helicopter
     part_number: ''
     short_code: ''
-    size: 2d54_12_pin_two_rows
+    size: 2_54_12_pin_two_rows
     type: ibbc
-connector_ibbc_2d54_12_pin_two_rows_basic_landing:
+connector_ibbc_2_54_12_pin_two_rows_basic_landing:
     classification: connector
     color: ''
     description_extra: landing
     description_main: basic
-    directory: modules/connector_ibbc_2d54_12_pin_two_rows_basic_landing
+    directory: modules/connector_ibbc_2_54_12_pin_two_rows_basic_landing
     filter: ''
     from_yaml: false
-    id: connector_ibbc_2d54_12_pin_two_rows_basic_landing
-    kicad_reference: J
+    id: connector_ibbc_2_54_12_pin_two_rows_basic_landing
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
-    md5: f369f9a608d47a9498d163f6032afe8b
-    md5_10: f369f9a608
-    md5_5: f369f
-    md5_6: f369f9
-    name: Connector Ibbc 2D54 12 Pin Two Rows Basic Landing
-    oomp_key: oomp_connector_ibbc_2d54_12_pin_two_rows_basic_landing
+    md5: ecd478f937f7983e94c94fd19416d385
+    md5_10: ecd478f937
+    md5_5: ecd47
+    md5_6: ecd478
+    name: Connector Ibbc 2 54 12 Pin Two Rows Basic Landing
+    oomp_key: oomp_connector_ibbc_2_54_12_pin_two_rows_basic_landing
     part_number: ''
     short_code: ''
-    size: 2d54_12_pin_two_rows
+    size: 2_54_12_pin_two_rows
     type: ibbc
 connector_ibbc_soic_14_wide_basic_helicopter:
     classification: connector
@@ -205,7 +315,7 @@ connector_ibbc_soic_14_wide_basic_helicopter:
     filter: ''
     from_yaml: false
     id: connector_ibbc_soic_14_wide_basic_helicopter
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: d8c8f5cdf01924a6183205dc2add6774
@@ -227,7 +337,7 @@ connector_ibbc_soic_14_wide_basic_landing:
     filter: ''
     from_yaml: false
     id: connector_ibbc_soic_14_wide_basic_landing
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: 7dd5378456b417eaa0f73a2c842ebd5b
@@ -249,7 +359,7 @@ connector_icsp_through_hole:
     filter: ''
     from_yaml: false
     id: connector_icsp_through_hole
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: 8e167bc54b77139db6e1e221583809de
@@ -271,7 +381,7 @@ connector_qwiic:
     filter: ''
     from_yaml: false
     id: connector_qwiic
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: b00965dd3d6a95b3569cb9751251d8e2
@@ -284,6 +394,28 @@ connector_qwiic:
     short_code: ''
     size: ''
     type: qwiic
+connector_usb_2_54_through_hole:
+    classification: connector
+    color: ''
+    description_extra: ''
+    description_main: through_hole
+    directory: modules/connector_usb_2_54_through_hole
+    filter: ''
+    from_yaml: false
+    id: connector_usb_2_54_through_hole
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: 22a39fe20db47c18e612d3aa002eaea4
+    md5_10: 22a39fe20d
+    md5_5: 22a39
+    md5_6: 22a39f
+    name: Connector Usb 2 54 Through Hole
+    oomp_key: oomp_connector_usb_2_54_through_hole
+    part_number: ''
+    short_code: ''
+    size: usb_2_54
+    type: ''
 connector_usb_a_through_hole:
     classification: connector
     color: ''
@@ -293,7 +425,7 @@ connector_usb_a_through_hole:
     filter: ''
     from_yaml: false
     id: connector_usb_a_through_hole
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: 80045e039325aed06ae858ba9bb98dda
@@ -315,7 +447,7 @@ connector_usb_micro_surface_mount:
     filter: ''
     from_yaml: false
     id: connector_usb_micro_surface_mount
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: defd2d9369a7ff84d518bd6bb6078bbc
@@ -337,7 +469,7 @@ connector_usb_mini_surface_mount_only:
     filter: ''
     from_yaml: false
     id: connector_usb_mini_surface_mount_only
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: 58c4f7c68a7f202e96730af8f3b8e5bd
@@ -359,7 +491,7 @@ connector_usb_mini_surface_mount_only_back_power_protected:
     filter: ''
     from_yaml: false
     id: connector_usb_mini_surface_mount_only_back_power_protected
-    kicad_reference: J
+    kicad_reference: CON
     make_files: true
     manufacturer: ''
     md5: 3bae45d6a123d36e275e3b3c53c74aae
@@ -680,90 +812,266 @@ ic_usb_to_serial_bridge_ssop_20_5_volt_ch340t:
     short_code: ''
     size: ssop_20
     type: usb_to_serial_bridge
-led_0603_red_four_leds_common_ground:
+led_0603_red_100_leds_common_ground:
     classification: led
     color: red
     description_extra: common_ground
-    description_main: four_leds
-    directory: modules/led_0603_red_four_leds_common_ground
+    description_main: 100_leds
+    directory: modules/led_0603_red_100_leds_common_ground
     filter: ''
     from_yaml: false
-    id: led_0603_red_four_leds_common_ground
+    id: led_0603_red_100_leds_common_ground
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: 7532cc43dace21588befc42fd5175ad5
-    md5_10: 7532cc43da
-    md5_5: 7532c
-    md5_6: 7532cc
-    name: Led 0603 Red Four Leds Common Ground
-    oomp_key: oomp_led_0603_red_four_leds_common_ground
+    md5: e3b52b547ef25a51d344ff8241249e06
+    md5_10: e3b52b547e
+    md5_5: e3b52
+    md5_6: e3b52b
+    name: Led 0603 Red 100 Leds Common Ground
+    oomp_key: oomp_led_0603_red_100_leds_common_ground
     part_number: ''
     short_code: 6r
     size: '0603'
     type: ''
-led_0603_red_four_leds_common_supply:
+led_0603_red_100_leds_common_supply:
     classification: led
     color: red
     description_extra: common_supply
-    description_main: four_leds
-    directory: modules/led_0603_red_four_leds_common_supply
+    description_main: 100_leds
+    directory: modules/led_0603_red_100_leds_common_supply
     filter: ''
     from_yaml: false
-    id: led_0603_red_four_leds_common_supply
+    id: led_0603_red_100_leds_common_supply
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: 3aa2edec40d310f9800ea3fce9a4def0
-    md5_10: 3aa2edec40
-    md5_5: 3aa2e
-    md5_6: 3aa2ed
-    name: Led 0603 Red Four Leds Common Supply
-    oomp_key: oomp_led_0603_red_four_leds_common_supply
+    md5: a1d266deae11d027f602b7b3adf35bd8
+    md5_10: a1d266deae
+    md5_5: a1d26
+    md5_6: a1d266
+    name: Led 0603 Red 100 Leds Common Supply
+    oomp_key: oomp_led_0603_red_100_leds_common_supply
     part_number: ''
     short_code: 6r
     size: '0603'
     type: ''
-led_0603_red_two_leds_common_ground:
+led_0603_red_100_leds_common_supply_and_common_ground_no_resistors:
+    classification: led
+    color: red
+    description_extra: common_supply_and_common_ground_no_resistors
+    description_main: 100_leds
+    directory: modules/led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 9efa320cabc7764d78368b9b62c5594f
+    md5_10: 9efa320cab
+    md5_5: 9efa3
+    md5_6: 9efa32
+    name: Led 0603 Red 100 Leds Common Supply And Common Ground No Resistors
+    oomp_key: oomp_led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_200_leds_common_ground:
     classification: led
     color: red
     description_extra: common_ground
-    description_main: two_leds
-    directory: modules/led_0603_red_two_leds_common_ground
+    description_main: 200_leds
+    directory: modules/led_0603_red_200_leds_common_ground
     filter: ''
     from_yaml: false
-    id: led_0603_red_two_leds_common_ground
+    id: led_0603_red_200_leds_common_ground
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: a618db9204047af5678bffde50476a5a
-    md5_10: a618db9204
-    md5_5: a618d
-    md5_6: a618db
-    name: Led 0603 Red Two Leds Common Ground
-    oomp_key: oomp_led_0603_red_two_leds_common_ground
+    md5: ee46e6f502c849a185271ce723fb5542
+    md5_10: ee46e6f502
+    md5_5: ee46e
+    md5_6: ee46e6
+    name: Led 0603 Red 200 Leds Common Ground
+    oomp_key: oomp_led_0603_red_200_leds_common_ground
     part_number: ''
     short_code: 6r
     size: '0603'
     type: ''
-led_0603_red_two_leds_common_supply:
+led_0603_red_200_leds_common_supply:
     classification: led
     color: red
     description_extra: common_supply
-    description_main: two_leds
-    directory: modules/led_0603_red_two_leds_common_supply
+    description_main: 200_leds
+    directory: modules/led_0603_red_200_leds_common_supply
     filter: ''
     from_yaml: false
-    id: led_0603_red_two_leds_common_supply
+    id: led_0603_red_200_leds_common_supply
     kicad_reference: R
     make_files: true
     manufacturer: ''
-    md5: f5ea84824a6d7dcdc6de7904aaaddff3
-    md5_10: f5ea84824a
-    md5_5: f5ea8
-    md5_6: f5ea84
-    name: Led 0603 Red Two Leds Common Supply
-    oomp_key: oomp_led_0603_red_two_leds_common_supply
+    md5: 9b0c9fd2b27d4adbffe10121f716f666
+    md5_10: 9b0c9fd2b2
+    md5_5: 9b0c9
+    md5_6: 9b0c9f
+    name: Led 0603 Red 200 Leds Common Supply
+    oomp_key: oomp_led_0603_red_200_leds_common_supply
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_200_leds_common_supply_and_common_ground_no_resistors:
+    classification: led
+    color: red
+    description_extra: common_supply_and_common_ground_no_resistors
+    description_main: 200_leds
+    directory: modules/led_0603_red_200_leds_common_supply_and_common_ground_no_resistors
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_200_leds_common_supply_and_common_ground_no_resistors
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: e8ca62dd09dc1be2c24d41f3cd73c4ea
+    md5_10: e8ca62dd09
+    md5_5: e8ca6
+    md5_6: e8ca62
+    name: Led 0603 Red 200 Leds Common Supply And Common Ground No Resistors
+    oomp_key: oomp_led_0603_red_200_leds_common_supply_and_common_ground_no_resistors
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_2_leds_common_ground:
+    classification: led
+    color: red
+    description_extra: common_ground
+    description_main: 2_leds
+    directory: modules/led_0603_red_2_leds_common_ground
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_2_leds_common_ground
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 063ab39345ae91a195894136978e00ea
+    md5_10: 063ab39345
+    md5_5: 063ab
+    md5_6: 063ab3
+    name: Led 0603 Red 2 Leds Common Ground
+    oomp_key: oomp_led_0603_red_2_leds_common_ground
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_2_leds_common_supply:
+    classification: led
+    color: red
+    description_extra: common_supply
+    description_main: 2_leds
+    directory: modules/led_0603_red_2_leds_common_supply
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_2_leds_common_supply
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 717171282ac4ce846c69f4c9444bfc7d
+    md5_10: 717171282a
+    md5_5: '71717'
+    md5_6: '717171'
+    name: Led 0603 Red 2 Leds Common Supply
+    oomp_key: oomp_led_0603_red_2_leds_common_supply
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_2_leds_common_supply_and_common_ground_no_resistors:
+    classification: led
+    color: red
+    description_extra: common_supply_and_common_ground_no_resistors
+    description_main: 2_leds
+    directory: modules/led_0603_red_2_leds_common_supply_and_common_ground_no_resistors
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_2_leds_common_supply_and_common_ground_no_resistors
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 178ecfb8cb349a0183a3aed7abeb7a4b
+    md5_10: 178ecfb8cb
+    md5_5: 178ec
+    md5_6: 178ecf
+    name: Led 0603 Red 2 Leds Common Supply And Common Ground No Resistors
+    oomp_key: oomp_led_0603_red_2_leds_common_supply_and_common_ground_no_resistors
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_4_leds_common_ground:
+    classification: led
+    color: red
+    description_extra: common_ground
+    description_main: 4_leds
+    directory: modules/led_0603_red_4_leds_common_ground
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_4_leds_common_ground
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: b3bb3492d448cb5009fa5fd124321e79
+    md5_10: b3bb3492d4
+    md5_5: b3bb3
+    md5_6: b3bb34
+    name: Led 0603 Red 4 Leds Common Ground
+    oomp_key: oomp_led_0603_red_4_leds_common_ground
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_4_leds_common_supply:
+    classification: led
+    color: red
+    description_extra: common_supply
+    description_main: 4_leds
+    directory: modules/led_0603_red_4_leds_common_supply
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_4_leds_common_supply
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 8ea3a8a82f1cad50aadbdf248ec8da3f
+    md5_10: 8ea3a8a82f
+    md5_5: 8ea3a
+    md5_6: 8ea3a8
+    name: Led 0603 Red 4 Leds Common Supply
+    oomp_key: oomp_led_0603_red_4_leds_common_supply
+    part_number: ''
+    short_code: 6r
+    size: '0603'
+    type: ''
+led_0603_red_4_leds_common_supply_and_common_ground_no_resistors:
+    classification: led
+    color: red
+    description_extra: common_supply_and_common_ground_no_resistors
+    description_main: 4_leds
+    directory: modules/led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
+    filter: ''
+    from_yaml: false
+    id: led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
+    kicad_reference: R
+    make_files: true
+    manufacturer: ''
+    md5: 957fab12844add638817b321ef82e85c
+    md5_10: 957fab1284
+    md5_5: 957fa
+    md5_6: 957fab
+    name: Led 0603 Red 4 Leds Common Supply And Common Ground No Resistors
+    oomp_key: oomp_led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
     part_number: ''
     short_code: 6r
     size: '0603'
@@ -856,24 +1164,156 @@ mcu_atmega328p_tqfp_32_atmega328p_au:
     short_code: tq32
     size: tqfp_32
     type: atmega328p
-mechanical_board_shape_oobb_plate_03_03:
+mechanical_board_shape_oobb_plate_3_3:
     classification: mechanical
     color: ''
     description_extra: ''
-    description_main: plate_03_03
-    directory: modules/mechanical_board_shape_oobb_plate_03_03
+    description_main: plate_3_3
+    directory: modules/mechanical_board_shape_oobb_plate_3_3
     filter: ''
     from_yaml: false
-    id: mechanical_board_shape_oobb_plate_03_03
+    id: mechanical_board_shape_oobb_plate_3_3
     kicad_reference: U
     make_files: true
     manufacturer: ''
-    md5: 6e5e8f63a4140d19e1b15f273a69c60a
-    md5_10: 6e5e8f63a4
-    md5_5: 6e5e8
-    md5_6: 6e5e8f
-    name: Mechanical Board Shape Oobb Plate 03 03
-    oomp_key: oomp_mechanical_board_shape_oobb_plate_03_03
+    md5: 10ff7c62dec484c4b829cbdefa060c10
+    md5_10: 10ff7c62de
+    md5_5: 10ff7
+    md5_6: 10ff7c
+    name: Mechanical Board Shape Oobb Plate 3 3
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_3_3
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_3_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_3_5
+    directory: modules/mechanical_board_shape_oobb_plate_3_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_3_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 3dd8fc77df16a1b05421895ce835147b
+    md5_10: 3dd8fc77df
+    md5_5: 3dd8f
+    md5_6: 3dd8fc
+    name: Mechanical Board Shape Oobb Plate 3 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_3_5
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_4_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_4_5
+    directory: modules/mechanical_board_shape_oobb_plate_4_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_4_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 47ff9f97366e719af8a4c4c3bb120509
+    md5_10: 47ff9f9736
+    md5_5: 47ff9
+    md5_6: 47ff9f
+    name: Mechanical Board Shape Oobb Plate 4 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_4_5
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_5_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_5_5
+    directory: modules/mechanical_board_shape_oobb_plate_5_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_5_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 1ac7c5da10173b910601297ca3193259
+    md5_10: 1ac7c5da10
+    md5_5: 1ac7c
+    md5_6: 1ac7c5
+    name: Mechanical Board Shape Oobb Plate 5 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_5_5
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_7_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_7_5
+    directory: modules/mechanical_board_shape_oobb_plate_7_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_7_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 1e96524bf955b1670959e5905a90f9a9
+    md5_10: 1e96524bf9
+    md5_5: 1e965
+    md5_6: 1e9652
+    name: Mechanical Board Shape Oobb Plate 7 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_7_5
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_8_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_8_5
+    directory: modules/mechanical_board_shape_oobb_plate_8_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_8_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 48b5ca10078d31fad93de8b8ab40a86e
+    md5_10: 48b5ca1007
+    md5_5: 48b5c
+    md5_6: 48b5ca
+    name: Mechanical Board Shape Oobb Plate 8 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_8_5
+    part_number: ''
+    short_code: ''
+    size: oobb
+    type: board_shape
+mechanical_board_shape_oobb_plate_9_5:
+    classification: mechanical
+    color: ''
+    description_extra: ''
+    description_main: plate_9_5
+    directory: modules/mechanical_board_shape_oobb_plate_9_5
+    filter: ''
+    from_yaml: false
+    id: mechanical_board_shape_oobb_plate_9_5
+    kicad_reference: U
+    make_files: true
+    manufacturer: ''
+    md5: 5f9bf9c184da6fc8ec60d73beb805872
+    md5_10: 5f9bf9c184
+    md5_5: 5f9bf
+    md5_6: 5f9bf9
+    name: Mechanical Board Shape Oobb Plate 9 5
+    oomp_key: oomp_mechanical_board_shape_oobb_plate_9_5
     part_number: ''
     short_code: ''
     size: oobb
@@ -944,6 +1384,28 @@ sensor_pressure_temperature_bme280:
     short_code: ''
     size: ''
     type: ''
+switch_slide_single_pole_double_throw_2_54_header:
+    classification: switch_slide
+    color: ''
+    description_extra: ''
+    description_main: ''
+    directory: modules/switch_slide_single_pole_double_throw_2_54_header
+    filter: ''
+    from_yaml: false
+    id: switch_slide_single_pole_double_throw_2_54_header
+    kicad_reference: B
+    make_files: true
+    manufacturer: ''
+    md5: f401ed58bc1f54d33315f01edeae4f4a
+    md5_10: f401ed58bc
+    md5_5: f401e
+    md5_6: f401ed
+    name: Switch Slide Single Pole Double Throw 2 54 Header
+    oomp_key: oomp_switch_slide_single_pole_double_throw_2_54_header
+    part_number: ''
+    short_code: ''
+    size: 2_54_header
+    type: single_pole_double_throw
 switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4:
     classification: switch_slide
     color: ''
@@ -965,26 +1427,4 @@ switch_slide_single_pole_double_throw_2_8_mm_x_8_mm_x_1_4:
     part_number: ''
     short_code: ''
     size: 2_8_mm_x_8_mm_x_1_4
-    type: single_pole_double_throw
-switch_slide_single_pole_double_throw_2d54_header:
-    classification: switch_slide
-    color: ''
-    description_extra: ''
-    description_main: ''
-    directory: modules/switch_slide_single_pole_double_throw_2d54_header
-    filter: ''
-    from_yaml: false
-    id: switch_slide_single_pole_double_throw_2d54_header
-    kicad_reference: B
-    make_files: true
-    manufacturer: ''
-    md5: 921437f0361e3351b54d6f1bd599ce05
-    md5_10: 921437f036
-    md5_5: '92143'
-    md5_6: '921437'
-    name: Switch Slide Single Pole Double Throw 2D54 Header
-    oomp_key: oomp_switch_slide_single_pole_double_throw_2d54_header
-    part_number: ''
-    short_code: ''
-    size: 2d54_header
     type: single_pole_double_throw

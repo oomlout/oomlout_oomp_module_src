@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "ibbc",
+    "size": "2_54_12_pin_two_rows",
+    "color": "",
+    "description_main": "basic",
+    "description_extra": "landing",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_ibbc_2_54_12_pin_two_rows_basic_landing",
+    "oomp_key": "oomp_connector_ibbc_2_54_12_pin_two_rows_basic_landing",
+    "directory": "modules/connector_ibbc_2_54_12_pin_two_rows_basic_landing",
+    "name": "Connector Ibbc 2 54 12 Pin Two Rows Basic Landing",
+    "short_code": "",
+    "md5": "ecd478f937f7983e94c94fd19416d385",
+    "md5_5": "ecd47",
+    "md5_6": "ecd478",
+    "md5_10": "ecd478f937"
+}

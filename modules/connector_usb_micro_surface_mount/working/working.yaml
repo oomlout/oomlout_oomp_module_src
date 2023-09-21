@@ -6,7 +6,7 @@ directory: modules/connector_usb_micro_surface_mount
 filter: ''
 from_yaml: false
 id: connector_usb_micro_surface_mount
-kicad_reference: J
+kicad_reference: CON
 manufacturer: ''
 md5: defd2d9369a7ff84d518bd6bb6078bbc
 md5_10: defd2d9369

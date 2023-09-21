@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: common_supply_and_common_ground_no_resistors
+description_main: 4_leds
+directory: modules/led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
+filter: ''
+from_yaml: false
+id: led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
+kicad_reference: R
+manufacturer: ''
+md5: 957fab12844add638817b321ef82e85c
+md5_10: 957fab1284
+md5_5: 957fa
+md5_6: 957fab
+name: Led 0603 Red 4 Leds Common Supply And Common Ground No Resistors
+oomp_key: oomp_led_0603_red_4_leds_common_supply_and_common_ground_no_resistors
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''

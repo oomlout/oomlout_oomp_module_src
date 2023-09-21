@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: common_supply_and_common_ground_no_resistors
+description_main: 100_leds
+directory: modules/led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+filter: ''
+from_yaml: false
+id: led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+kicad_reference: R
+manufacturer: ''
+md5: 9efa320cabc7764d78368b9b62c5594f
+md5_10: 9efa320cab
+md5_5: 9efa3
+md5_6: 9efa32
+name: Led 0603 Red 100 Leds Common Supply And Common Ground No Resistors
+oomp_key: oomp_led_0603_red_100_leds_common_supply_and_common_ground_no_resistors
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''

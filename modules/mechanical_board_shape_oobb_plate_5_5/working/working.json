@@ -1,0 +1,23 @@
+{
+    "classification": "mechanical",
+    "type": "board_shape",
+    "size": "oobb",
+    "color": "",
+    "description_main": "plate_5_5",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "U",
+    "id": "mechanical_board_shape_oobb_plate_5_5",
+    "oomp_key": "oomp_mechanical_board_shape_oobb_plate_5_5",
+    "directory": "modules/mechanical_board_shape_oobb_plate_5_5",
+    "name": "Mechanical Board Shape Oobb Plate 5 5",
+    "short_code": "",
+    "md5": "1ac7c5da10173b910601297ca3193259",
+    "md5_5": "1ac7c",
+    "md5_6": "1ac7c5",
+    "md5_10": "1ac7c5da10"
+}

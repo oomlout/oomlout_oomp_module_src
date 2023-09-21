@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "usb_2_54",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_usb_2_54_through_hole",
+    "oomp_key": "oomp_connector_usb_2_54_through_hole",
+    "directory": "modules/connector_usb_2_54_through_hole",
+    "name": "Connector Usb 2 54 Through Hole",
+    "short_code": "",
+    "md5": "22a39fe20db47c18e612d3aa002eaea4",
+    "md5_5": "22a39",
+    "md5_6": "22a39f",
+    "md5_10": "22a39fe20d"
+}

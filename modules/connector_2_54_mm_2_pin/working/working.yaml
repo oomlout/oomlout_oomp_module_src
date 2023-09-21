@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: ''
+description_main: 2_pin
+directory: modules/connector_2_54_mm_2_pin
+filter: ''
+from_yaml: false
+id: connector_2_54_mm_2_pin
+kicad_reference: CON
+manufacturer: ''
+md5: cf261d2a22d88746430d00c16d58f26b
+md5_10: cf261d2a22
+md5_5: cf261
+md5_6: cf261d
+name: Connector 2 54 Mm 2 Pin
+oomp_key: oomp_connector_2_54_mm_2_pin
+part_number: ''
+short_code: 2p
+size: 2_54_mm
+type: ''

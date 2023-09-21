@@ -1,0 +1,20 @@
+classification: led
+color: red
+description_extra: common_ground
+description_main: 200_leds
+directory: modules/led_0603_red_200_leds_common_ground
+filter: ''
+from_yaml: false
+id: led_0603_red_200_leds_common_ground
+kicad_reference: R
+manufacturer: ''
+md5: ee46e6f502c849a185271ce723fb5542
+md5_10: ee46e6f502
+md5_5: ee46e
+md5_6: ee46e6
+name: Led 0603 Red 200 Leds Common Ground
+oomp_key: oomp_led_0603_red_200_leds_common_ground
+part_number: ''
+short_code: 6r
+size: '0603'
+type: ''

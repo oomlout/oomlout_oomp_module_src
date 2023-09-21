@@ -1,0 +1,23 @@
+{
+    "classification": "breakout_board",
+    "type": "mcu",
+    "size": "nano",
+    "color": "",
+    "description_main": "atmega328p",
+    "description_extra": "arduino_compatible",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "BB",
+    "id": "breakout_board_mcu_nano_atmega328p_arduino_compatible",
+    "oomp_key": "oomp_breakout_board_mcu_nano_atmega328p_arduino_compatible",
+    "directory": "modules/breakout_board_mcu_nano_atmega328p_arduino_compatible",
+    "name": "Breakout Board Mcu Nano Atmega328P Arduino Compatible",
+    "short_code": "",
+    "md5": "edb0bbb627b018df8f9596138a405370",
+    "md5_5": "edb0b",
+    "md5_6": "edb0bb",
+    "md5_10": "edb0bbb627"
+}

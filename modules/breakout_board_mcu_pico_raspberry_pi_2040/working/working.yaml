@@ -1,0 +1,20 @@
+classification: breakout_board
+color: ''
+description_extra: ''
+description_main: raspberry_pi_2040
+directory: modules/breakout_board_mcu_pico_raspberry_pi_2040
+filter: ''
+from_yaml: false
+id: breakout_board_mcu_pico_raspberry_pi_2040
+kicad_reference: BB
+manufacturer: ''
+md5: 904c9e5fe6b029eed7788e5ea919012c
+md5_10: 904c9e5fe6
+md5_5: 904c9
+md5_6: 904c9e
+name: Breakout Board Mcu Pico Raspberry Pi 2040
+oomp_key: oomp_breakout_board_mcu_pico_raspberry_pi_2040
+part_number: ''
+short_code: ''
+size: pico
+type: mcu
