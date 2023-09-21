@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\breakout_board_mcu_nano_atmega328p_arduino_compatible\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>21/09/2023 15:09:00</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BB2">
+      <value>bbmcu_electronic_breakout_board_shennie_mcu_atmega328p</value>
+      <footprint>oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible" description="[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6bc53ff-6423-4707-92ca-d761387b0043</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible">
+      <description>[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BB</field>
+        <field name="Value">bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="BB2" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="BB2" pin="27" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="3" name="/a0_zz">
+      <node ref="BB2" pin="19" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/a1_zz">
+      <node ref="BB2" pin="20" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/a2_zz">
+      <node ref="BB2" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/a3_zz">
+      <node ref="BB2" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/a4_zz">
+      <node ref="BB2" pin="23" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/a5_zz">
+      <node ref="BB2" pin="24" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/a6_zz">
+      <node ref="BB2" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/a7_zz">
+      <node ref="BB2" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/aref_zz">
+      <node ref="BB2" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="12" name="/d0_zz">
+      <node ref="BB2" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/d1_zz">
+      <node ref="BB2" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/d2_zz">
+      <node ref="BB2" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/d3_zz">
+      <node ref="BB2" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/d4_zz">
+      <node ref="BB2" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/d5_zz">
+      <node ref="BB2" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/d6_zz">
+      <node ref="BB2" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/d7_zz">
+      <node ref="BB2" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/d8_zz">
+      <node ref="BB2" pin="11" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/d9_zz">
+      <node ref="BB2" pin="12" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/d10_zz">
+      <node ref="BB2" pin="13" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/d11_zz">
+      <node ref="BB2" pin="14" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/d12_zz">
+      <node ref="BB2" pin="15" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/d13_zz">
+      <node ref="BB2" pin="16" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/reset_zz">
+      <node ref="BB2" pin="28" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="BB2" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="27" name="/vin_zz">
+      <node ref="BB2" pin="30" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="BB2" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="BB2" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
