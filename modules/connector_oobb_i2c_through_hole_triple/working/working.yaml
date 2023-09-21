@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: triple
+description_main: through_hole
+directory: modules/connector_oobb_ic_through_hole_triple
+filter: ''
+from_yaml: false
+id: connector_oobb_ic_through_hole_triple
+kicad_reference: CON
+manufacturer: ''
+md5: fcfe66d3dca8a18612f4c8ba466fde08
+md5_10: fcfe66d3dc
+md5_5: fcfe6
+md5_6: fcfe66
+name: Connector Oobb Ic Through Hole Triple
+oomp_key: oomp_connector_oobb_ic_through_hole_triple
+part_number: ''
+short_code: ''
+size: oobb_ic
+type: ''

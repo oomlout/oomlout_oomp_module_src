@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: double
+description_main: through_hole
+directory: modules/connector_oobb_ic_through_hole_double
+filter: ''
+from_yaml: false
+id: connector_oobb_ic_through_hole_double
+kicad_reference: CON
+manufacturer: ''
+md5: 160f0b4d59ebcdf4184c3c6f60235de8
+md5_10: 160f0b4d59
+md5_5: 160f0
+md5_6: 160f0b
+name: Connector Oobb Ic Through Hole Double
+oomp_key: oomp_connector_oobb_ic_through_hole_double
+part_number: ''
+short_code: ''
+size: oobb_ic
+type: ''

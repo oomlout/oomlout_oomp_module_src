@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "oobb_basic",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "triple",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_oobb_basic_through_hole_triple",
+    "oomp_key": "oomp_connector_oobb_basic_through_hole_triple",
+    "directory": "modules/connector_oobb_basic_through_hole_triple",
+    "name": "Connector Oobb Basic Through Hole Triple",
+    "short_code": "",
+    "md5": "accd6bc20460a4f7c93ab281df572a24",
+    "md5_5": "accd6",
+    "md5_6": "accd6b",
+    "md5_10": "accd6bc204"
+}

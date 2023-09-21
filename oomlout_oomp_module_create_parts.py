@@ -13,6 +13,7 @@ part_types.append("led")
 part_types.append("logic")
 part_types.append("mechanical")
 part_types.append("mcu")
+part_types.append("oobb")
 part_types.append("power")
 part_types.append("sensor")
 

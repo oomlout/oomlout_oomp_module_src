@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "oobb_ic",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "single",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_oobb_ic_through_hole_single",
+    "oomp_key": "oomp_connector_oobb_ic_through_hole_single",
+    "directory": "modules/connector_oobb_ic_through_hole_single",
+    "name": "Connector Oobb Ic Through Hole Single",
+    "short_code": "",
+    "md5": "c4914a8995633e51a81a0b626325a164",
+    "md5_5": "c4914",
+    "md5_6": "c4914a",
+    "md5_10": "c4914a8995"
+}

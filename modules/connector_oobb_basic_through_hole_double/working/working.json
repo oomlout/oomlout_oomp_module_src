@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "oobb_basic",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "double",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_oobb_basic_through_hole_double",
+    "oomp_key": "oomp_connector_oobb_basic_through_hole_double",
+    "directory": "modules/connector_oobb_basic_through_hole_double",
+    "name": "Connector Oobb Basic Through Hole Double",
+    "short_code": "",
+    "md5": "89ae4e7b2d9158e8875b52c8906db0a8",
+    "md5_5": "89ae4",
+    "md5_6": "89ae4e",
+    "md5_10": "89ae4e7b2d"
+}

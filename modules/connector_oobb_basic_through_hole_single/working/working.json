@@ -1,0 +1,23 @@
+{
+    "classification": "connector",
+    "type": "",
+    "size": "oobb_basic",
+    "color": "",
+    "description_main": "through_hole",
+    "description_extra": "single",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "CON",
+    "id": "connector_oobb_basic_through_hole_single",
+    "oomp_key": "oomp_connector_oobb_basic_through_hole_single",
+    "directory": "modules/connector_oobb_basic_through_hole_single",
+    "name": "Connector Oobb Basic Through Hole Single",
+    "short_code": "",
+    "md5": "55a6f079a9c87a701e6cadfedc9b403e",
+    "md5_5": "55a6f",
+    "md5_6": "55a6f0",
+    "md5_10": "55a6f079a9"
+}

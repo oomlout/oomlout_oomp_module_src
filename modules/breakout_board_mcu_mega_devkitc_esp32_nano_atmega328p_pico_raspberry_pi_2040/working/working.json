@@ -1,0 +1,23 @@
+{
+    "classification": "breakout_board",
+    "type": "mcu",
+    "size": "mega",
+    "color": "",
+    "description_main": "devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040",
+    "description_extra": "",
+    "manufacturer": "",
+    "part_number": "",
+    "from_yaml": false,
+    "make_files": true,
+    "filter": "",
+    "kicad_reference": "BB",
+    "id": "breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040",
+    "oomp_key": "oomp_breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040",
+    "directory": "modules/breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040",
+    "name": "Breakout Board Mcu Mega Devkitc Esp32 Nano Atmega328P Pico Raspberry Pi 2040",
+    "short_code": "",
+    "md5": "fce2632cff98ec84cc70323333e27a4b",
+    "md5_5": "fce26",
+    "md5_6": "fce263",
+    "md5_10": "fce2632cff"
+}

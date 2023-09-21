@@ -1,0 +1,20 @@
+classification: connector
+color: ''
+description_extra: single
+description_main: through_hole
+directory: modules/connector_oobb_ic_through_hole_single
+filter: ''
+from_yaml: false
+id: connector_oobb_ic_through_hole_single
+kicad_reference: CON
+manufacturer: ''
+md5: c4914a8995633e51a81a0b626325a164
+md5_10: c4914a8995
+md5_5: c4914
+md5_6: c4914a
+name: Connector Oobb Ic Through Hole Single
+oomp_key: oomp_connector_oobb_ic_through_hole_single
+part_number: ''
+short_code: ''
+size: oobb_ic
+type: ''

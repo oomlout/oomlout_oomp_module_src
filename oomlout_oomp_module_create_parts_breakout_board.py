@@ -52,6 +52,20 @@ def load_parts(**kwargs):
     part_details["kicad_reference"] = "BB"
     parts.append(part_details)
 
+    #     mega
+    part_details = {}
+    part_details["classification"] = "breakout_board"
+    part_details["type"] = "mcu"
+    part_details["size"] = ["mega"]
+    part_details["color"] = [""]
+    part_details["description_main"] = ["devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040"]
+    part_details["description_extra"] = ""
+    part_details["manufacturer"] = ""
+    part_details["part_number"] = ""
+    part_details["kicad_reference"] = "BB"
+    parts.append(part_details)
+
+
     #     raspberry pi
     #            pico
     part_details = {}

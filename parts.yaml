@@ -20,6 +20,29 @@ breakout_board_mcu_devkitc_esp32:
     short_code: ''
     size: devkitc
     type: mcu
+breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040:
+    classification: breakout_board
+    color: ''
+    description_extra: ''
+    description_main: devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040
+    directory: modules/breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040
+    filter: ''
+    from_yaml: false
+    id: breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040
+    kicad_reference: BB
+    make_files: true
+    manufacturer: ''
+    md5: fce2632cff98ec84cc70323333e27a4b
+    md5_10: fce2632cff
+    md5_5: fce26
+    md5_6: fce263
+    name: Breakout Board Mcu Mega Devkitc Esp32 Nano Atmega328P Pico Raspberry Pi
+        2040
+    oomp_key: oomp_breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040
+    part_number: ''
+    short_code: ''
+    size: mega
+    type: mcu
 breakout_board_mcu_nano_atmega328p_arduino_compatible:
     classification: breakout_board
     color: ''
@@ -371,6 +394,138 @@ connector_icsp_through_hole:
     part_number: ''
     short_code: ''
     size: icsp
+    type: ''
+connector_oobb_basic_through_hole_double:
+    classification: connector
+    color: ''
+    description_extra: double
+    description_main: through_hole
+    directory: modules/connector_oobb_basic_through_hole_double
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_basic_through_hole_double
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: 89ae4e7b2d9158e8875b52c8906db0a8
+    md5_10: 89ae4e7b2d
+    md5_5: 89ae4
+    md5_6: 89ae4e
+    name: Connector Oobb Basic Through Hole Double
+    oomp_key: oomp_connector_oobb_basic_through_hole_double
+    part_number: ''
+    short_code: ''
+    size: oobb_basic
+    type: ''
+connector_oobb_basic_through_hole_single:
+    classification: connector
+    color: ''
+    description_extra: single
+    description_main: through_hole
+    directory: modules/connector_oobb_basic_through_hole_single
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_basic_through_hole_single
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: 55a6f079a9c87a701e6cadfedc9b403e
+    md5_10: 55a6f079a9
+    md5_5: 55a6f
+    md5_6: 55a6f0
+    name: Connector Oobb Basic Through Hole Single
+    oomp_key: oomp_connector_oobb_basic_through_hole_single
+    part_number: ''
+    short_code: ''
+    size: oobb_basic
+    type: ''
+connector_oobb_basic_through_hole_triple:
+    classification: connector
+    color: ''
+    description_extra: triple
+    description_main: through_hole
+    directory: modules/connector_oobb_basic_through_hole_triple
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_basic_through_hole_triple
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: accd6bc20460a4f7c93ab281df572a24
+    md5_10: accd6bc204
+    md5_5: accd6
+    md5_6: accd6b
+    name: Connector Oobb Basic Through Hole Triple
+    oomp_key: oomp_connector_oobb_basic_through_hole_triple
+    part_number: ''
+    short_code: ''
+    size: oobb_basic
+    type: ''
+connector_oobb_ic_through_hole_double:
+    classification: connector
+    color: ''
+    description_extra: double
+    description_main: through_hole
+    directory: modules/connector_oobb_ic_through_hole_double
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_ic_through_hole_double
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: 160f0b4d59ebcdf4184c3c6f60235de8
+    md5_10: 160f0b4d59
+    md5_5: 160f0
+    md5_6: 160f0b
+    name: Connector Oobb Ic Through Hole Double
+    oomp_key: oomp_connector_oobb_ic_through_hole_double
+    part_number: ''
+    short_code: ''
+    size: oobb_ic
+    type: ''
+connector_oobb_ic_through_hole_single:
+    classification: connector
+    color: ''
+    description_extra: single
+    description_main: through_hole
+    directory: modules/connector_oobb_ic_through_hole_single
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_ic_through_hole_single
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: c4914a8995633e51a81a0b626325a164
+    md5_10: c4914a8995
+    md5_5: c4914
+    md5_6: c4914a
+    name: Connector Oobb Ic Through Hole Single
+    oomp_key: oomp_connector_oobb_ic_through_hole_single
+    part_number: ''
+    short_code: ''
+    size: oobb_ic
+    type: ''
+connector_oobb_ic_through_hole_triple:
+    classification: connector
+    color: ''
+    description_extra: triple
+    description_main: through_hole
+    directory: modules/connector_oobb_ic_through_hole_triple
+    filter: ''
+    from_yaml: false
+    id: connector_oobb_ic_through_hole_triple
+    kicad_reference: CON
+    make_files: true
+    manufacturer: ''
+    md5: fcfe66d3dca8a18612f4c8ba466fde08
+    md5_10: fcfe66d3dc
+    md5_5: fcfe6
+    md5_6: fcfe66
+    name: Connector Oobb Ic Through Hole Triple
+    oomp_key: oomp_connector_oobb_ic_through_hole_triple
+    part_number: ''
+    short_code: ''
+    size: oobb_ic
     type: ''
 connector_qwiic:
     classification: connector
