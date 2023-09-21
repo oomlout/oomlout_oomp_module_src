@@ -1,0 +1,9 @@
+### Footprint positions - created on Thu Sep 21 19:24:06 2023 ###
+### Printed by KiCad version 7.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref      Val                                                          Package                                                                         PosX       PosY       Rot  Side
+BB_MEGA_1  bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040   bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040                   60.9600   -71.1200    0.0000  top
+BB_MEGA_2  bbmcu_electronic_breakout_board_shennie_mcu_atmega328p       bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible    57.1500   -44.3881    0.0000  top
+BB_MEGA_3  bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32  bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32                  54.7450   -44.3881    0.0000  top
+## End

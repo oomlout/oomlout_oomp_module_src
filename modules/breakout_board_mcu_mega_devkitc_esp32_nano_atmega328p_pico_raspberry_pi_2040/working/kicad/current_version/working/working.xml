@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GH\oomlout_oomp_module_src\modules\breakout_board_mcu_mega_devkitc_esp32_nano_atmega328p_pico_raspberry_pi_2040\working\kicad\current_version\working\working.kicad_sch</source>
+    <date>21/09/2023 19:27:59</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>working.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BB_MEGA_1">
+      <value>bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040</value>
+      <footprint>oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040" description="[electronic_breakout_board_pico_mcu_raspberry_pi_2040](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_breakout_board_pico_mcu_raspberry_pi_2040](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07f9861f-b43f-4926-85a8-fe5639f2a5bb</tstamps>
+    </comp>
+    <comp ref="BB_MEGA_2">
+      <value>bbmcu_electronic_breakout_board_shennie_mcu_atmega328p</value>
+      <footprint>oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible" description="[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c1c8b8d-7896-4ab1-a74f-0e86acf875b6</tstamps>
+    </comp>
+    <comp ref="BB_MEGA_3">
+      <value>bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32</value>
+      <footprint>oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32</footprint>
+      <datasheet>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/datasheet.pdf</datasheet>
+      <libsource lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32" description="[electronic_breakout_board_devkitc_mcu_espressif_esp32](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="working.kicad_sch"/>
+      <property name="ki_description" value="[electronic_breakout_board_devkitc_mcu_espressif_esp32](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/working)&lt;br&gt;&lt;br&gt;"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e868a1-5657-4bcd-a42d-fbe746737d94</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32">
+      <description>[electronic_breakout_board_devkitc_mcu_espressif_esp32](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BB</field>
+        <field name="Value">bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_devkitc_mcu_espressif_esp32</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_devkitc_mcu_espressif_esp32/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___3v3" type="passive"/>
+        <pin num="2" name="___enable" type="passive"/>
+        <pin num="3" name="___vp" type="passive"/>
+        <pin num="4" name="___vn2" type="passive"/>
+        <pin num="5" name="___io34" type="passive"/>
+        <pin num="6" name="___io35" type="passive"/>
+        <pin num="7" name="___io32" type="passive"/>
+        <pin num="8" name="___io33" type="passive"/>
+        <pin num="9" name="___io25" type="passive"/>
+        <pin num="10" name="___io26" type="passive"/>
+        <pin num="11" name="___io27" type="passive"/>
+        <pin num="12" name="___io14" type="passive"/>
+        <pin num="13" name="___io12" type="passive"/>
+        <pin num="14" name="___gnd" type="passive"/>
+        <pin num="15" name="___io13" type="passive"/>
+        <pin num="16" name="___d2" type="passive"/>
+        <pin num="17" name="___d3" type="passive"/>
+        <pin num="18" name="___cmd" type="passive"/>
+        <pin num="19" name="___5v" type="passive"/>
+        <pin num="20" name="___clk" type="passive"/>
+        <pin num="21" name="___d0" type="passive"/>
+        <pin num="22" name="___d1" type="passive"/>
+        <pin num="23" name="___io15" type="passive"/>
+        <pin num="24" name="___io2" type="passive"/>
+        <pin num="25" name="___io0" type="passive"/>
+        <pin num="26" name="___io4" type="passive"/>
+        <pin num="27" name="___io16" type="passive"/>
+        <pin num="28" name="___io17" type="passive"/>
+        <pin num="29" name="___io5" type="passive"/>
+        <pin num="30" name="___io18" type="passive"/>
+        <pin num="31" name="___io19" type="passive"/>
+        <pin num="32" name="___gnd" type="passive"/>
+        <pin num="33" name="___io21" type="passive"/>
+        <pin num="34" name="___rx" type="passive"/>
+        <pin num="35" name="___tx" type="passive"/>
+        <pin num="36" name="___io22" type="passive"/>
+        <pin num="37" name="___io23" type="passive"/>
+        <pin num="38" name="___gnd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040">
+      <description>[electronic_breakout_board_pico_mcu_raspberry_pi_2040](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/datasheet.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BB</field>
+        <field name="Value">bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_pico_mcu_raspberry_pi_2040</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_pico_mcu_raspberry_pi_2040/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="___gp0" type="passive"/>
+        <pin num="2" name="___gp1" type="passive"/>
+        <pin num="3" name="___gnd" type="passive"/>
+        <pin num="4" name="___gp2" type="passive"/>
+        <pin num="5" name="___gp3" type="passive"/>
+        <pin num="6" name="___gp4" type="passive"/>
+        <pin num="7" name="___gp5" type="passive"/>
+        <pin num="8" name="___gnd" type="passive"/>
+        <pin num="9" name="___gp6" type="passive"/>
+        <pin num="10" name="___gp7" type="passive"/>
+        <pin num="11" name="___gp8" type="passive"/>
+        <pin num="12" name="___gp9" type="passive"/>
+        <pin num="13" name="___gnd" type="passive"/>
+        <pin num="14" name="___gp10" type="passive"/>
+        <pin num="15" name="___gp11" type="passive"/>
+        <pin num="16" name="___gp12" type="passive"/>
+        <pin num="17" name="___gp13" type="passive"/>
+        <pin num="18" name="___gnd" type="passive"/>
+        <pin num="19" name="___gp14" type="passive"/>
+        <pin num="20" name="___gp15" type="passive"/>
+        <pin num="21" name="___gp16" type="passive"/>
+        <pin num="22" name="___gp17" type="passive"/>
+        <pin num="23" name="___gnd" type="passive"/>
+        <pin num="24" name="___gp18" type="passive"/>
+        <pin num="25" name="___gp19" type="passive"/>
+        <pin num="26" name="___gp20" type="passive"/>
+        <pin num="27" name="___gp21" type="passive"/>
+        <pin num="28" name="___gnd" type="passive"/>
+        <pin num="29" name="___gp22" type="passive"/>
+        <pin num="30" name="___run" type="passive"/>
+        <pin num="31" name="___a0" type="passive"/>
+        <pin num="32" name="___a1" type="passive"/>
+        <pin num="33" name="___gnd_adc" type="passive"/>
+        <pin num="34" name="___a2" type="passive"/>
+        <pin num="35" name="___vref" type="passive"/>
+        <pin num="36" name="___3v3_out" type="passive"/>
+        <pin num="37" name="___3v3_enable" type="passive"/>
+        <pin num="38" name="___gnd" type="passive"/>
+        <pin num="39" name="___vsys" type="passive"/>
+        <pin num="40" name="___vbus" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="oomlout_oomp_part_symbols" part="bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible">
+      <description>[electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible](https://github.com/oomlout/oomlout_oomp_part_src/tree/main/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/working)&lt;br&gt;&lt;br&gt;</description>
+      <docs>https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BB</field>
+        <field name="Value">bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</field>
+        <field name="Footprint">oomlout_oomp_part_footprints:bbmcu_electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible</field>
+        <field name="Datasheet">https://github.com/oomlout/oomlout_oomp_v3/parts/electronic_breakout_board_shennie_mcu_atmega328p_arduino_compatible/datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="BB_MEGA_2" pin="17" pinfunction="3V3" pintype="power_out"/>
+      <node ref="BB_MEGA_3" pin="1" pinfunction="___3v3" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="BB_MEGA_1" pin="40" pinfunction="___vbus" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="BB_MEGA_3" pin="19" pinfunction="___5v" pintype="passive"/>
+    </net>
+    <net code="3" name="/3v3_enable_zz">
+      <node ref="BB_MEGA_1" pin="37" pinfunction="___3v3_enable" pintype="passive"/>
+    </net>
+    <net code="4" name="/3v3_out_zz">
+      <node ref="BB_MEGA_1" pin="36" pinfunction="___3v3_out" pintype="passive"/>
+    </net>
+    <net code="5" name="/a0_zz">
+      <node ref="BB_MEGA_1" pin="31" pinfunction="___a0" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="19" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/a1_zz">
+      <node ref="BB_MEGA_1" pin="32" pinfunction="___a1" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="20" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/a2_zz">
+      <node ref="BB_MEGA_1" pin="34" pinfunction="___a2" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/a3_zz">
+      <node ref="BB_MEGA_2" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/a4_zz">
+      <node ref="BB_MEGA_2" pin="23" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/a5_zz">
+      <node ref="BB_MEGA_2" pin="24" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/a6_zz">
+      <node ref="BB_MEGA_2" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/a7_zz">
+      <node ref="BB_MEGA_2" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/aref_zz">
+      <node ref="BB_MEGA_2" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="14" name="/d0_zz">
+      <node ref="BB_MEGA_1" pin="1" pinfunction="___gp0" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="34" pinfunction="___rx" pintype="passive"/>
+    </net>
+    <net code="15" name="/d1_zz">
+      <node ref="BB_MEGA_1" pin="2" pinfunction="___gp1" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="35" pinfunction="___tx" pintype="passive"/>
+    </net>
+    <net code="16" name="/d2_zz">
+      <node ref="BB_MEGA_1" pin="4" pinfunction="___gp2" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="5" pinfunction="___io34" pintype="passive"/>
+    </net>
+    <net code="17" name="/d3_zz">
+      <node ref="BB_MEGA_1" pin="5" pinfunction="___gp3" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="6" pinfunction="___io35" pintype="passive"/>
+    </net>
+    <net code="18" name="/d4_zz">
+      <node ref="BB_MEGA_1" pin="6" pinfunction="___gp4" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="7" pinfunction="___io32" pintype="passive"/>
+    </net>
+    <net code="19" name="/d5_zz">
+      <node ref="BB_MEGA_1" pin="7" pinfunction="___gp5" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="8" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="8" pinfunction="___io33" pintype="passive"/>
+    </net>
+    <net code="20" name="/d6_zz">
+      <node ref="BB_MEGA_1" pin="9" pinfunction="___gp6" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="9" pinfunction="___io25" pintype="passive"/>
+    </net>
+    <net code="21" name="/d7_zz">
+      <node ref="BB_MEGA_1" pin="10" pinfunction="___gp7" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="10" pinfunction="___io26" pintype="passive"/>
+    </net>
+    <net code="22" name="/d8_zz">
+      <node ref="BB_MEGA_1" pin="11" pinfunction="___gp8" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="11" pinfunction="___io27" pintype="passive"/>
+    </net>
+    <net code="23" name="/d9_zz">
+      <node ref="BB_MEGA_1" pin="12" pinfunction="___gp9" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="12" pinfunction="___io14" pintype="passive"/>
+    </net>
+    <net code="24" name="/d10_zz">
+      <node ref="BB_MEGA_1" pin="14" pinfunction="___gp10" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="13" pinfunction="___io12" pintype="passive"/>
+    </net>
+    <net code="25" name="/d11_zz">
+      <node ref="BB_MEGA_1" pin="15" pinfunction="___gp11" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="15" pinfunction="___io13" pintype="passive"/>
+    </net>
+    <net code="26" name="/d12_zz">
+      <node ref="BB_MEGA_1" pin="16" pinfunction="___gp12" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="15" pinfunction="D12" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="23" pinfunction="___io15" pintype="passive"/>
+    </net>
+    <net code="27" name="/d13_zz">
+      <node ref="BB_MEGA_1" pin="17" pinfunction="___gp13" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="BB_MEGA_3" pin="24" pinfunction="___io2" pintype="passive"/>
+    </net>
+    <net code="28" name="/d14_zz">
+      <node ref="BB_MEGA_1" pin="19" pinfunction="___gp14" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="25" pinfunction="___io0" pintype="passive"/>
+    </net>
+    <net code="29" name="/d15_zz">
+      <node ref="BB_MEGA_1" pin="20" pinfunction="___gp15" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="26" pinfunction="___io4" pintype="passive"/>
+    </net>
+    <net code="30" name="/d16_zz">
+      <node ref="BB_MEGA_1" pin="21" pinfunction="___gp16" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="27" pinfunction="___io16" pintype="passive"/>
+    </net>
+    <net code="31" name="/d17_zz">
+      <node ref="BB_MEGA_1" pin="22" pinfunction="___gp17" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="28" pinfunction="___io17" pintype="passive"/>
+    </net>
+    <net code="32" name="/d18_zz">
+      <node ref="BB_MEGA_1" pin="24" pinfunction="___gp18" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="29" pinfunction="___io5" pintype="passive"/>
+    </net>
+    <net code="33" name="/d19_zz">
+      <node ref="BB_MEGA_1" pin="25" pinfunction="___gp19" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="30" pinfunction="___io18" pintype="passive"/>
+    </net>
+    <net code="34" name="/d20_zz">
+      <node ref="BB_MEGA_1" pin="26" pinfunction="___gp20" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="31" pinfunction="___io19" pintype="passive"/>
+    </net>
+    <net code="35" name="/d21_zz">
+      <node ref="BB_MEGA_1" pin="27" pinfunction="___gp21" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="33" pinfunction="___io21" pintype="passive"/>
+    </net>
+    <net code="36" name="/d22_zz">
+      <node ref="BB_MEGA_1" pin="29" pinfunction="___gp22" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="36" pinfunction="___io22" pintype="passive"/>
+    </net>
+    <net code="37" name="/d23_zz">
+      <node ref="BB_MEGA_3" pin="37" pinfunction="___io23" pintype="passive"/>
+    </net>
+    <net code="38" name="/ref_zz">
+      <node ref="BB_MEGA_1" pin="35" pinfunction="___vref" pintype="passive"/>
+    </net>
+    <net code="39" name="/reset_zz">
+      <node ref="BB_MEGA_2" pin="28" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="BB_MEGA_2" pin="3" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="BB_MEGA_3" pin="2" pinfunction="___enable" pintype="passive"/>
+    </net>
+    <net code="40" name="/run_zz">
+      <node ref="BB_MEGA_1" pin="30" pinfunction="___run" pintype="passive"/>
+    </net>
+    <net code="41" name="/vin_zz">
+      <node ref="BB_MEGA_2" pin="30" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="42" name="/vsys_zz">
+      <node ref="BB_MEGA_1" pin="39" pinfunction="___vsys" pintype="passive"/>
+    </net>
+    <net code="43" name="GND">
+      <node ref="BB_MEGA_1" pin="13" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="18" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="23" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="28" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="3" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="33" pinfunction="___gnd_adc" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="38" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_1" pin="8" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_2" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="BB_MEGA_2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="BB_MEGA_3" pin="14" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="32" pinfunction="___gnd" pintype="passive"/>
+      <node ref="BB_MEGA_3" pin="38" pinfunction="___gnd" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(BB_MEGA_3-___clk-Pad20)">
+      <node ref="BB_MEGA_3" pin="20" pinfunction="___clk" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(BB_MEGA_3-___cmd-Pad18)">
+      <node ref="BB_MEGA_3" pin="18" pinfunction="___cmd" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(BB_MEGA_3-___d0-Pad21)">
+      <node ref="BB_MEGA_3" pin="21" pinfunction="___d0" pintype="passive"/>
+    </net>
+    <net code="47" name="unconnected-(BB_MEGA_3-___d1-Pad22)">
+      <node ref="BB_MEGA_3" pin="22" pinfunction="___d1" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(BB_MEGA_3-___d2-Pad16)">
+      <node ref="BB_MEGA_3" pin="16" pinfunction="___d2" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(BB_MEGA_3-___d3-Pad17)">
+      <node ref="BB_MEGA_3" pin="17" pinfunction="___d3" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(BB_MEGA_3-___vn2-Pad4)">
+      <node ref="BB_MEGA_3" pin="4" pinfunction="___vn2" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(BB_MEGA_3-___vp-Pad3)">
+      <node ref="BB_MEGA_3" pin="3" pinfunction="___vp" pintype="passive"/>
+    </net>
+  </nets>
+</export>
